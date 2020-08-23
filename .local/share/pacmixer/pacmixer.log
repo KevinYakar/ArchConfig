@@ -1,0 +1,1471 @@
+[2020-08-20 22:34:18](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:34:26](src/backend.c:175):B:server state changed to 6
+[2020-08-20 22:34:26](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:34:49](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:35:34](src/backend.c:175):B:server state changed to 6
+[2020-08-20 22:35:34](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:37:56](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:37:59](src/backend.c:175):B:server state changed to 6
+[2020-08-20 22:37:59](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:38:55](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:38:57](src/backend.c:175):B:server state changed to 6
+[2020-08-20 22:38:57](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:44:26](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:44:59](src/backend.c:175):B:server state changed to 6
+[2020-08-20 22:44:59](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:52:05](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:52:05](src/backend.c:175):B:server state changed to 2
+[2020-08-20 22:52:05](src/backend.c:175):B:server state changed to 3
+[2020-08-20 22:52:05](src/backend.c:175):B:server state changed to 4
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-20 22:52:05](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-20 22:52:05](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:52:05](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:52:05](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-20 22:52:05](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-20 22:52:05](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:52:05](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:52:05](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:52:05](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:52:05](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-20 22:52:05](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-20 22:52:05](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-20 22:52:05](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:52:05](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:52:05](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-20 22:52:05](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-20 22:52:05](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-20 22:52:05](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:52:05](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:52:05](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-20 22:52:05](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-20 22:52:05](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-20 22:52:05](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:52:05](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:52:05](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:52:05](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:52:05](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-20 22:52:05](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-20 22:52:05](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-20 22:52:05](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-20 22:52:05](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-20 22:52:05](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-20 22:52:05](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-20 22:52:05](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:52:05](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:52:05](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:52:05](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:52:05](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:52:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:08](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:24](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:25](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:26](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:27](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:28](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:52:44](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:52:45](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:52:47](src/middleware.m:203):M:controlChanged2_2 notification posted
+[2020-08-20 22:52:47](src/middleware.m:203):M:controlChanged2_2 notification posted
+[2020-08-20 22:52:51](src/frontend.mm:112):F:reprinting TUI at 113x57
+[2020-08-20 22:52:53](src/frontend.mm:112):F:reprinting TUI at 265x57
+[2020-08-20 22:52:54](src/frontend.mm:112):F:reprinting TUI at 113x57
+[2020-08-20 22:52:55](src/frontend.mm:112):F:reprinting TUI at 149x57
+[2020-08-20 22:52:56](src/frontend.mm:112):F:reprinting TUI at 136x57
+[2020-08-20 22:52:56](src/frontend.mm:112):F:reprinting TUI at 122x57
+[2020-08-20 22:52:56](src/frontend.mm:112):F:reprinting TUI at 108x57
+[2020-08-20 22:52:56](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:53:10](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:10](src/middleware.m:203):M:controlChanged1_2 notification posted
+[2020-08-20 22:53:10](src/backend.c:202):B:0:Firefox appeared
+[2020-08-20 22:53:10](src/middleware.m:89):M:volumeChanged0_1_0 observer added
+[2020-08-20 22:53:10](src/middleware.m:89):M:volumeChanged0_1_1 observer added
+[2020-08-20 22:53:10](src/middleware.m:100):M:muteChanged0_1 observer added
+[2020-08-20 22:53:10](src/middleware.m:101):M:0:Firefox:Firefox received
+[2020-08-20 22:53:10](src/main.mm:83):D:0:Firefox passed
+[2020-08-20 22:53:10](src/widgets/widget.mm:43):F:0:Firefox posted
+[2020-08-20 22:53:10](src/widgets/widget.mm:159):F:0:Firefox options added
+[2020-08-20 22:53:10](src/middleware.m:141):M:volumeChanged0_1 observer added
+[2020-08-20 22:53:10](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:10](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:15](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:15](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:16](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:16](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:24](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:24](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:24](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:24](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:30](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:30](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:30](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:31](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:31](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:31](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:53:32](src/middleware.m:203):M:controlChanged2_2 notification posted
+[2020-08-20 22:53:33](src/middleware.m:203):M:controlChanged2_2 notification posted
+[2020-08-20 22:53:33](src/middleware.m:203):M:controlChanged1_2 notification posted
+[2020-08-20 22:53:34](src/middleware.m:203):M:controlChanged1_2 notification posted
+[2020-08-20 22:53:34](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2020-08-20 22:53:34](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2020-08-20 22:53:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:36](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:38](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:53:39](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:53:40](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:41](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:54](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:54](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:54](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:55](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:55](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:55](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:55](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:56](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:56](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:56](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:56](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:57](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:57](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:53:57](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:04](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:05](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:54:59](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:54:59](src/backend.c:175):B:server state changed to 2
+[2020-08-20 22:54:59](src/backend.c:175):B:server state changed to 3
+[2020-08-20 22:54:59](src/backend.c:175):B:server state changed to 4
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-20 22:54:59](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:54:59](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:54:59](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-20 22:54:59](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:54:59](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:54:59](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:54:59](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:54:59](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-20 22:54:59](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-20 22:54:59](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:54:59](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:54:59](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-20 22:54:59](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-20 22:54:59](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:54:59](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:54:59](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-20 22:54:59](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:54:59](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:54:59](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:54:59](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:54:59](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-20 22:54:59](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-20 22:54:59](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-20 22:54:59](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-20 22:54:59](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-20 22:54:59](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-20 22:54:59](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-20 22:54:59](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:54:59](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:54:59](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:54:59](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:54:59](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:54:59](src/backend.c:202):B:0:Firefox appeared
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged0_1_0 observer added
+[2020-08-20 22:54:59](src/middleware.m:89):M:volumeChanged0_1_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:100):M:muteChanged0_1 observer added
+[2020-08-20 22:54:59](src/middleware.m:101):M:0:Firefox:Firefox received
+[2020-08-20 22:54:59](src/main.mm:83):D:0:Firefox passed
+[2020-08-20 22:54:59](src/widgets/widget.mm:43):F:0:Firefox posted
+[2020-08-20 22:54:59](src/widgets/widget.mm:159):F:0:Firefox options added
+[2020-08-20 22:54:59](src/middleware.m:141):M:volumeChanged0_1 observer added
+[2020-08-20 22:55:02](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:02](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:02](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:03](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:03](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:03](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:09](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:10](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:11](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:12](src/middleware.m:203):M:controlChanged0_0 notification posted
+[2020-08-20 22:55:13](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:13](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:13](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:14](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:14](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:14](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:15](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:17](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:26](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:55:32](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:33](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:33](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:33](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:33](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:34](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:34](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:34](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:34](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:34](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:55:45](src/frontend.mm:112):F:reprinting TUI at 108x57
+[2020-08-20 22:55:45](src/frontend.mm:112):F:reprinting TUI at 122x57
+[2020-08-20 22:55:46](src/frontend.mm:112):F:reprinting TUI at 136x57
+[2020-08-20 22:55:53](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:55:53](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:55:53](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:53](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:55:53](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:53](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:55](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:55](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:55:55](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:55](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:55:55](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:55](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:55:57](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2020-08-20 22:55:58](src/middleware.m:203):M:controlChanged0_2 notification posted
+[2020-08-20 22:56:02](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:02](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:02](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:02](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:02](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:02](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:07](src/widgets/widget.mm:211):F:0:Firefox set as default
+[2020-08-20 22:56:09](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:09](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:09](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:09](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:09](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:09](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:10](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:10](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:10](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:10](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:56:10](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:10](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:56:17](src/frontend.mm:112):F:reprinting TUI at 122x57
+[2020-08-20 22:56:17](src/frontend.mm:112):F:reprinting TUI at 108x57
+[2020-08-20 22:56:17](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:56:17](src/frontend.mm:112):F:reprinting TUI at 80x57
+[2020-08-20 22:56:19](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:56:19](src/frontend.mm:112):F:reprinting TUI at 80x57
+[2020-08-20 22:56:23](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:24](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:24](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:24](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:24](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:25](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:26](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:26](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:26](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:27](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:27](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:27](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:27](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:28](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:29](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:30](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:30](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:30](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:30](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:31](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:31](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:31](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:31](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:32](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:32](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:33](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:33](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:33](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:33](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:35](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:35](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:35](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:36](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:36](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:36](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:36](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:37](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:40](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:40](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:41](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:56:41](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:56:44](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:56:44](src/frontend.mm:112):F:reprinting TUI at 108x57
+[2020-08-20 22:56:44](src/frontend.mm:112):F:reprinting TUI at 122x57
+[2020-08-20 22:56:44](src/frontend.mm:112):F:reprinting TUI at 136x57
+[2020-08-20 22:56:44](src/frontend.mm:112):F:reprinting TUI at 149x57
+[2020-08-20 22:56:46](src/frontend.mm:112):F:reprinting TUI at 136x57
+[2020-08-20 22:56:46](src/frontend.mm:112):F:reprinting TUI at 122x57
+[2020-08-20 22:56:46](src/frontend.mm:112):F:reprinting TUI at 108x57
+[2020-08-20 22:56:46](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:56:47](src/frontend.mm:112):F:reprinting TUI at 80x57
+[2020-08-20 22:56:47](src/frontend.mm:112):F:reprinting TUI at 67x57
+[2020-08-20 22:56:47](src/frontend.mm:112):F:reprinting TUI at 53x57
+[2020-08-20 22:56:47](src/frontend.mm:112):F:reprinting TUI at 39x57
+[2020-08-20 22:56:48](src/frontend.mm:112):F:reprinting TUI at 53x57
+[2020-08-20 22:56:48](src/frontend.mm:112):F:reprinting TUI at 67x57
+[2020-08-20 22:56:49](src/frontend.mm:112):F:reprinting TUI at 80x57
+[2020-08-20 22:56:49](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:56:49](src/frontend.mm:112):F:reprinting TUI at 108x57
+[2020-08-20 22:56:50](src/frontend.mm:112):F:reprinting TUI at 94x57
+[2020-08-20 22:56:50](src/frontend.mm:112):F:reprinting TUI at 80x57
+[2020-08-20 22:57:26](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:57:26](src/backend.c:175):B:server state changed to 2
+[2020-08-20 22:57:26](src/backend.c:175):B:server state changed to 3
+[2020-08-20 22:57:26](src/backend.c:175):B:server state changed to 4
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-20 22:57:26](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:57:26](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:57:26](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-20 22:57:26](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:57:26](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:57:26](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:57:26](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:57:26](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-20 22:57:26](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-20 22:57:26](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:57:26](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:57:26](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-20 22:57:26](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-20 22:57:26](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:57:26](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:57:26](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-20 22:57:26](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:57:26](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:57:26](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:57:26](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:57:26](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-20 22:57:26](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-20 22:57:26](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-20 22:57:26](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-20 22:57:26](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-20 22:57:26](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-20 22:57:26](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-20 22:57:26](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:57:26](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:57:26](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:57:26](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:57:26](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:57:26](src/backend.c:202):B:0:Firefox appeared
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged0_1_0 observer added
+[2020-08-20 22:57:26](src/middleware.m:89):M:volumeChanged0_1_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:100):M:muteChanged0_1 observer added
+[2020-08-20 22:57:26](src/middleware.m:101):M:0:Firefox:Firefox received
+[2020-08-20 22:57:26](src/main.mm:83):D:0:Firefox passed
+[2020-08-20 22:57:26](src/widgets/widget.mm:43):F:0:Firefox posted
+[2020-08-20 22:57:26](src/widgets/widget.mm:159):F:0:Firefox options added
+[2020-08-20 22:57:26](src/middleware.m:141):M:volumeChanged0_1 observer added
+[2020-08-20 22:57:31](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:57:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:57:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:57:33](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:57:34](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:57:34](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:57:55](src/backend.c:175):B:server state changed to 1
+[2020-08-20 22:57:55](src/backend.c:175):B:server state changed to 2
+[2020-08-20 22:57:55](src/backend.c:175):B:server state changed to 3
+[2020-08-20 22:57:55](src/backend.c:175):B:server state changed to 4
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-20 22:57:55](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:57:55](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:57:55](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-20 22:57:55](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:57:55](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:57:55](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:57:55](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:57:55](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-20 22:57:55](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-20 22:57:55](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-20 22:57:55](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-20 22:57:55](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-20 22:57:55](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-20 22:57:55](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:57:55](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:57:55](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-20 22:57:55](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-20 22:57:55](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-20 22:57:55](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-20 22:57:55](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-20 22:57:55](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-20 22:57:55](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-20 22:57:55](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-20 22:57:55](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-20 22:57:55](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-20 22:57:55](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-20 22:57:55](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-20 22:57:55](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:57:55](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:57:55](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-20 22:57:55](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:57:55](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-20 22:57:55](src/backend.c:202):B:0:Firefox appeared
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged0_1_0 observer added
+[2020-08-20 22:57:55](src/middleware.m:89):M:volumeChanged0_1_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:100):M:muteChanged0_1 observer added
+[2020-08-20 22:57:55](src/middleware.m:101):M:0:Firefox:Firefox received
+[2020-08-20 22:57:55](src/main.mm:83):D:0:Firefox passed
+[2020-08-20 22:57:55](src/widgets/widget.mm:43):F:0:Firefox posted
+[2020-08-20 22:57:55](src/widgets/widget.mm:159):F:0:Firefox options added
+[2020-08-20 22:57:55](src/middleware.m:141):M:volumeChanged0_1 observer added
+[2020-08-20 22:58:10](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:11](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:11](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:12](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:12](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:12](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:13](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:13](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:14](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:14](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:14](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:14](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:16](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:16](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:17](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:17](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:18](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:18](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:18](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:18](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:19](src/middleware.m:203):M:controlChanged0_1 notification posted
+[2020-08-20 22:58:29](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:30](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:30](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:31](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:32](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:33](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:33](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:34](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:34](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:34](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:35](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:36](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:36](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:37](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:38](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:38](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:38](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:38](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-20 22:58:39](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 00:50:52](src/backend.c:175):B:server state changed to 1
+[2020-08-21 00:50:52](src/backend.c:175):B:server state changed to 2
+[2020-08-21 00:50:52](src/backend.c:175):B:server state changed to 3
+[2020-08-21 00:50:52](src/backend.c:175):B:server state changed to 4
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 00:50:52](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:50:52](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:50:52](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 00:50:52](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 00:50:52](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 00:50:52](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 00:50:52](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 00:50:52](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-21 00:50:52](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 00:50:52](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:50:52](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:50:52](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 00:50:52](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 00:50:52](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 00:50:52](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 00:50:52](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 00:50:52](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 00:50:52](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 00:50:52](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 00:50:52](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 00:50:52](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 00:50:52](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 00:50:52](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 00:50:52](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 00:50:52](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 00:50:52](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 00:50:52](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 00:50:52](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 00:50:52](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 00:50:52](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 00:50:52](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 00:50:52](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 00:50:52](src/backend.c:202):B:118:Firefox appeared
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged118_1_0 observer added
+[2020-08-21 00:50:52](src/middleware.m:89):M:volumeChanged118_1_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:100):M:muteChanged118_1 observer added
+[2020-08-21 00:50:52](src/middleware.m:101):M:118:Firefox:Firefox received
+[2020-08-21 00:50:52](src/main.mm:83):D:118:Firefox passed
+[2020-08-21 00:50:52](src/widgets/widget.mm:43):F:118:Firefox posted
+[2020-08-21 00:50:52](src/widgets/widget.mm:159):F:118:Firefox options added
+[2020-08-21 00:50:52](src/middleware.m:141):M:volumeChanged118_1 observer added
+[2020-08-21 00:50:56](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:56](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:56](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:57](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:57](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:57](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:57](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:57](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:58](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:50:58](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:02](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:02](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:02](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:04](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:10](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:11](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:11](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:18](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:18](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:18](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:23](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:24](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:24](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:24](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:34](src/frontend.mm:112):F:reprinting TUI at 127x18
+[2020-08-21 00:51:37](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:38](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:39](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:51:39](src/middleware.m:203):M:controlChanged118_1 notification posted
+[2020-08-21 00:53:05](src/frontend.mm:112):F:reprinting TUI at 127x28
+[2020-08-21 00:53:13](src/frontend.mm:112):F:reprinting TUI at 127x18
+[2020-08-21 00:53:14](src/frontend.mm:112):F:reprinting TUI at 127x28
+[2020-08-21 00:53:18](src/frontend.mm:112):F:reprinting TUI at 127x18
+[2020-08-21 00:57:18](src/frontend.mm:212):F:0_2 removed at index 2
+[2020-08-21 00:57:18](src/middleware.m:217):M:0:controlDisappeared notification posted
+[2020-08-21 00:57:18](src/frontend.mm:212):F:0_0 removed at index 0
+[2020-08-21 00:57:18](src/middleware.m:217):M:0:controlDisappeared notification posted
+[2020-08-21 00:57:18](src/middleware.m:203):M:controlChanged2_0 notification posted
+[2020-08-21 00:57:18](src/middleware.m:203):M:controlChanged3_2 notification posted
+[2020-08-21 00:57:18](src/middleware.m:89):M:volumeChanged3_2_0 observer added
+[2020-08-21 00:57:18](src/middleware.m:89):M:volumeChanged3_2_1 observer added
+[2020-08-21 00:57:18](src/middleware.m:100):M:muteChanged3_2 observer added
+[2020-08-21 00:57:18](src/middleware.m:101):M:3:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 3):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra2.monitor received
+[2020-08-21 00:57:18](src/main.mm:83):D:3:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 3) passed
+[2020-08-21 00:57:18](src/widgets/widget.mm:43):F:3:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 3) posted
+[2020-08-21 00:57:18](src/middleware.m:141):M:volumeChanged3_2 observer added
+[2020-08-21 00:57:18](src/middleware.m:89):M:volumeChanged2_0_0 observer added
+[2020-08-21 00:57:18](src/middleware.m:89):M:volumeChanged2_0_1 observer added
+[2020-08-21 00:57:18](src/middleware.m:100):M:muteChanged2_0 observer added
+[2020-08-21 00:57:18](src/middleware.m:101):M:2:TU104 HD Audio Controller Digital Stereo (HDMI 3):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra2 received
+[2020-08-21 00:57:18](src/main.mm:83):D:2:TU104 HD Audio Controller Digital Stereo (HDMI 3) passed
+[2020-08-21 00:57:18](src/widgets/widget.mm:43):F:2:TU104 HD Audio Controller Digital Stereo (HDMI 3) posted
+[2020-08-21 00:57:18](src/widgets/widget.mm:159):F:2:TU104 HD Audio Controller Digital Stereo (HDMI 3) options added
+[2020-08-21 00:57:18](src/middleware.m:141):M:volumeChanged2_0 observer added
+[2020-08-21 00:57:18](src/middleware.m:176):M:cardProfileChanged0_4 notification posted
+[2020-08-21 00:57:20](src/frontend.mm:212):F:3_2 removed at index 7
+[2020-08-21 00:57:20](src/middleware.m:217):M:3:controlDisappeared notification posted
+[2020-08-21 00:57:20](src/frontend.mm:212):F:2_0 removed at index 7
+[2020-08-21 00:57:20](src/middleware.m:217):M:2:controlDisappeared notification posted
+[2020-08-21 00:57:20](src/middleware.m:203):M:controlChanged3_0 notification posted
+[2020-08-21 00:57:20](src/middleware.m:203):M:controlChanged4_2 notification posted
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_2_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_2_1 observer added
+[2020-08-21 00:57:20](src/middleware.m:100):M:muteChanged4_2 observer added
+[2020-08-21 00:57:20](src/middleware.m:101):M:4:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 00:57:20](src/main.mm:83):D:4:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:57:20](src/widgets/widget.mm:43):F:4:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:57:20](src/middleware.m:141):M:volumeChanged4_2 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged3_0_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged3_0_1 observer added
+[2020-08-21 00:57:20](src/middleware.m:100):M:muteChanged3_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:101):M:3:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 00:57:20](src/main.mm:83):D:3:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:57:20](src/widgets/widget.mm:43):F:3:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:57:20](src/widgets/widget.mm:159):F:3:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 00:57:20](src/middleware.m:141):M:volumeChanged3_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:176):M:cardProfileChanged0_4 notification posted
+[2020-08-21 00:57:20](src/frontend.mm:212):F:4_2 removed at index 7
+[2020-08-21 00:57:20](src/middleware.m:217):M:4:controlDisappeared notification posted
+[2020-08-21 00:57:20](src/frontend.mm:212):F:3_0 removed at index 7
+[2020-08-21 00:57:20](src/middleware.m:217):M:3:controlDisappeared notification posted
+[2020-08-21 00:57:20](src/middleware.m:203):M:controlChanged4_0 notification posted
+[2020-08-21 00:57:20](src/middleware.m:203):M:controlChanged5_2 notification posted
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_1 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_2 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_3 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_4 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_5 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_6 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged5_2_7 observer added
+[2020-08-21 00:57:20](src/middleware.m:100):M:muteChanged5_2 observer added
+[2020-08-21 00:57:20](src/middleware.m:101):M:5:Monitor of TU104 HD Audio Controller Digital Surround 7.1 (HDMI):alsa_output.pci-0000_08_00.1.hdmi-surround71.monitor received
+[2020-08-21 00:57:20](src/main.mm:83):D:5:Monitor of TU104 HD Audio Controller Digital Surround 7.1 (HDMI) passed
+[2020-08-21 00:57:20](src/widgets/widget.mm:43):F:5:Monitor of TU104 HD Audio Controller Digital Surround 7.1 (HDMI) posted
+[2020-08-21 00:57:20](src/middleware.m:141):M:volumeChanged5_2 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_1 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_2 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_3 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_4 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_5 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_6 observer added
+[2020-08-21 00:57:20](src/middleware.m:89):M:volumeChanged4_0_7 observer added
+[2020-08-21 00:57:20](src/middleware.m:100):M:muteChanged4_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:101):M:4:TU104 HD Audio Controller Digital Surround 7.1 (HDMI):alsa_output.pci-0000_08_00.1.hdmi-surround71 received
+[2020-08-21 00:57:20](src/main.mm:83):D:4:TU104 HD Audio Controller Digital Surround 7.1 (HDMI) passed
+[2020-08-21 00:57:20](src/widgets/widget.mm:43):F:4:TU104 HD Audio Controller Digital Surround 7.1 (HDMI) posted
+[2020-08-21 00:57:20](src/widgets/widget.mm:159):F:4:TU104 HD Audio Controller Digital Surround 7.1 (HDMI) options added
+[2020-08-21 00:57:20](src/middleware.m:141):M:volumeChanged4_0 observer added
+[2020-08-21 00:57:20](src/middleware.m:176):M:cardProfileChanged0_4 notification posted
+[2020-08-21 00:57:21](src/frontend.mm:212):F:5_2 removed at index 7
+[2020-08-21 00:57:21](src/middleware.m:217):M:5:controlDisappeared notification posted
+[2020-08-21 00:57:21](src/frontend.mm:212):F:4_0 removed at index 7
+[2020-08-21 00:57:21](src/middleware.m:217):M:4:controlDisappeared notification posted
+[2020-08-21 00:57:21](src/middleware.m:203):M:controlChanged5_0 notification posted
+[2020-08-21 00:57:21](src/middleware.m:203):M:controlChanged6_2 notification posted
+[2020-08-21 00:57:21](src/middleware.m:89):M:volumeChanged6_2_0 observer added
+[2020-08-21 00:57:21](src/middleware.m:89):M:volumeChanged6_2_1 observer added
+[2020-08-21 00:57:21](src/middleware.m:100):M:muteChanged6_2 observer added
+[2020-08-21 00:57:21](src/middleware.m:101):M:6:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 00:57:21](src/main.mm:83):D:6:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:57:21](src/widgets/widget.mm:43):F:6:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:57:21](src/middleware.m:141):M:volumeChanged6_2 observer added
+[2020-08-21 00:57:21](src/middleware.m:89):M:volumeChanged5_0_0 observer added
+[2020-08-21 00:57:21](src/middleware.m:89):M:volumeChanged5_0_1 observer added
+[2020-08-21 00:57:21](src/middleware.m:100):M:muteChanged5_0 observer added
+[2020-08-21 00:57:21](src/middleware.m:101):M:5:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 00:57:21](src/main.mm:83):D:5:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:57:21](src/widgets/widget.mm:43):F:5:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:57:21](src/widgets/widget.mm:159):F:5:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 00:57:21](src/middleware.m:141):M:volumeChanged5_0 observer added
+[2020-08-21 00:57:21](src/middleware.m:176):M:cardProfileChanged0_4 notification posted
+[2020-08-21 00:57:26](src/middleware.m:203):M:controlChanged5_0 notification posted
+[2020-08-21 00:57:26](src/middleware.m:203):M:controlChanged6_2 notification posted
+[2020-08-21 00:57:27](src/frontend.mm:212):F:6_2 removed at index 7
+[2020-08-21 00:57:27](src/middleware.m:217):M:6:controlDisappeared notification posted
+[2020-08-21 00:57:27](src/frontend.mm:212):F:5_0 removed at index 7
+[2020-08-21 00:57:27](src/middleware.m:217):M:5:controlDisappeared notification posted
+[2020-08-21 00:57:27](src/middleware.m:203):M:controlChanged6_0 notification posted
+[2020-08-21 00:57:27](src/middleware.m:203):M:controlChanged7_2 notification posted
+[2020-08-21 00:57:27](src/middleware.m:89):M:volumeChanged7_2_0 observer added
+[2020-08-21 00:57:27](src/middleware.m:89):M:volumeChanged7_2_1 observer added
+[2020-08-21 00:57:27](src/middleware.m:100):M:muteChanged7_2 observer added
+[2020-08-21 00:57:27](src/middleware.m:101):M:7:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI):alsa_output.pci-0000_08_00.1.hdmi-stereo.monitor received
+[2020-08-21 00:57:27](src/main.mm:83):D:7:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI) passed
+[2020-08-21 00:57:27](src/widgets/widget.mm:43):F:7:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI) posted
+[2020-08-21 00:57:27](src/middleware.m:141):M:volumeChanged7_2 observer added
+[2020-08-21 00:57:27](src/middleware.m:89):M:volumeChanged6_0_0 observer added
+[2020-08-21 00:57:27](src/middleware.m:89):M:volumeChanged6_0_1 observer added
+[2020-08-21 00:57:27](src/middleware.m:100):M:muteChanged6_0 observer added
+[2020-08-21 00:57:27](src/middleware.m:101):M:6:TU104 HD Audio Controller Digital Stereo (HDMI):alsa_output.pci-0000_08_00.1.hdmi-stereo received
+[2020-08-21 00:57:27](src/main.mm:83):D:6:TU104 HD Audio Controller Digital Stereo (HDMI) passed
+[2020-08-21 00:57:27](src/widgets/widget.mm:43):F:6:TU104 HD Audio Controller Digital Stereo (HDMI) posted
+[2020-08-21 00:57:27](src/widgets/widget.mm:159):F:6:TU104 HD Audio Controller Digital Stereo (HDMI) options added
+[2020-08-21 00:57:27](src/middleware.m:141):M:volumeChanged6_0 observer added
+[2020-08-21 00:57:27](src/middleware.m:176):M:cardProfileChanged0_4 notification posted
+[2020-08-21 00:57:28](src/frontend.mm:212):F:7_2 removed at index 7
+[2020-08-21 00:57:28](src/middleware.m:217):M:7:controlDisappeared notification posted
+[2020-08-21 00:57:28](src/frontend.mm:212):F:6_0 removed at index 7
+[2020-08-21 00:57:28](src/middleware.m:217):M:6:controlDisappeared notification posted
+[2020-08-21 00:57:28](src/middleware.m:203):M:controlChanged7_0 notification posted
+[2020-08-21 00:57:28](src/middleware.m:203):M:controlChanged8_2 notification posted
+[2020-08-21 00:57:28](src/middleware.m:89):M:volumeChanged8_2_0 observer added
+[2020-08-21 00:57:28](src/middleware.m:89):M:volumeChanged8_2_1 observer added
+[2020-08-21 00:57:28](src/middleware.m:100):M:muteChanged8_2 observer added
+[2020-08-21 00:57:28](src/middleware.m:101):M:8:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 00:57:28](src/main.mm:83):D:8:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:57:28](src/widgets/widget.mm:43):F:8:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:57:28](src/middleware.m:141):M:volumeChanged8_2 observer added
+[2020-08-21 00:57:28](src/middleware.m:89):M:volumeChanged7_0_0 observer added
+[2020-08-21 00:57:28](src/middleware.m:89):M:volumeChanged7_0_1 observer added
+[2020-08-21 00:57:28](src/middleware.m:100):M:muteChanged7_0 observer added
+[2020-08-21 00:57:28](src/middleware.m:101):M:7:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 00:57:28](src/main.mm:83):D:7:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 00:57:28](src/widgets/widget.mm:43):F:7:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 00:57:28](src/widgets/widget.mm:159):F:7:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 00:57:28](src/middleware.m:141):M:volumeChanged7_0 observer added
+[2020-08-21 00:57:28](src/middleware.m:176):M:cardProfileChanged0_4 notification posted
+[2020-08-21 00:57:33](src/middleware.m:203):M:controlChanged7_0 notification posted
+[2020-08-21 00:57:33](src/middleware.m:203):M:controlChanged8_2 notification posted
+[2020-08-21 01:08:27](src/backend.c:175):B:server state changed to 1
+[2020-08-21 01:08:27](src/backend.c:175):B:server state changed to 2
+[2020-08-21 01:08:27](src/backend.c:175):B:server state changed to 3
+[2020-08-21 01:08:27](src/backend.c:175):B:server state changed to 4
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 01:08:27](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:08:27](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:08:27](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:08:27](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:08:27](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged11_0_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged11_0_1 observer added
+[2020-08-21 01:08:27](src/middleware.m:100):M:muteChanged11_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:101):M:11:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 01:08:27](src/main.mm:83):D:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:08:27](src/widgets/widget.mm:43):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:08:27](src/widgets/widget.mm:159):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 01:08:27](src/middleware.m:141):M:volumeChanged11_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 01:08:27](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 01:08:27](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 01:08:27](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:08:27](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:08:27](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 01:08:27](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 01:08:27](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:08:27](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:08:27](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:08:27](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:08:27](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged12_2_0 observer added
+[2020-08-21 01:08:27](src/middleware.m:89):M:volumeChanged12_2_1 observer added
+[2020-08-21 01:08:27](src/middleware.m:100):M:muteChanged12_2 observer added
+[2020-08-21 01:08:27](src/middleware.m:101):M:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 01:08:27](src/main.mm:83):D:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:08:27](src/widgets/widget.mm:43):F:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:08:27](src/middleware.m:141):M:volumeChanged12_2 observer added
+[2020-08-21 01:08:27](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 01:08:27](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 01:08:27](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 01:08:27](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 01:08:27](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 01:08:27](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 01:08:27](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:08:27](src/widgets/widget.mm:211):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:08:27](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:08:27](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:08:27](src/widgets/widget.mm:211):F:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:08:48](src/backend.c:175):B:server state changed to 1
+[2020-08-21 01:08:48](src/backend.c:175):B:server state changed to 2
+[2020-08-21 01:08:48](src/backend.c:175):B:server state changed to 3
+[2020-08-21 01:08:48](src/backend.c:175):B:server state changed to 4
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 01:08:48](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:08:48](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:08:48](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:08:48](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:08:48](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged11_0_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged11_0_1 observer added
+[2020-08-21 01:08:48](src/middleware.m:100):M:muteChanged11_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:101):M:11:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 01:08:48](src/main.mm:83):D:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:08:48](src/widgets/widget.mm:43):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:08:48](src/widgets/widget.mm:159):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 01:08:48](src/middleware.m:141):M:volumeChanged11_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 01:08:48](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 01:08:48](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 01:08:48](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:08:48](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:08:48](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 01:08:48](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 01:08:48](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:08:48](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:08:48](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:08:48](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:08:48](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged12_2_0 observer added
+[2020-08-21 01:08:48](src/middleware.m:89):M:volumeChanged12_2_1 observer added
+[2020-08-21 01:08:48](src/middleware.m:100):M:muteChanged12_2 observer added
+[2020-08-21 01:08:48](src/middleware.m:101):M:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 01:08:48](src/main.mm:83):D:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:08:48](src/widgets/widget.mm:43):F:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:08:48](src/middleware.m:141):M:volumeChanged12_2 observer added
+[2020-08-21 01:08:48](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 01:08:48](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 01:08:48](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 01:08:48](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 01:08:48](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 01:08:48](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 01:08:48](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:08:48](src/widgets/widget.mm:211):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:08:48](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:08:48](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:08:48](src/widgets/widget.mm:211):F:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:08:54](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:08:55](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:08:56](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:08:57](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:08:57](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:08:58](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:02](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:03](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:03](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:03](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:06](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:13](src/backend.c:175):B:server state changed to 1
+[2020-08-21 01:09:13](src/backend.c:175):B:server state changed to 2
+[2020-08-21 01:09:13](src/backend.c:175):B:server state changed to 3
+[2020-08-21 01:09:13](src/backend.c:175):B:server state changed to 4
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 01:09:13](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:09:13](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:09:13](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:09:13](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:09:13](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged11_0_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged11_0_1 observer added
+[2020-08-21 01:09:13](src/middleware.m:100):M:muteChanged11_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:101):M:11:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 01:09:13](src/main.mm:83):D:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:09:13](src/widgets/widget.mm:43):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:09:13](src/widgets/widget.mm:159):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 01:09:13](src/middleware.m:141):M:volumeChanged11_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 01:09:13](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 01:09:13](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 01:09:13](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:09:13](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:09:13](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 01:09:13](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 01:09:13](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:09:13](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:09:13](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:09:13](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:09:13](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged12_2_0 observer added
+[2020-08-21 01:09:13](src/middleware.m:89):M:volumeChanged12_2_1 observer added
+[2020-08-21 01:09:13](src/middleware.m:100):M:muteChanged12_2 observer added
+[2020-08-21 01:09:13](src/middleware.m:101):M:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 01:09:13](src/main.mm:83):D:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:09:13](src/widgets/widget.mm:43):F:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:09:13](src/middleware.m:141):M:volumeChanged12_2 observer added
+[2020-08-21 01:09:13](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 01:09:13](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 01:09:13](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 01:09:13](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 01:09:13](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 01:09:13](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 01:09:13](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:09:13](src/widgets/widget.mm:211):F:11:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:09:13](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:09:13](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:09:13](src/widgets/widget.mm:211):F:12:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:09:18](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:09:19](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:14](src/backend.c:175):B:server state changed to 1
+[2020-08-21 01:18:14](src/backend.c:175):B:server state changed to 2
+[2020-08-21 01:18:14](src/backend.c:175):B:server state changed to 3
+[2020-08-21 01:18:14](src/backend.c:175):B:server state changed to 4
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 01:18:14](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:18:14](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:18:14](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:18:14](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:18:14](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged13_0_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged13_0_1 observer added
+[2020-08-21 01:18:14](src/middleware.m:100):M:muteChanged13_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:101):M:13:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 01:18:14](src/main.mm:83):D:13:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:18:14](src/widgets/widget.mm:43):F:13:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:18:14](src/widgets/widget.mm:159):F:13:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 01:18:14](src/middleware.m:141):M:volumeChanged13_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 01:18:14](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 01:18:14](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 01:18:14](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:18:14](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:18:14](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 01:18:14](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 01:18:14](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 01:18:14](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 01:18:14](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 01:18:14](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 01:18:14](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged14_2_0 observer added
+[2020-08-21 01:18:14](src/middleware.m:89):M:volumeChanged14_2_1 observer added
+[2020-08-21 01:18:14](src/middleware.m:100):M:muteChanged14_2 observer added
+[2020-08-21 01:18:14](src/middleware.m:101):M:14:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 01:18:14](src/main.mm:83):D:14:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 01:18:14](src/widgets/widget.mm:43):F:14:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 01:18:14](src/middleware.m:141):M:volumeChanged14_2 observer added
+[2020-08-21 01:18:14](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 01:18:14](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 01:18:14](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 01:18:14](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 01:18:14](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 01:18:14](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 01:18:14](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:18:14](src/widgets/widget.mm:211):F:13:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:18:14](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:18:14](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 01:18:14](src/widgets/widget.mm:211):F:14:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 01:18:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:20](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 01:18:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:17](src/backend.c:175):B:server state changed to 1
+[2020-08-21 07:45:17](src/backend.c:175):B:server state changed to 2
+[2020-08-21 07:45:17](src/backend.c:175):B:server state changed to 3
+[2020-08-21 07:45:17](src/backend.c:175):B:server state changed to 4
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 07:45:17](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 07:45:17](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 07:45:17](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 07:45:17](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 07:45:17](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged9_0_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged9_0_1 observer added
+[2020-08-21 07:45:17](src/middleware.m:100):M:muteChanged9_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:101):M:9:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 07:45:17](src/main.mm:83):D:9:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 07:45:17](src/widgets/widget.mm:43):F:9:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 07:45:17](src/widgets/widget.mm:159):F:9:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 07:45:17](src/middleware.m:141):M:volumeChanged9_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 07:45:17](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 07:45:17](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 07:45:17](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 07:45:17](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 07:45:17](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 07:45:17](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 07:45:17](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 07:45:17](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 07:45:17](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 07:45:17](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 07:45:17](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged10_2_0 observer added
+[2020-08-21 07:45:17](src/middleware.m:89):M:volumeChanged10_2_1 observer added
+[2020-08-21 07:45:17](src/middleware.m:100):M:muteChanged10_2 observer added
+[2020-08-21 07:45:17](src/middleware.m:101):M:10:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 07:45:17](src/main.mm:83):D:10:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 07:45:17](src/widgets/widget.mm:43):F:10:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 07:45:17](src/middleware.m:141):M:volumeChanged10_2 observer added
+[2020-08-21 07:45:17](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 07:45:17](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 07:45:17](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 07:45:17](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 07:45:17](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 07:45:17](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 07:45:17](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 07:45:17](src/widgets/widget.mm:211):F:9:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 07:45:17](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 07:45:17](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 07:45:17](src/widgets/widget.mm:211):F:10:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 07:45:21](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:22](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:23](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:24](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:25](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 07:45:26](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 19:05:33](src/backend.c:175):B:server state changed to 1
+[2020-08-21 19:05:33](src/backend.c:175):B:server state changed to 2
+[2020-08-21 19:05:33](src/backend.c:175):B:server state changed to 3
+[2020-08-21 19:05:33](src/backend.c:175):B:server state changed to 4
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-21 19:05:33](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 19:05:33](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 19:05:33](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 19:05:33](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 19:05:33](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 19:05:33](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 19:05:33](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:05:33](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:05:33](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 19:05:33](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-21 19:05:33](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-21 19:05:33](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 19:05:33](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 19:05:33](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 19:05:33](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 19:05:33](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 19:05:33](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 19:05:33](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:05:33](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:05:33](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 19:05:33](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 19:05:33](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 19:05:33](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 19:05:33](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:05:33](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:05:33](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 19:05:33](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 19:05:33](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 19:05:33](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 19:05:33](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 19:05:33](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 19:05:33](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 19:05:33](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 19:05:33](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 19:05:33](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:05:33](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 19:05:33](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:05:33](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:05:53](src/backend.c:175):B:server state changed to 1
+[2020-08-21 19:05:53](src/backend.c:175):B:server state changed to 2
+[2020-08-21 19:05:53](src/backend.c:175):B:server state changed to 3
+[2020-08-21 19:05:53](src/backend.c:175):B:server state changed to 4
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-21 19:05:53](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 19:05:53](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 19:05:53](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 19:05:53](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 19:05:53](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 19:05:53](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 19:05:53](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:05:53](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:05:53](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 19:05:53](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-21 19:05:53](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-21 19:05:53](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 19:05:53](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 19:05:53](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 19:05:53](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 19:05:53](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 19:05:53](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 19:05:53](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:05:53](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:05:53](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 19:05:53](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 19:05:53](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 19:05:53](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 19:05:53](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:05:53](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:05:53](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 19:05:53](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 19:05:53](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 19:05:53](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 19:05:53](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 19:05:53](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 19:05:53](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 19:05:53](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 19:05:53](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 19:05:53](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:05:53](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 19:05:53](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:05:53](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:05:55](src/frontend.mm:112):F:reprinting TUI at 113x58
+[2020-08-21 19:05:55](src/frontend.mm:112):F:reprinting TUI at 100x58
+[2020-08-21 19:05:55](src/frontend.mm:112):F:reprinting TUI at 86x58
+[2020-08-21 19:05:55](src/frontend.mm:112):F:reprinting TUI at 72x58
+[2020-08-21 19:05:55](src/frontend.mm:112):F:reprinting TUI at 58x58
+[2020-08-21 19:05:56](src/frontend.mm:112):F:reprinting TUI at 44x58
+[2020-08-21 19:05:57](src/frontend.mm:112):F:reprinting TUI at 58x58
+[2020-08-21 19:05:58](src/frontend.mm:112):F:reprinting TUI at 205x58
+[2020-08-21 19:05:59](src/frontend.mm:112):F:reprinting TUI at 191x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 177x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 163x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 149x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 136x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 122x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 108x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 94x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 80x58
+[2020-08-21 19:06:00](src/frontend.mm:112):F:reprinting TUI at 67x58
+[2020-08-21 19:06:01](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:06:01](src/frontend.mm:112):F:reprinting TUI at 39x58
+[2020-08-21 19:06:01](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:06:02](src/frontend.mm:112):F:reprinting TUI at 67x58
+[2020-08-21 19:06:02](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:07:09](src/frontend.mm:112):F:reprinting TUI at 210x28
+[2020-08-21 19:07:13](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:07:16](src/frontend.mm:112):F:reprinting TUI at 39x58
+[2020-08-21 19:07:16](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:07:17](src/frontend.mm:112):F:reprinting TUI at 67x58
+[2020-08-21 19:07:17](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:10:11](src/frontend.mm:112):F:reprinting TUI at 210x18
+[2020-08-21 19:10:29](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:11:33](src/backend.c:175):B:server state changed to 1
+[2020-08-21 19:11:33](src/backend.c:175):B:server state changed to 2
+[2020-08-21 19:11:33](src/backend.c:175):B:server state changed to 3
+[2020-08-21 19:11:33](src/backend.c:175):B:server state changed to 4
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged0_0_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged0_0_1 observer added
+[2020-08-21 19:11:33](src/middleware.m:100):M:muteChanged0_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:101):M:0:TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1 received
+[2020-08-21 19:11:33](src/main.mm:83):D:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 19:11:33](src/widgets/widget.mm:43):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 19:11:33](src/widgets/widget.mm:159):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) options added
+[2020-08-21 19:11:33](src/middleware.m:141):M:volumeChanged0_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged1_0_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged1_0_1 observer added
+[2020-08-21 19:11:33](src/middleware.m:100):M:muteChanged1_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:101):M:1:AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 19:11:33](src/main.mm:83):D:1:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:11:33](src/widgets/widget.mm:43):F:1:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:11:33](src/widgets/widget.mm:159):F:1:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 19:11:33](src/middleware.m:141):M:volumeChanged1_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged0_2_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged0_2_1 observer added
+[2020-08-21 19:11:33](src/middleware.m:100):M:muteChanged0_2 observer added
+[2020-08-21 19:11:33](src/middleware.m:101):M:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2):alsa_output.pci-0000_08_00.1.hdmi-stereo-extra1.monitor received
+[2020-08-21 19:11:33](src/main.mm:83):D:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) passed
+[2020-08-21 19:11:33](src/widgets/widget.mm:43):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) posted
+[2020-08-21 19:11:33](src/middleware.m:141):M:volumeChanged0_2 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged1_2_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged1_2_1 observer added
+[2020-08-21 19:11:33](src/middleware.m:100):M:muteChanged1_2 observer added
+[2020-08-21 19:11:33](src/middleware.m:101):M:1:Monitor of AC511 Sound Bar Analog Stereo:alsa_output.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo.monitor received
+[2020-08-21 19:11:33](src/main.mm:83):D:1:Monitor of AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:11:33](src/widgets/widget.mm:43):F:1:Monitor of AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:11:33](src/middleware.m:141):M:volumeChanged1_2 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged2_2_0 observer added
+[2020-08-21 19:11:33](src/middleware.m:89):M:volumeChanged2_2_1 observer added
+[2020-08-21 19:11:33](src/middleware.m:100):M:muteChanged2_2 observer added
+[2020-08-21 19:11:33](src/middleware.m:101):M:2:AC511 Sound Bar Analog Stereo:alsa_input.usb-Dell_Dell_AC511_USB_SoundBar-00.analog-stereo received
+[2020-08-21 19:11:33](src/main.mm:83):D:2:AC511 Sound Bar Analog Stereo passed
+[2020-08-21 19:11:33](src/widgets/widget.mm:43):F:2:AC511 Sound Bar Analog Stereo posted
+[2020-08-21 19:11:33](src/widgets/widget.mm:159):F:2:AC511 Sound Bar Analog Stereo options added
+[2020-08-21 19:11:33](src/middleware.m:141):M:volumeChanged2_2 observer added
+[2020-08-21 19:11:33](src/main.mm:83):D:0:TU104 HD Audio Controller passed
+[2020-08-21 19:11:33](src/middleware.m:141):M:activeOptionChanged0_4 observer added
+[2020-08-21 19:11:33](src/main.mm:83):D:1:AC511 Sound Bar passed
+[2020-08-21 19:11:33](src/middleware.m:141):M:activeOptionChanged1_4 observer added
+[2020-08-21 19:11:33](src/main.mm:83):D:2:Starship/Matisse HD Audio Controller passed
+[2020-08-21 19:11:33](src/middleware.m:141):M:activeOptionChanged2_4 observer added
+[2020-08-21 19:11:33](src/widgets/widget.mm:211):F:0:TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 19:11:33](src/widgets/widget.mm:211):F:1:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:11:33](src/widgets/widget.mm:211):F:0:Monitor of TU104 HD Audio Controller Digital Stereo (HDMI 2) set as default
+[2020-08-21 19:11:33](src/widgets/widget.mm:211):F:1:Monitor of AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:11:33](src/widgets/widget.mm:211):F:2:AC511 Sound Bar Analog Stereo set as default
+[2020-08-21 19:11:37](src/frontend.mm:112):F:reprinting TUI at 122x58
+[2020-08-21 19:11:37](src/frontend.mm:112):F:reprinting TUI at 108x58
+[2020-08-21 19:11:37](src/frontend.mm:112):F:reprinting TUI at 94x58
+[2020-08-21 19:11:37](src/frontend.mm:112):F:reprinting TUI at 80x58
+[2020-08-21 19:11:38](src/frontend.mm:112):F:reprinting TUI at 67x58
+[2020-08-21 19:11:38](src/frontend.mm:112):F:reprinting TUI at 53x58
+[2020-08-21 19:11:47](src/middleware.m:203):M:controlChanged1_0 notification posted
+[2020-08-21 19:12:55](src/frontend.mm:112):F:reprinting TUI at 210x18
+[2020-08-21 19:13:11](src/frontend.mm:112):F:reprinting TUI at 53x58
