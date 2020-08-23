@@ -3,10 +3,15 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
-map <F1> <Esc>
-imap <F1> <Esc>
-:highlight Comment ctermfg=lightblue
-:highlight String ctermfg=lightred
+
+"vim-plug 
+call plug#begin('~/.vim/plugged')
+
+"Airline 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
 
 "these only work if you do stty -ixon in your '.zshrc or .bashrc' file
 nnoremap <C-s> :w<CR>
