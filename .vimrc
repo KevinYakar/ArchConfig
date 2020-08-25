@@ -47,7 +47,7 @@ colorscheme tokyonight
 :inoremap { {}<Left>
 
 "c++ stuff
-:inoremap {<Return> {<Return>}<Up><Return><Tab>
+:inoremap {<Return> {<Return>}<Up><Return>
 ":inoremap # #include <><Left>
 ":inoremap <C-_> <Esc>0i//<Esc><S-a>
 ":inoremap main int<Space>main()<Return>{<Return><Tab><Return>return 0;<Return><Esc>0i}<Up><Up><Tab>
