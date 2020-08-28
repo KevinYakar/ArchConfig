@@ -2,7 +2,7 @@
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set autoindent
+"set autoindent
 
 "vim-plug 
 call plug#begin('~/.vim/plugged')
@@ -13,7 +13,17 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-"these only work if you do stty -ixon in your '.zshrc or .bashrc' file
+"Airline Customizations 
+let g:airline_stl_path_style = 'short'
+
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+let g:airline_theme='fruit_punch'
+let g:airline_powerline_fonts = 1
+
+"these only work if you do stty -ixon in your .bashrc file
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
 
@@ -46,9 +56,11 @@ colorscheme tokyonight
 :inoremap " ""<Left>
 :inoremap { {}<Left>
 
-"c++ stuff
+"Coding 
 :inoremap {<Return> {<Return>}<Up><Return>
-":inoremap # #include <><Left>
+
+"c++ stuff
+":inoremap #<Return> #include <><Left>
 ":inoremap <C-_> <Esc>0i//<Esc><S-a>
 ":inoremap main int<Space>main()<Return>{<Return><Tab><Return>return 0;<Return><Esc>0i}<Up><Up><Tab>
 ":inoremap ide #ifndef _HPP<Return>#define _HPP<Return>#endif<Esc>0i<Return><Return><Return><Esc>5k$3hi
@@ -56,3 +68,7 @@ colorscheme tokyonight
 ":inoremap cin std::cin >> ;<Left>
 ":inoremap getline std::getline(std::cin, );<Esc>hi
 ":inoremap ignore std::cin.ignore();<Left><Left>
+
+"java stuff 
+:imap syso<Return> System.out.println();<Left><Left>
+:imap psvm<Return> public static void main(String[] args)<Return>{<Return>

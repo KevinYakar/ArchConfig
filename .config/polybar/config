@@ -139,7 +139,7 @@ secondary-layout-symbol = [M]
 label-title = %title%
 label-title-padding = 2
 label-title-foreground = ${colors.primary}
-label-title-maxlen = 
+label-title-maxlen = 100
 
 ; Symbol of current layout
 ; Available tokens:
