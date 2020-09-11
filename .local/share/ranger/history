@@ -1,5 +1,13 @@
-open_with firefox
-
 open_with
+open_with firefox
+bulkrename
+rename
+rename .vimrc
+
+open
+bash basic.sh
+cp ~/
 open_with 
+search down
+open_with rstudio
 delete

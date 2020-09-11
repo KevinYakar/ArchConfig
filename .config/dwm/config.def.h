@@ -76,6 +76,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = browsercmd } },
+	{ MODKEY,                       XK_r,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "killall polybar && polybar first", NULL } } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ Mod4Mask,                       XK_3,      spawn,          {.v = upvol } },//
 	{ Mod4Mask,                       XK_2,      spawn,          {.v = downvol } },//

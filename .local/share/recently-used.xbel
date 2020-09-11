@@ -225,12 +225,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/kevin/downloads/Main.java" added="2020-08-21T06:39:20Z" modified="2020-08-21T06:39:20Z" visited="1969-12-31T23:59:59Z">
+  <bookmark href="file:///home/kevin/downloads/Main.java" added="2020-08-21T06:39:20Z" modified="2020-09-09T18:13:51Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-java"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-21T06:39:20Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-09T18:13:51Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -338,12 +338,13 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/kevin/pictures/wallpapers/tanjiro2.jpg" added="2020-08-22T05:47:37Z" modified="2020-08-22T05:47:37Z" visited="1969-12-31T23:59:59Z">
+  <bookmark href="file:///home/kevin/pictures/wallpapers/tanjiro2.jpg" added="2020-08-22T05:47:37Z" modified="2020-08-23T23:37:24Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/jpeg"/>
         <bookmark:applications>
           <bookmark:application name="darktable" exec="&apos;darktable %u&apos;" modified="2020-08-22T05:47:37Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T23:37:24Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -369,22 +370,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/kevin/downloads/Yakar-16907147-3.zip" added="2020-08-22T06:24:36Z" modified="2020-08-22T06:24:36Z" visited="1969-12-31T23:59:59Z">
+  <bookmark href="file:///home/kevin/downloads/Yakar-16907147-3.zip" added="2020-08-22T06:24:36Z" modified="2020-09-06T01:28:23Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/zip"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-22T06:24:36Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-06T01:28:23Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/kevin/downloads/Week%203%20-%20Lecture%203.pdf" added="2020-08-22T07:35:20Z" modified="2020-08-22T07:35:20Z" visited="1969-12-31T23:59:59Z">
+  <bookmark href="file:///home/kevin/downloads/Week%203%20-%20Lecture%203.pdf" added="2020-08-22T07:35:20Z" modified="2020-08-24T07:17:22Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/pdf"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-22T07:35:20Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-24T07:17:22Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -409,12 +410,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/kevin/downloads/yuh.png" added="2020-08-22T09:56:03Z" modified="2020-08-22T09:56:07Z" visited="1969-12-31T23:59:59Z">
+  <bookmark href="file:///home/kevin/downloads/yuh.png" added="2020-08-22T09:56:03Z" modified="2020-08-26T01:07:42Z" visited="1969-12-31T23:59:59Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
-          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-22T09:56:07Z" count="3"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T01:07:42Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -456,6 +457,556 @@
         <mime:mime-type type="text/css"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-22T10:09:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Yakar-16907147-4.zip" added="2020-08-23T03:57:24Z" modified="2020-09-06T01:04:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-06T01:04:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/plug.vim" added="2020-08-23T04:42:26Z" modified="2020-08-23T04:42:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T04:42:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Episode-007" added="2020-08-23T06:13:59Z" modified="2020-08-23T06:13:59Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:13:59Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/10000000_138064924527099_2220651013823020158_n.mp4" added="2020-08-23T06:14:53Z" modified="2020-08-23T06:36:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:36:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/10000000_3007410666022049_7285116696810666792_n.mp4" added="2020-08-23T06:17:51Z" modified="2020-08-23T06:38:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:38:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/10000000_175235113950695_1882894210456465277_n.mp4" added="2020-08-23T06:19:02Z" modified="2020-08-23T06:39:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:39:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/10000000_1174312579568657_5844259614470298783_n.mp4" added="2020-08-23T06:19:17Z" modified="2020-08-23T06:40:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:40:45Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/10000000_168246318174406_8561385955214721678_n.mp4" added="2020-08-23T06:19:29Z" modified="2020-08-23T06:43:51Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:43:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/10000000_588090991901636_988687740751192322_n.mp4" added="2020-08-23T06:19:40Z" modified="2020-08-23T06:44:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:44:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/kaguya-sama" added="2020-08-23T06:45:53Z" modified="2020-08-23T06:45:53Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T06:45:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/pictures/wallpapers/tanjiro.jpg" added="2020-08-23T23:37:24Z" modified="2020-08-23T23:37:24Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-23T23:37:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Week%204%20-%20Lecture%201%20(1).pdf" added="2020-08-24T21:35:50Z" modified="2020-08-24T21:35:50Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-24T21:35:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Untitled%20document.txt" added="2020-08-24T23:00:58Z" modified="2020-08-24T23:00:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-24T23:00:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/test.png" added="2020-08-25T01:48:37Z" modified="2020-08-25T01:49:00Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-25T01:48:37Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-25T01:49:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/one.png" added="2020-08-25T04:27:26Z" modified="2020-08-25T04:27:26Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-08-25T04:27:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/two.png" added="2020-08-25T04:27:33Z" modified="2020-08-25T04:27:33Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-08-25T04:27:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/dracula.png" added="2020-08-25T22:38:48Z" modified="2020-08-25T22:42:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-25T22:38:48Z" count="1"/>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-08-25T22:42:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/gruvbox.png" added="2020-08-25T22:39:08Z" modified="2020-08-25T22:39:08Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-25T22:39:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/gruvboxmini.png" added="2020-08-25T22:40:39Z" modified="2020-08-25T22:42:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-25T22:40:39Z" count="1"/>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-08-25T22:42:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/draculamini.png" added="2020-08-25T22:41:08Z" modified="2020-08-25T22:42:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-25T22:41:08Z" count="1"/>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-08-25T22:42:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/gruvbox.png" added="2020-08-25T22:42:41Z" modified="2020-08-25T22:42:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-08-25T22:42:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/code-1-setup.R" added="2020-08-26T02:10:32Z" modified="2020-08-26T02:10:32Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-r-source"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T02:10:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Week%204%20-%20Lecture%202.pdf" added="2020-08-26T18:05:27Z" modified="2020-08-26T18:05:27Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T18:05:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/desktop/45j-notes/lec11.java" added="2020-08-26T19:48:05Z" modified="2020-08-26T19:49:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T19:49:14Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Week%204%20-%20Lecture%202%20(2).pdf" added="2020-08-26T20:27:14Z" modified="2020-08-26T20:27:14Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T20:27:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/waiver-worksheet.pdf" added="2020-08-26T22:11:57Z" modified="2020-08-26T22:11:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T22:11:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Copy%20of%20Waiver%20Periods%20for%20AY%202020-21%20version%206%2008042020.pdf" added="2020-08-26T22:16:29Z" modified="2020-08-26T22:16:29Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T22:16:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/2020-21%20Waiver%20Criteria%204-7-2020.pdf" added="2020-08-26T22:16:52Z" modified="2020-08-26T22:16:52Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-26T22:16:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/colors.muttrc" added="2020-08-28T07:58:39Z" modified="2020-08-28T07:58:39Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-28T07:58:39Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/lec12.java" added="2020-08-28T19:12:02Z" modified="2020-08-28T19:12:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-28T19:12:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/healthIdCard.jpg" added="2020-08-28T22:46:47Z" modified="2020-08-28T22:47:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-28T22:47:42Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Week%204%20-%20Lecture%203.pdf" added="2020-08-30T01:05:02Z" modified="2020-08-30T01:05:02Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-30T01:05:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/labs/lab4/Yakar-16907147.zip" added="2020-08-30T08:35:30Z" modified="2020-08-30T08:35:30Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-30T08:35:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Yakar-16907147-5.zip" added="2020-08-30T08:35:58Z" modified="2020-09-06T01:20:55Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-06T01:20:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/desktop/lec13.java" added="2020-08-31T18:21:22Z" modified="2020-08-31T18:21:22Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T18:21:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Week%205%20-%20Lecture%201.pdf" added="2020-08-31T19:45:58Z" modified="2020-08-31T19:45:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T19:45:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/pictures/q31.png" added="2020-08-31T23:06:14Z" modified="2020-08-31T23:06:35Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-31T23:06:14Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:06:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/pictures/q32.png" added="2020-08-31T23:06:27Z" modified="2020-08-31T23:06:47Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-31T23:06:27Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:06:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/pictures/q4.png" added="2020-08-31T23:17:19Z" modified="2020-08-31T23:17:25Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-31T23:17:19Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:17:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/pictures/q43.png" added="2020-08-31T23:22:36Z" modified="2020-08-31T23:24:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-08-31T23:24:18Z" count="2"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:24:23Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/code-5-babies.Rmd" added="2020-08-31T23:40:54Z" modified="2020-08-31T23:40:54Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-r-markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:40:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_kevin0/quiz-5-regression.Rmd" added="2020-08-31T23:40:58Z" modified="2020-08-31T23:40:58Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-r-markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:40:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/quiz-5-regression.Rmd" added="2020-08-31T23:41:43Z" modified="2020-08-31T23:41:43Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-r-markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-08-31T23:41:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/plot.png" added="2020-09-01T01:24:38Z" modified="2020-09-01T01:45:16Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-01T01:45:16Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/1.1.png" added="2020-09-01T02:12:37Z" modified="2020-09-01T02:12:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gscreenshot" exec="&apos;gscreenshot %u&apos;" modified="2020-09-01T02:12:37Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-01T02:12:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Week%205%20-%20Lecture%202.pdf" added="2020-09-02T22:11:55Z" modified="2020-09-02T22:11:55Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-02T22:11:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/labs/Yakar-16907147.zip" added="2020-09-06T01:16:49Z" modified="2020-09-06T23:27:40Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-06T23:27:40Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Yakar-16907147-6.zip" added="2020-09-06T01:22:29Z" modified="2020-09-06T01:27:54Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-06T01:27:54Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/code-final.Rmd" added="2020-09-09T00:41:02Z" modified="2020-09-09T03:56:43Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-r-markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-09T03:56:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/equation.png" added="2020-09-09T04:44:24Z" modified="2020-09-09T04:44:32Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="signal-desktop" exec="&apos;signal-desktop %u&apos;" modified="2020-09-09T04:44:24Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-09T04:44:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/FinalGrades.java" added="2020-09-09T18:13:38Z" modified="2020-09-09T18:13:38Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-09T18:13:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Student.java" added="2020-09-09T18:13:45Z" modified="2020-09-09T18:13:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-09T18:13:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/Yakar-16907147.zip" added="2020-09-09T19:12:17Z" modified="2020-09-09T19:12:17Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-09T19:12:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kevin/downloads/discord-0.0.12.tar.gz" added="2020-09-11T04:33:32Z" modified="2020-09-11T04:58:12Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-09-11T04:58:12Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

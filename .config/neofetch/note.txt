@@ -1,3 +1,0 @@
-The default ascii is located in this file:
-
-/usr/bin/neofetch

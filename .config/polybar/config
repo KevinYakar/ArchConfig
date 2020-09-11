@@ -88,19 +88,19 @@ tray-padding = 2
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:30:...%
+;[module/xwindow]
+;type = internal/xwindow
+;label = %title:0:30:...%
 
-[module/filesystem]
-type = internal/fs
-interval = 25
+;[module/filesystem]
+;type = internal/fs
+;interval = 25
 
-mount-0 = /
+;mount-0 = /
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+;label-unmounted = %mountpoint% not mounted
+;label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/dwm]
 type = internal/dwm
@@ -144,10 +144,10 @@ label-title-maxlen = 100
 ; Symbol of current layout
 ; Available tokens:
 ;   %symbol%
-label-layout = %symbol%
-label-layout-padding = 2
-label-layout-foreground = #000
-label-layout-background = ${colors.primary}
+;label-layout = %symbol%
+;label-layout-padding = 2
+;label-layout-foreground = #000
+;label-layout-background = ${colors.primary}
 
 ; Text to show when currently focused window is floating
 label-floating = F
@@ -186,18 +186,18 @@ label-empty = ""
 label-empty-background = ${colors.primary}
 label-empty-padding = 2
 
-[module/mpd]
-type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+;[module/mpd]
+;type = internal/mpd
+;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+;icon-prev = 
+;icon-stop = 
+;icon-play = 
+;icon-pause = 
+;icon-next = 
 
-label-song-maxlen = 25
-label-song-ellipsis = true
+;label-song-maxlen = 25
+;label-song-ellipsis = true
 
 ;[module/xbacklight]
 ;type = internal/xbacklight
@@ -221,8 +221,8 @@ label-song-ellipsis = true
 ;type = internal/backlight
 ;card = intel_backlight
 
-[module/cpu]
-type = internal/cpu
+;[module/cpu]
+;type = internal/cpu
 ;interval = 2
 ;;format-prefix = " "
 ;format-prefix-foreground = ${colors.foreground-alt}

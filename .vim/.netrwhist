@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/kevin/.vim'
+let g:netrw_dirhist_6='/home/kevin/.config/polybar'
+let g:netrw_dirhist_5='/home/kevin/.config/ranger'
 let g:netrw_dirhist_4='/home/kevin'
 let g:netrw_dirhist_3='/home/kevin/.config'
 let g:netrw_dirhist_2='/home/kevin/.config/nitrogen'
