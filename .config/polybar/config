@@ -60,8 +60,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;1
+;font-0 = fixed:pixelsize=10;1
 ;font-0 = Inconsolata,Inconsolata Semi Condensed Medium:style=Semi Condensed Medium,Regular:pixelsize=12:antialias=true;1
+font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
