@@ -58,8 +58,8 @@ if [ -d "$HOME/.fonts" ]; then
 else
     cp -r ./.fonts ~/.fonts
 fi
-sudo pacman -S ttf-Inconsolata adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts gnu-free-fonts ttf-arphic-uming ttf-indic-otf adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts
-yay -S ttf-Iosevka
+sudo pacman -S ttf-inconsolata adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts gnu-free-fonts ttf-arphic-uming ttf-indic-otf adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts
+yay -S ttf-iosevka
 fc-cache
 
 # .config/ 
