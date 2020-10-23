@@ -1,0 +1,120 @@
+#!/bin/bash
+
+# check if git is installed or not 
+[[ "" == $( pacman -Q | grep '^git [a-zA-Z0-9]' ) ]] && echo "You don't have git installed. Go install it!" && exit 
+
+echo -ne '\nWARNING: THIS SCRIPT WILL OVERWRITE/DELETE:\n\n~/.bashrc\n~/.xinitrc\n~/.vimrc\n~/.vim/\n~/.config/\n\nPress Ctrl-c and move these to a safe place if you do not want to lose this data.\n'
+echo -ne '\nThis script will install my configuration of Arch Linux! Press Enter to continue or Ctrl-c to cancel.\n' && read
+
+# install yay 
+cd ~ && git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ~ && rm -rf yay
+
+mkdir downloads documents music pictures videos
+
+# download dotfiles (uncomment if you didn't obtain this from the repo) 
+# git clone https://github.com/KevinYakar/ArchConfig.git || (echo 'ERROR: Could not clone ArchConfig' && exit)
+
+cd ~/ArchConfig
+
+# copy dotfiles into ~ 
+cp .bashrc ~/.bashrc
+cp .gitconfig ~/.gitconfig
+cp .vimrc ~/.vimrc
+cp .xinitrc ~/.xinitrc
+
+# .vim/ 
+if [ -d "$HOME/.vim" ]; then
+    rm -rf ~/.vim
+fi
+cp -r .vim ~/.vim
+
+# wallpapers 
+pictures=0
+wallpapers=0
+if [ -d "$HOME/pictures/" ]; then
+    pictures=1
+
+    if [ -d "$HOME/pictures/wallpapers/" ]; then
+        wallpapers=1
+    fi
+fi
+
+if (( $pictures == 1 )) && (( $wallpapers == 1 )); then
+    cd wallpapers && cp -r * ~/pictures/wallpapers && cd ~/ArchConfig
+
+elif (( $pictures == 1 )) && (( $wallpapers == 0 )); then
+    cp -r ./wallpapers ~/pictures/wallpapers
+
+elif (( $pictures == 0 )) && (( $wallpapers == 0 )); then
+    mkdir ~/pictures && cp -r ./wallpapers ~/pictures/wallpapers
+fi
+
+# .fonts/ 
+if [ -d "$HOME/.fonts" ]; then
+    cd ./.fonts && cp -r * ~/.fonts && cd ~/ArchConfig
+else
+    cp -r ./.fonts ~/.fonts
+fi
+sudo pacman -S ttf-Inconsolata adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts gnu-free-fonts ttf-arphic-uming ttf-indic-otf adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts
+yay -S ttf-Iosevka
+fc-cache
+
+# .config/ 
+if [ -d "$HOME/.config" ]; then
+    rm -rf ~/.config
+fi
+cp -r .config ~/.config
+
+# install packages 
+pacmanPackages=(
+    'xorg-server'
+    'xorg-xinit'
+    'dmenu'
+    'alacritty'
+    'zip'
+    'unzip'
+    'nitrogen'
+    'neofetch'
+    'gucharmap'
+    'figlet'
+    'zathura'
+    'zathura-pdf-poppler'
+    'yajl'
+    'feh'
+    'firefox'
+    'base-devel'
+)
+
+yayPackages=(
+    'gscreenshot'
+    'ranger-git'
+    'betterdiscordctl-git'
+    'go-rainbow-git'
+    'bpytop'
+    'picom-tryone-git'
+    'polybar-dwm-module'
+)
+
+sudo pacman -S ${pacmanPackages[@]}
+yay -S ${yayPackages[@]}
+
+# install ueberzug for ranger 
+pip install ueberzug
+
+# vcpkg (for polybar and dwm) 
+cd ~/.config
+git clone https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+./bootstrap-vcpkg.sh
+./vcpkg integrate install
+./vcpkg install jsoncpp
+
+# install dwm 
+cd ~/.config/dwm
+sudo make clean install
+cd ~
+
+echo -ne '\nTo install the vim plugins, just do:\n\nvim ~/.vimrc\n:PlugInstall\n\nAnd you will be good to go!\n'
