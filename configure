@@ -117,4 +117,4 @@ cd ~/.config/dwm
 sudo make clean install
 cd ~
 
-echo -ne '\nTo install the vim plugins, just do:\n\nvim ~/.vimrc\n:PlugInstall\n\nAnd you will be good to go!\n'
+echo -ne '\nTo install the vim plugins, just do:\n\nvim ~/.vimrc\n:PlugInstall\n\nAnd you will be good to go!\n' | rainbow
