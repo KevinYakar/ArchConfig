@@ -68,11 +68,15 @@ if [ -d "$HOME/.config" ]; then
 fi
 cp -r .config ~/.config
 
+# fix nitrogen path 
+echo -ne "[xin_-1]\nfile=$HOME/pictures/wallpapers/tanjiro.jpg\nmode=4\nbgcolor=#000000" > ~/.config/nitrogen/bg-saved.cfg
+
 # install packages 
 pacmanPackages=(
     'xorg-server'
     'xorg-xinit'
     'xorg-xset'
+    'xclip'
     'man'
     'dmenu'
     'alacritty'
