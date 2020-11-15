@@ -71,6 +71,9 @@ cp -r .config ~/.config
 # fix nitrogen path 
 echo -ne "[xin_-1]\nfile=$HOME/pictures/wallpapers/tanjiro.jpg\nmode=4\nbgcolor=#000000" > ~/.config/nitrogen/bg-saved.cfg
 
+# install node for coc.nvim 
+sudo curl -sL install-node.now.sh/lts | sudo bash
+
 # install packages 
 pacmanPackages=(
     'xorg-server'
@@ -93,6 +96,7 @@ pacmanPackages=(
     'gifsicle'
     'flameshot'
     'firefox'
+    'firefox-tridactyl'
     'base-devel'
     'python-pip'
 )
