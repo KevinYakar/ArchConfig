@@ -109,6 +109,7 @@ yayPackages=(
     'bpytop'
     'picom-tryone-git'
     'polybar-dwm-module'
+    'ttf-raleway'
 )
 
 sudo pacman -S ${pacmanPackages[@]}
