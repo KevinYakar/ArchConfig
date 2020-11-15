@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read expression
+val=$( echo "print($expression)" | python3 )
+echo $val | xclip -selection clipboard
+echo $val
+

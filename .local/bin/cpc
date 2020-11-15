@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[ ! $1 ] && echo 'Enter a filename like so: cpc file.txt' && exit
+
+cat $1 | xclip -selection clipboard

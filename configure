@@ -90,6 +90,8 @@ pacmanPackages=(
     'zathura-pdf-poppler'
     'yajl'
     'feh'
+    'gifsicle'
+    'flameshot'
     'firefox'
     'base-devel'
     'python-pip'

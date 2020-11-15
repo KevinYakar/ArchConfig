@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# control the keyboard backlight using files in /sys/class/leds/smc::kbd_backlight 
+# usage: 
+#   kbd-backlight      return the current brightness 
+#   kbd-backlight  10  increase the brightness by 10% 
+#   kbd-backlight -10  decrease the brightness by 10% 
+
+max=$( cat /sys/class/leds/smc::kbd_backlight/max_brightness ) # max brightness 
+current=$( cat /sys/class/leds/smc::kbd_backlight/brightness ) # current brightness 
+
+# if no arguments are given, return the current brightness 
+[ ! $1 ] && awk 'BEGIN {print int('$current'/'$max'*100)"%"}' && exit
+
+# convert the argument into a percentage of the max and add it to the current value 
+val=$( awk 'BEGIN {print int('$1'/100*'$max')}' )
+new=$(( $current + $val ))
+
+# change the brightness and ensure it doesn't go above max or below 0 
+if (( $new > $max )); then
+    echo $max > /sys/class/leds/smc::kbd_backlight/brightness
+elif (( $new < 0 )); then
+    echo 0 > /sys/class/leds/smc::kbd_backlight/brightness
+else
+    echo $new > /sys/class/leds/smc::kbd_backlight/brightness
+fi
+
