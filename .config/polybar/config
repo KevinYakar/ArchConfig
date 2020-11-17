@@ -140,7 +140,7 @@ secondary-layout-symbol = [M]
 label-title = %title%
 label-title-padding = 2
 label-title-foreground = ${colors.primary}
-label-title-maxlen = 100
+label-title-maxlen = 118
 
 ; Symbol of current layout
 ; Available tokens:
@@ -279,7 +279,7 @@ format-disconnected-foreground = ${colors.primary}
 
 [module/date]
 type = internal/date
-interval = 1
+interval = 5
 
 date = "%a %b %d "
 date-alt = " %Y-%m-%d"
