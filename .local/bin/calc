@@ -2,6 +2,6 @@
 
 read expression
 val=$( echo "print($expression)" | python3 )
-echo $val | xclip -selection clipboard
+echo -n $val | xclip -selection clipboard
 echo $val
 
