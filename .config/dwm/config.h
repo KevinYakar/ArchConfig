@@ -17,7 +17,7 @@ static const int usealtbar          = 1;        /* 1 means use non-dwm status ba
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *altbarcmd        = "$HOME/.config/polybar/start-bar.sh"; /* Alternate bar launch command */
 static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
+static const char dmenufont[]       = "Montserrat:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -76,7 +76,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = browsercmd } },
-	{ MODKEY,                       XK_r,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "killall polybar && polybar first", NULL } } },
+	{ MODKEY,                       XK_r,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "killall polybar && ~/.config/polybar/start-bar.sh", NULL } } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ Mod4Mask,                       XK_3,      spawn,          {.v = upvol } },//
 	{ Mod4Mask,                       XK_2,      spawn,          {.v = downvol } },//
