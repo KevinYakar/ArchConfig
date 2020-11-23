@@ -1,7 +1,12 @@
 #!/bin/bash
 
-read expression
-val=$( echo "print($expression)" | python3 )
+params=($@)
+if [[ ${params[0]} == '-q' ]]; then
+    val=$( echo "print(${params[@]:1})" | python3 )
+else
+    val=$( echo "print($@)" | python3 )
+fi
+
 echo -n $val | xclip -selection clipboard
-echo $val
+[[ ${params[0]} != '-q' ]] && echo $val
 
