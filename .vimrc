@@ -46,7 +46,7 @@ colorscheme tokyonight
 :inoremap <C-l> <Right>
 
 " substitute text in visual-line mode 
-:vnoremap S :,%s//g<Left><Left>
+:vnoremap S :s//g<Left><Left>
 
 " pairs 
 :inoremap ( ()<Left>
