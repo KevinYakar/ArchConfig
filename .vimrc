@@ -48,16 +48,20 @@ colorscheme tokyonight
 " substitute text in visual-line mode 
 :vnoremap S :s//g<Left><Left>
 
+" substitute all occurences of matching text in normal-line mode 
+:nnoremap S :%s//g<Left><Left>
+
 " pairs 
 :inoremap ( ()<Left>
-:inoremap ) <Right>
-:inoremap )) )
+":inoremap ) <Right>
+":inoremap )) )
 
 :inoremap [ []<Left>
-:inoremap ] <Right>
-:inoremap ]] ]
+":inoremap ] <Right>
+":inoremap ]] ]
 
 :inoremap " ""<Left>
+:inoremap ' ''<Left>
 :inoremap { {}<Left>
 
 " Coding 
@@ -65,7 +69,8 @@ colorscheme tokyonight
 
 " c++ stuff 
 ":inoremap #<Return> #include <><Left>
-":inoremap <C-_> <Esc>0i//<Esc><S-a>
+:inoremap <C-_> <Esc>^i// <Esc><S-a>
+:nnoremap <C-_> ^i// <Esc>$
 ":inoremap main int<Space>main()<Return>{<Return><Tab><Return>return 0;<Return><Esc>0i}<Up><Up><Tab>
 ":inoremap ide #ifndef _HPP<Return>#define _HPP<Return>#endif<Esc>0i<Return><Return><Return><Esc>5k$3hi
 ":inoremap cout std::cout <<  << std::endl;<Esc>13hi
@@ -74,5 +79,5 @@ colorscheme tokyonight
 ":inoremap ignore std::cin.ignore();<Left><Left>
 
 " java stuff 
-:imap syso<Return> System.out.println();<Left><Left>
-:imap psvm<Return> public static void main(String[] args)<Return>{<Return>
+:inoremap syso<Return> System.out.println();<Left><Left>
+:inoremap psvm<Return> public static void main(String[] args)<Return>{<Return>
