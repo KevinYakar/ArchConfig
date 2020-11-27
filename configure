@@ -99,6 +99,7 @@ pacmanPackages=(
     'firefox-tridactyl'
     'base-devel'
     'python-pip'
+    'rsync'
 )
 
 yayPackages=(

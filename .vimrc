@@ -30,8 +30,11 @@ let g:Hexokinase_highlighters = [ 'foreground' ]
 let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
 
 " These only work if you put 'stty -ixon' in your .bashrc file 
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>a
+:nnoremap <C-s> :w<CR>
+:inoremap <C-s> <Esc>:w<CR>a
+
+" Source ~/.vimrc file
+map <C-R> :source ~/.vimrc<Return>
 
 " Custom visual settings 
 set number 
@@ -43,11 +46,16 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 colorscheme tokyonight
 
+highlight Normal guifg=#bbbbbb
+highlight LineNr cterm=italic guifg=#888fae
+highlight Comment guifg=#907466 cterm=italic,bold
+"highlight Comment guifg=#9e824c cterm=italic,bold 
+"highlight Comment guifg=#5b7d78 cterm=italic,bold 
+
+" Orig setup for comment highlighting 
 "highlight Comment ctermbg=246 ctermfg=235
 "highlight Comment cterm=italic,bold
-
-highlight Comment guibg=#949494 guifg=#262626
-"highlight Comment cterm=italic,bold
+"highlight Comment guibg=#949494 guifg=#262626
 
 " Easily exit modes 
 :inoremap ii <Esc>
@@ -58,7 +66,13 @@ highlight Comment guibg=#949494 guifg=#262626
 :inoremap <C-h> <Left>
 :inoremap <C-l> <Right>
 
-" Substitute text in visual-line mode 
+" Moving between vim windows
+:nnoremap <C-k> <C-w>k
+:nnoremap <C-j> <C-w>j
+:nnoremap <C-h> <C-w>h
+:nnoremap <C-l> <C-w>l
+
+" Substitute selected text in visual-line mode 
 :vnoremap S :s//g<Left><Left>
 
 " Substitute all occurences of matching text in normal-line mode 
@@ -69,23 +83,8 @@ highlight Comment guibg=#949494 guifg=#262626
 :inoremap ( ()<Left>
 :inoremap { {}<Left>
 :inoremap " ""<Left>
-:inoremap ' ''<Left>
+:inoremap '' ''<Left>
 
-" Coding 
-:inoremap {<Return> {}<Left><Return><Esc>k<S-a><Return>
+" General coding 
+:inoremap {<Return> {}<Left><Return><Esc>kA<Return>
 
-" C++ stuff 
-:inoremap <C-_> <Esc>^i// <Esc><S-a>
-:nnoremap <C-_> ^i// <Esc>$
-":inoremap #<Return> #include <><Left>
-":vnoremap <C-_> S^/\/\/ 
-":inoremap main int<Space>main()<Return>{<Return><Tab><Return>return 0;<Return><Esc>0i}<Up><Up><Tab>
-":inoremap ide #ifndef _HPP<Return>#define _HPP<Return>#endif<Esc>0i<Return><Return><Return><Esc>5k$3hi
-":inoremap cout std::cout <<  << std::endl;<Esc>13hi
-":inoremap cin std::cin >> ;<Left>
-":inoremap getline std::getline(std::cin, );<Esc>hi
-":inoremap ignore std::cin.ignore();<Left><Left>
-
-" Java stuff 
-":inoremap syso<Return> System.out.println();<Left><Left>
-":inoremap psvm<Return> public static void main(String[] args)<Return>{<Return>
