@@ -3,6 +3,8 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
+
+
 " Vim-plug
 " run ':PlugInstall' after adding more entries
 call plug#begin('~/.vim/plugged')
@@ -29,12 +31,17 @@ let g:airline_powerline_fonts = 1
 let g:Hexokinase_highlighters = [ 'foreground' ]
 let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
 
+
+
+" Save using ctrl-s
 " These only work if you put 'stty -ixon' in your .bashrc file
 :nnoremap <C-s> :w<CR>
 :inoremap <C-s> <Esc>:w<CR>a
 
 " Source ~/.vimrc file
 map <Leader>r :source ~/.vimrc<Return>
+
+
 
 " Custom visual settings
 set number
@@ -57,6 +64,8 @@ highlight Comment guifg=#907466 cterm=italic,bold
 "highlight Comment cterm=italic,bold
 "highlight Comment guibg=#949494 guifg=#262626
 
+
+
 " Easily exit modes
 :inoremap ii <Esc>
 
@@ -65,6 +74,8 @@ highlight Comment guifg=#907466 cterm=italic,bold
 :inoremap <C-j> <Down>
 :inoremap <C-h> <Left>
 :inoremap <C-l> <Right>
+
+
 
 " Moving between vim windows
 :nnoremap <C-k> <C-w>k
@@ -81,6 +92,8 @@ highlight Comment guifg=#907466 cterm=italic,bold
 " Splitting works better
 set splitbelow splitright
 
+
+
 " For autocomplete
 set wildmode=longest,list,full
 
@@ -93,12 +106,16 @@ autocmd BufWritePre * %s/\s\+$//e
 " Substitute all occurences of matching text in normal-line mode
 :nnoremap S :%s//g<Left><Left>
 
+
+
 " Pairs
 :inoremap [ []<Left>
 :inoremap ( ()<Left>
 :inoremap { {}<Left>
 :inoremap " ""<Left>
 :inoremap '' ''<Left>
+
+
 
 " General coding
 :inoremap {<Return> {}<Left><Return><Esc>kA<Return>
