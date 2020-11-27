@@ -1,11 +1,10 @@
-" Defaults 
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
 
-" Vim-plug 
-" run ':PlugInstall' after adding more entries 
+" Vim-plug
+" run ':PlugInstall' after adding more entries
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
@@ -16,7 +15,7 @@ Plug 'https://github.com/wesQ3/vim-windowswap'
 
 call plug#end()
 
-" Airline customizations 
+" Airline customizations
 let g:airline_stl_path_style = 'short'
 
 if !exists('g:airline_symbols')
@@ -26,19 +25,19 @@ endif
 let g:airline_theme='fruit_punch'
 let g:airline_powerline_fonts = 1
 
-" Hexokinase customizations (:help hexokinase.txt) 
-let g:Hexokinase_highlighters = [ 'foreground' ] 
+" Hexokinase customizations (:help hexokinase.txt)
+let g:Hexokinase_highlighters = [ 'foreground' ]
 let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
 
-" These only work if you put 'stty -ixon' in your .bashrc file 
+" These only work if you put 'stty -ixon' in your .bashrc file
 :nnoremap <C-s> :w<CR>
 :inoremap <C-s> <Esc>:w<CR>a
 
 " Source ~/.vimrc file
-" map <C-r> :source ~/.vimrc<Return>
+map <Leader>r :source ~/.vimrc<Return>
 
-" Custom visual settings 
-set number 
+" Custom visual settings
+set number
 syntax on
 
 set termguicolors
@@ -50,18 +49,18 @@ colorscheme tokyonight
 highlight Normal guifg=#bbbbbb
 highlight LineNr cterm=italic guifg=#888fae
 highlight Comment guifg=#907466 cterm=italic,bold
-"highlight Comment guifg=#9e824c cterm=italic,bold 
-"highlight Comment guifg=#5b7d78 cterm=italic,bold 
+"highlight Comment guifg=#9e824c cterm=italic,bold
+"highlight Comment guifg=#5b7d78 cterm=italic,bold
 
-" Orig setup for comment highlighting 
+" Orig setup for comment highlighting
 "highlight Comment ctermbg=246 ctermfg=235
 "highlight Comment cterm=italic,bold
 "highlight Comment guibg=#949494 guifg=#262626
 
-" Easily exit modes 
+" Easily exit modes
 :inoremap ii <Esc>
 
-" Moving in insert mode 
+" Moving in insert mode
 :inoremap <C-k> <Up>
 :inoremap <C-j> <Down>
 :inoremap <C-h> <Left>
@@ -73,25 +72,34 @@ highlight Comment guifg=#907466 cterm=italic,bold
 :nnoremap <C-h> <C-w>h
 :nnoremap <C-l> <C-w>l
 
-" Resize split windows 
+" Resize vs windows
 :nnoremap <C-Up> <C-w>+
 :nnoremap <C-Down> <C-w>-
 :nnoremap <C-Left> <C-w><
 :nnoremap <C-Right> <C-w>>
 
-" Substitute selected text in visual-line mode 
+" Splitting works better
+set splitbelow splitright
+
+" For autocomplete
+set wildmode=longest,list,full
+
+" Remove trailing whitespace on save
+autocmd BufWritePre * %s/\s\+$//e
+
+" Substitute selected text in visual-line mode
 :vnoremap S :s//g<Left><Left>
 
-" Substitute all occurences of matching text in normal-line mode 
+" Substitute all occurences of matching text in normal-line mode
 :nnoremap S :%s//g<Left><Left>
 
-" Pairs 
+" Pairs
 :inoremap [ []<Left>
 :inoremap ( ()<Left>
 :inoremap { {}<Left>
 :inoremap " ""<Left>
 :inoremap '' ''<Left>
 
-" General coding 
+" General coding
 :inoremap {<Return> {}<Left><Return><Esc>kA<Return>
 
