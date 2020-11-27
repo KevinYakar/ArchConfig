@@ -12,6 +12,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
+Plug 'https://github.com/wesQ3/vim-windowswap'
 
 call plug#end()
 
@@ -34,7 +35,7 @@ let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
 :inoremap <C-s> <Esc>:w<CR>a
 
 " Source ~/.vimrc file
-map <C-R> :source ~/.vimrc<Return>
+" map <C-r> :source ~/.vimrc<Return>
 
 " Custom visual settings 
 set number 
@@ -71,6 +72,12 @@ highlight Comment guifg=#907466 cterm=italic,bold
 :nnoremap <C-j> <C-w>j
 :nnoremap <C-h> <C-w>h
 :nnoremap <C-l> <C-w>l
+
+" Resize split windows 
+:nnoremap <C-Up> <C-w>+
+:nnoremap <C-Down> <C-w>-
+:nnoremap <C-Left> <C-w><
+:nnoremap <C-Right> <C-w>>
 
 " Substitute selected text in visual-line mode 
 :vnoremap S :s//g<Left><Left>
