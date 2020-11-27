@@ -73,10 +73,10 @@ highlight Comment guifg=#907466 cterm=italic,bold
 :nnoremap <C-l> <C-w>l
 
 " Resize vs windows
-:nnoremap <C-Up> <C-w>+
-:nnoremap <C-Down> <C-w>-
-:nnoremap <C-Left> <C-w><
-:nnoremap <C-Right> <C-w>>
+:nnoremap <C-Up> <C-w>-
+:nnoremap <C-Down> <C-w>+
+:nnoremap <C-Left> <C-w>>
+:nnoremap <C-Right> <C-w><
 
 " Splitting works better
 set splitbelow splitright
