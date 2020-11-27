@@ -69,7 +69,7 @@ font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
 
 modules-left = dwm
 ;modules-center = mpd
-modules-right = pulseaudio memory temperature wlan date 
+modules-right = pulseaudio memory temperature wlan date
 
 tray-position = center
 tray-padding = 2
@@ -249,10 +249,10 @@ label-connected = "  "
 ;label-connected = %essid%
 
 format-disconnected = "!"
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
 format-disconnected-foreground = ${colors.primary}
+format-disconnected-underline = ${colors.primary}
+;format-disconnected = <label-disconnected>
+;label-disconnected = %ifname% disconnected
 
 ;ramp-signal-0 = 
 ;ramp-signal-1 = 
@@ -287,7 +287,7 @@ date-alt = " %Y-%m-%d"
 time = %l:%M%P
 time-alt = %H:%M:%S
 
-;format-prefix = 
+;format-prefix =
 ;format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #0a6cf5
 
@@ -297,11 +297,11 @@ label = %date% %time%
 type = internal/pulseaudio
 
 ;format-volume = <label-volume> <bar-volume>
-format-volume = <label-volume> 
+format-volume = <label-volume>
 label-volume = " %percentage%%"
 label-volume-foreground = ${root.foreground}
 
-label-muted =  
+label-muted = 
 label-muted-foreground = #dd5c54
 
 ;bar-volume-width = 10
@@ -313,7 +313,7 @@ label-muted-foreground = #dd5c54
 ;bar-volume-foreground-5 = #f5a70a
 ;bar-volume-foreground-6 = #ff5555
 ;bar-volume-gradient = false
-;bar-volume-indicator = 
+;bar-volume-indicator =
 ;bar-volume-indicator-font = 2
 ;bar-volume-fill = ─
 ;bar-volume-fill-font = 2
