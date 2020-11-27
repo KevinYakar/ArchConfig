@@ -100,6 +100,7 @@ pacmanPackages=(
     'base-devel'
     'python-pip'
     'rsync'
+    'pacman-contrib'
 )
 
 yayPackages=(
