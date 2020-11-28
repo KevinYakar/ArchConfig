@@ -31,12 +31,12 @@ let g:airline_powerline_fonts = 1
 let g:Hexokinase_highlighters = [ 'foreground' ]
 let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
 
-" Tab autocompletion for coc.nvim
-inoremap <silent><expr> <TAB>
+" Shift-tab autocompletion for coc.nvim
+inoremap <silent><expr> <S-TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+" inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
   let col = col('.') - 1
