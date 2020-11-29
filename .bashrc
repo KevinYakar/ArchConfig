@@ -22,7 +22,6 @@ stty -ixon
 BROWSER=/usr/bin/firefox
 
 export PATH=:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/kevin/.local/bin
-# temp for assignment 4 
 
 xset r rate 300 50
 

@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/kevin/ArchConfig/.config/dwm'
+let g:netrw_dirhist_9='/home/kevin/ArchConfig'
 let g:netrw_dirhist_8='/home/kevin/.config/coc'
 let g:netrw_dirhist_7='/home/kevin/.vim'
 let g:netrw_dirhist_6='/home/kevin/.config/polybar'

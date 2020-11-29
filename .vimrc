@@ -110,7 +110,7 @@ set splitbelow splitright
 set wildmode=longest,list,full
 
 " Remove trailing whitespace on save
-autocmd BufWritePre * %s/\s\+$//e
+" autocmd BufWritePre * %s/\s\+$//e
 
 " Substitute selected text in visual-line mode
 :vnoremap S :s//g<Left><Left>
