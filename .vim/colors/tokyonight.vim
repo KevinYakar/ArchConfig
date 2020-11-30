@@ -21,7 +21,7 @@ let g:colors_name = 'tokyonight'
 " Configuration: {{{
 let s:configuration = {}
 let s:configuration.style = get(g:, 'tokyonight_style', 'night')
-let s:configuration.transparent_background = get(g:, 'tokyonight_transparent_background', 1)
+let s:configuration.transparent_background = get(g:, 'tokyonight_transparent_background', 0)
 let s:configuration.menu_selection_background = get(g:, 'tokyonight_menu_selection_background', 'green')
 let s:configuration.disable_italic_comment = get(g:, 'tokyonight_disable_italic_comment', 0)
 let s:configuration.enable_italic = get(g:, 'tokyonight_enable_italic', 0)
@@ -454,7 +454,7 @@ highlight! link cssStringQQ Green
 highlight! link cssAttrComma Grey
 highlight! link cssBraces Grey
 highlight! link cssTagName Purple
-highlight! link cssClassNameDot Grey
+highlight! link cssClassNameDot Orange
 highlight! link cssClassName Red
 highlight! link cssFunctionName Orange
 highlight! link cssAttr Green
@@ -467,7 +467,7 @@ highlight! link cssImportant Red
 highlight! link cssSelectorOp Orange
 highlight! link cssSelectorOp2 Orange
 highlight! link cssColor Green
-highlight! link cssUnitDecorators Green
+highlight! link cssUnitDecorators Orange
 highlight! link cssValueLength Green
 highlight! link cssValueInteger Green
 highlight! link cssValueNumber Green
@@ -481,7 +481,7 @@ highlight! link cssNoise Grey
 " SASS: {{{
 " scss-syntax: https://github.com/cakebaker/scss-syntax.vim{{{
 highlight! link scssMixinName Orange
-highlight! link scssSelectorChar Grey
+highlight! link scssSelectorChar Orange
 highlight! link scssSelectorName Red
 highlight! link scssInterpolationDelimiter Yellow
 highlight! link scssVariableValue Green
@@ -544,7 +544,7 @@ highlight! link jsDestructuringBlock Fg
 highlight! link jsBlockLabel Purple
 highlight! link jsFunctionKey Green
 highlight! link jsClassDefinition BlueItalic
-highlight! link jsDot Grey
+highlight! link jsDot Orange
 highlight! link jsSpreadExpression Purple
 highlight! link jsSpreadOperator Green
 highlight! link jsModuleKeyword BlueItalic
@@ -579,19 +579,19 @@ highlight! link javascriptBraces Fg
 highlight! link javascriptLabel Purple
 highlight! link javascriptEndColons Grey
 highlight! link javascriptObjectLabelColon Grey
-highlight! link javascriptDotNotation Grey
-highlight! link javascriptGlobalArrayDot Grey
-highlight! link javascriptGlobalBigIntDot Grey
-highlight! link javascriptGlobalDateDot Grey
-highlight! link javascriptGlobalJSONDot Grey
-highlight! link javascriptGlobalMathDot Grey
-highlight! link javascriptGlobalNumberDot Grey
-highlight! link javascriptGlobalObjectDot Grey
-highlight! link javascriptGlobalPromiseDot Grey
-highlight! link javascriptGlobalRegExpDot Grey
-highlight! link javascriptGlobalStringDot Grey
-highlight! link javascriptGlobalSymbolDot Grey
-highlight! link javascriptGlobalURLDot Grey
+highlight! link javascriptDotNotation Orange
+highlight! link javascriptGlobalArrayDot Orange
+highlight! link javascriptGlobalBigIntDot Orange
+highlight! link javascriptGlobalDateDot Orange
+highlight! link javascriptGlobalJSONDot Orange
+highlight! link javascriptGlobalMathDot Orange
+highlight! link javascriptGlobalNumberDot Orange
+highlight! link javascriptGlobalObjectDot Orange
+highlight! link javascriptGlobalPromiseDot Orange
+highlight! link javascriptGlobalRegExpDot Orange
+highlight! link javascriptGlobalStringDot Orange
+highlight! link javascriptGlobalSymbolDot Orange
+highlight! link javascriptGlobalURLDot Orange
 highlight! link javascriptMethod Green
 highlight! link javascriptMethodName Green
 highlight! link javascriptObjectMethodName Green
@@ -758,18 +758,18 @@ highlight! link typescriptFuncTypeArrow Red
 highlight! link typescriptTernaryOp Red
 highlight! link typescriptParenExp Fg
 highlight! link typescriptIndexExpr Fg
-highlight! link typescriptDotNotation Grey
-highlight! link typescriptGlobalNumberDot Grey
-highlight! link typescriptGlobalStringDot Grey
-highlight! link typescriptGlobalArrayDot Grey
-highlight! link typescriptGlobalObjectDot Grey
-highlight! link typescriptGlobalSymbolDot Grey
-highlight! link typescriptGlobalMathDot Grey
-highlight! link typescriptGlobalDateDot Grey
-highlight! link typescriptGlobalJSONDot Grey
-highlight! link typescriptGlobalRegExpDot Grey
-highlight! link typescriptGlobalPromiseDot Grey
-highlight! link typescriptGlobalURLDot Grey
+highlight! link typescriptDotNotation Orange
+highlight! link typescriptGlobalNumberDot Orange
+highlight! link typescriptGlobalStringDot Orange
+highlight! link typescriptGlobalArrayDot Orange
+highlight! link typescriptGlobalObjectDot Orange
+highlight! link typescriptGlobalSymbolDot Orange
+highlight! link typescriptGlobalMathDot Orange
+highlight! link typescriptGlobalDateDot Orange
+highlight! link typescriptGlobalJSONDot Orange
+highlight! link typescriptGlobalRegExpDot Orange
+highlight! link typescriptGlobalPromiseDot Orange
+highlight! link typescriptGlobalURLDot Orange
 highlight! link typescriptGlobalMethod Green
 highlight! link typescriptDOMStorageMethod Green
 highlight! link typescriptFileMethod Green
@@ -1833,4 +1833,4 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
 endif
 " }}}
 
-"vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker fmr={{{,}}}:
+" vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker fmr={{{,}}}:

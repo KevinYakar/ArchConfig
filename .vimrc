@@ -2,6 +2,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+set lazyredraw
+set nocompatible
 
 
 
@@ -14,6 +16,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
 Plug 'https://github.com/wesQ3/vim-windowswap'
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -24,7 +28,8 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 
-let g:airline_theme='fruit_punch'
+" let g:airline_theme='fruit_punch'
+let g:airline_theme='tokyonight'
 let g:airline_powerline_fonts = 1
 
 " Hexokinase customizations (:help hexokinase.txt)
@@ -63,18 +68,22 @@ set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
+set background=dark
+let g:tokyonight_style = 'night'
+let g:tokyonight_enable_italic = 1
+let g:tokyonight_transparent_background = 1
 colorscheme tokyonight
 
-highlight Normal guifg=#bbbbbb
+highlight Normal guifg=#dddddd
 highlight LineNr cterm=italic guifg=#888fae
 highlight Comment guifg=#907466 cterm=italic,bold
-"highlight Comment guifg=#9e824c cterm=italic,bold
-"highlight Comment guifg=#5b7d78 cterm=italic,bold
+" highlight Comment guifg=#9e824c cterm=italic,bold
+" highlight Comment guifg=#5b7d78 cterm=italic,bold
 
 " Orig setup for comment highlighting
-"highlight Comment ctermbg=246 ctermfg=235
-"highlight Comment cterm=italic,bold
-"highlight Comment guibg=#949494 guifg=#262626
+" highlight Comment ctermbg=246 ctermfg=235
+" highlight Comment cterm=italic,bold
+" highlight Comment guibg=#949494 guifg=#262626
 
 
 
@@ -106,7 +115,7 @@ set splitbelow splitright
 
 
 
-" For autocomplete
+" For autocomplete in command mode
 set wildmode=longest,list,full
 
 " Remove trailing whitespace on save

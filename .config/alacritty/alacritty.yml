@@ -167,7 +167,10 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#1b1a2d'
+    #background: '#1b1a2d'
+    #background: '#0f0f15'
+    #background: '#2f2f35'
+    background: '#1a1b26'
     foreground: '#d9b382'
 
     # Bright and dim foreground colors
@@ -225,26 +228,45 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#1d1f21'
-    red:     '#cc6666'
-    green:   '#b5bd68'
-    yellow:  '#f0c674'
-    blue:    '#81a2be'
-    magenta: '#b294bb'
-    cyan:    '#8abeb7'
-    white:   '#c5c8c6'
+    black:   '0x32344a'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xad8ee6'
+    cyan:    '0x449dab'
+    white:   '0x787c99'
+# orig
+#  normal:
+#    black:   '#1d1f21'
+#    red:     '#cc6666'
+#    green:   '#b5bd68'
+#    yellow:  '#f0c674'
+#    blue:    '#81a2be'
+#    magenta: '#b294bb'
+#    cyan:    '#8abeb7'
+#    white:   '#c5c8c6'
 
   # Bright colors
   bright:
-    black:   '#666666'
-    red:     '#d54e53'
-    green:   '#b9ca4a'
-    yellow:  '#e7c547'
-    blue:    '#7aa6da'
-    magenta: '#c397d8'
-    cyan:    '#70c0b1'
-    white:   '#eaeaea'
-
+    black:   '0x444b6a'
+    red:     '0xff7a93'
+    green:   '0xb9f27c'
+    yellow:  '0xff9e64'
+    blue:    '0x7da6ff'
+    magenta: '0xbb9af7'
+    cyan:    '0x0db9d7'
+    white:   '0xacb0d0'
+# orig
+#  bright:
+#    black:   '#666666'
+#    red:     '#d54e53'
+#    green:   '#b9ca4a'
+#    yellow:  '#e7c547'
+#    blue:    '#7aa6da'
+#    magenta: '#c397d8'
+#    cyan:    '#70c0b1'
+#    white:   '#eaeaea'
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
