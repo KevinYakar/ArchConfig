@@ -52,8 +52,8 @@ endfunction
 
 " Save using ctrl-s
 " These only work if you put 'stty -ixon' in your .bashrc file
-:nnoremap <C-s> :w<CR>
-:inoremap <C-s> <Esc>:w<CR>a
+:nnoremap <silent> <C-s> :silent w<CR>
+:inoremap <silent> <C-s> <Esc>:silent w<CR>a
 
 " Source ~/.vimrc file
 map <Leader>r :source ~/.vimrc<Return>
@@ -124,7 +124,7 @@ set wildmode=longest,list,full
 " Substitute selected text in visual-line mode
 :vnoremap S :s//g<Left><Left>
 
-" Substitute all occurences of matching text in normal-line mode
+" Substitute all occurences of matching text in normal mode
 :nnoremap S :%s//g<Left><Left>
 
 
