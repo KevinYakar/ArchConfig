@@ -7,7 +7,7 @@ rounded-corners-exclude = [
   #"window_type = 'normal'",
 #  "class_g = 'Alacritty'",
   "class_g = 'Polybar'",
-  "class_g = 'firefox'",
+#  "class_g = 'firefox'",
 ];
 #round-borders = 0;
 #round-borders-exclude = [
