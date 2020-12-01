@@ -109,7 +109,7 @@ yayPackages=(
     'betterdiscordctl-git'
     'go-rainbow-git'
     'bpytop'
-    'picom-tryone-git'
+    'picom-ibhagwan-git'
     'polybar-dwm-module'
     'ttf-raleway'
 )
