@@ -96,7 +96,6 @@ pacmanPackages=(
     'gifsicle'
     'flameshot'
     'firefox'
-    'firefox-tridactyl'
     'base-devel'
     'python-pip'
     'rsync'
