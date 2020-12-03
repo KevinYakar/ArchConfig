@@ -5,12 +5,14 @@
 # If not running interactively, don't do anything 
 [[ $- != *i* ]] && return
 
+LS_COLORS='ow=01;34'
+export LS_COLORS
+
 alias ls='ls --color=auto'
 alias grep='grep --color'
-#PS1='[\u@\h \W]\$ '
 
-#\[$purple$bold\]PORTION[$reset\]
-#\[$red$bold\]PORTION[$reset\]
+#\[$purple$bold\]REPLACE[$reset\]
+#\[$red$bold\]REPLACE[$reset\]
 purple=$( tput setaf 5 )
 red=$( tput setaf 1 )
 bold=$( tput bold )
@@ -27,7 +29,6 @@ xset r rate 300 50
 
 # ics46 stuff 
 alias ics46='ssh ics46@172.16.117.128'
-
 mvtolin ()
 {
     scp $@ ics46@172.16.117.128:~/Desktop

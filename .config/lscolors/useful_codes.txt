@@ -1,0 +1,66 @@
+Effects:
+    00 	    Default colour
+    01 	    Bold
+    04 	    Underlined
+    05 	    Flashing text
+    07 	    Reversetd
+    08 	    Concealed
+
+Colors:
+    30 	    Black
+    31 	    Red
+    32 	    Green
+    33 	    Orange
+    34 	    Blue
+    35 	    Purple
+    36 	    Cyan
+    37 	    Grey
+
+Backgrounds:
+    40 	    Black background
+    41 	    Red background
+    42 	    Green background
+    43 	    Orange background
+    44 	    Blue background
+    45 	    Purple background
+    46 	    Cyan background
+    47 	    Grey background
+
+Extra Colors:
+    90 	    Dark grey
+    91 	    Light red
+    92 	    Light green
+    93 	    Yellow
+    94 	    Light blue
+    95 	    Light purple
+    96 	    Turquoise
+    97 	    White
+    100 	Dark grey background
+    101 	Light red background
+    102 	Light green background
+    103 	Yellow background
+    104 	Light blue background
+    105 	Light purple background
+    106 	Turquoise background
+    107 	White background
+
+Keys:
+    mh 	            I don't know
+    ca 	            I don't know
+    rs 	            Normal file
+    di 	            Directory
+    ln 	            Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
+    pi 	            Named pipe
+    do 	            Door
+    bd 	            Block device
+    cd 	            Character device
+    or 	            Symbolic link pointing to a non-existent file
+    so 	            Socket
+    su 	            File that is setuid (u+s)
+    sg 	            File that is setgid (g+s)
+    tw 	            Directory that is sticky and other-writable (+t,o+w)
+    ow 	            Directory that is other-writable (o+w) and not sticky
+    st 	            Directory with the sticky bit set (+t) and not other-writable
+    ex 	            Executable file (i.e. has 'x' set in permissions)
+    mi 	            Non-existent file pointed to by a symbolic link (visible when you type ls -l)
+    *.extension 	Every file using this extension e.g. *.jpg

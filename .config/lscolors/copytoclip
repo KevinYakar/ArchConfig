@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Copies the two commands you would put in your ~/.bashrc
+# For example, if you changed the directories from blue to red, your clipboard would be:
+
+# LS_COLORS='di=01;31'
+# export LS_COLORS
+
+echo -e "LS_COLORS='$( grep '^#' customize_me.txt | xargs | sed -e 's/#//g' -e 's/ /:/g' )'\nexport LS_COLORS" | xclip -selection clipboard
