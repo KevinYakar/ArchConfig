@@ -1,5 +1,5 @@
 Effects:
-    00 	    Default colour
+    00 	    Default color
     01 	    Bold
     04 	    Underlined
     05 	    Flashing text
@@ -49,7 +49,7 @@ Keys:
     ca 	            I don't know
     rs 	            Normal file
     di 	            Directory
-    ln 	            Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
+    ln 	            Symbolic link. If you set this to 'target' instead of a numerical value, the color is as for the file pointed to.
     pi 	            Named pipe
     do 	            Door
     bd 	            Block device

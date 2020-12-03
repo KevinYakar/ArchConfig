@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything 
 [[ $- != *i* ]] && return
 
-LS_COLORS='ow=01;34'
+LS_COLORS='di=01;33:ow=01;33:ex=01;97:*.zip=01;31:*.gz=01;31:*.jar=01;97:*.jpg=01;36:*.jpeg=01;36:*.gif=01;36:*.png=01;36:*.txt=32:*.pdf=34'
 export LS_COLORS
 
 alias ls='ls --color=auto'
