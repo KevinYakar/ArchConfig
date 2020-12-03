@@ -77,8 +77,9 @@ tray-padding = 2
 
 ;wm-restack = bspwm
 ;wm-restack = i3
+wm-restack = dwm
 
-;override-redirect = true
+override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
