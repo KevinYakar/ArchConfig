@@ -52,7 +52,7 @@ fi
 nitrogen --restore &
 
 # Compositor
-picom --experimental-backends &
+picom &
 
 # Execute DWM
 exec dwm
