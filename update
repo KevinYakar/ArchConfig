@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# this line is for testing purposes
+cd ~/ArchConfig
+# this script should already be running within ArchConfig
+
+different=()
+nonLocal=()
+
+entries=($( ls -a | sed -r 's/[\/a-zA-z0-9]*(configure|README.md|update|\.git)//g'))
+touch temp_diff_file
+for entry in ${entries[@]:2}; do
+    # don't mess with things that are only on local
+    diff -u ~/$entry ./$entry | sed -r 's/^Only .*$//g' >> temp_diff_file
+done
+
+# echo 'These files have differences:'
+# grep '\-\-\-' temp_diff_file | awk '{print $2}'
+
+rm temp_diff_file
+
+# No such file or directory (means only in ArchConfig)
+# Only in /home (means only on local)
+
+
+# figure out:
+
+# files with differences (ask if want to update)
+# files in ArchConfig and not in ~ (add them to local)
+# common subdirectories (check them)
+
+# prints the files that differ:
+# ./update | grep '\-\-\-' | awk '{print $2}'
+
+# maybe output to file and grep to retrieve relevant data. That way you only need the loop to run once, and u just manipulate the data. Then delete the temp file ofc.
