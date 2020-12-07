@@ -100,6 +100,8 @@ pacmanPackages=(
     'python-pip'
     'rsync'
     'pacman-contrib'
+    'mpd'
+    'ncmpcpp'
 )
 
 yayPackages=(
