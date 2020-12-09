@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# this line is for testing purposes
-cd ~/ArchConfig
-# this script should already be running within ArchConfig
-
 different=()
 nonLocal=()
 

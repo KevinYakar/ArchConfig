@@ -21,6 +21,7 @@ cd ~/ArchConfig
 
 # copy dotfiles into ~ 
 cp .bashrc ~/.bashrc
+cp .bash_profile ~/.bash_profile
 cp .gitconfig ~/.gitconfig
 cp .vimrc ~/.vimrc
 cp .xinitrc ~/.xinitrc

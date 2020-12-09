@@ -113,7 +113,7 @@ mpd_music_dir = ~/music
 #
 ## Defines how long messages are supposed to be visible.
 ##
-#message_delay_time = 5
+message_delay_time = 2
 #
 ##### song format #####
 ##
@@ -192,11 +192,12 @@ mpd_music_dir = ~/music
 #
 #alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
 #
-#current_item_prefix = $(yellow)$r
+# current_item_prefix = $(yellow)$r
+# current_item_prefix = $(red)
 #
-#current_item_suffix = $/r$(end)
+current_item_suffix = $/r$(end)
 #
-#current_item_inactive_column_prefix = $(white)$r
+# current_item_inactive_column_prefix = $(white)$r
 #
 #current_item_inactive_column_suffix = $/r$(end)
 #
@@ -291,7 +292,8 @@ mpd_music_dir = ~/music
 ##
 ## Note: Possible display modes: classic, columns.
 ##
-#playlist_display_mode = columns
+# playlist_display_mode = columns
+playlist_display_mode = classic
 #
 #browser_display_mode = classic
 #
@@ -325,7 +327,7 @@ mpd_music_dir = ~/music
 #
 ## Available values: classic, alternative.
 ##
-#user_interface = classic
+user_interface = alternative
 #
 #data_fetching_delay = yes
 #
@@ -508,37 +510,37 @@ mpd_music_dir = ~/music
 ## are used there is a possibility that you'll be able to use only colors with
 ## transparent background.
 #
-#colors_enabled = yes
+# colors_enabled = yes
 #
-#empty_tag_color = cyan
+# empty_tag_color = cyan
 #
-#header_window_color = default
+# header_window_color = default
 #
-#volume_color = default
+volume_color = default:b
 #
-#state_line_color = default
+# state_line_color = default
 #
-#state_flags_color = default:b
+# state_flags_color = default:b
 #
-#main_window_color = yellow
+# main_window_color = yellow
 #
-#color1 = white
+# color1 = white
 #
-#color2 = green
+# color2 = green
 #
-#progressbar_color = black:b
+# progressbar_color = black:b
 #
-#progressbar_elapsed_color = green:b
+# progressbar_elapsed_color = green:b
 #
-#statusbar_color = default
+# statusbar_color = default
 #
-#statusbar_time_color = default:b
+# statusbar_time_color = default:b
 #
-#player_state_color = default:b
+# player_state_color = default:b
 #
-#alternative_ui_separator_color = black:b
+# alternative_ui_separator_color = black:b
 #
-#window_border_color = green
+# window_border_color = green
 #
-#active_window_border = red
+# active_window_border = red
 #
