@@ -21,14 +21,11 @@ PS1='\[$purple$bold\][\u\[$reset\]\[$red$bold\]@\[$reset\]\[$purple$bold\]\h \[$
 
 stty -ixon
 
-BROWSER=/usr/bin/firefox
-
-export PATH=:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/kevin/.local/bin
-
 # ics46 stuff 
 alias ics46='ssh ics46@172.16.117.128'
-mvtolin ()
-{
+mvtolin () {
     scp $@ ics46@172.16.117.128:~/Desktop
 }
+
+xset r rate 300 50
 
