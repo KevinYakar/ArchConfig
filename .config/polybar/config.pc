@@ -293,7 +293,7 @@ interval = 2
 ;format-prefix = " "
 ;format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #e6d0ff
-label = "  %percentage_used%% "
+label = " 󰀈 %percentage_used%% "
 
 [module/wlan]
 type = internal/network
@@ -302,7 +302,7 @@ interval = 3.0
 
 format-connected =  <label-connected>
 format-connected-underline = #e6d0ff
-label-connected = "  "
+label-connected = " 󰀌 "
 ;label-connected = %essid%
 
 format-disconnected = "!"
@@ -355,10 +355,10 @@ type = internal/pulseaudio
 
 ;format-volume = <label-volume> <bar-volume>
 format-volume = <label-volume>
-label-volume = " %percentage%%"
+label-volume = "󰀋 %percentage%%"
 label-volume-foreground = ${root.foreground}
 
-label-muted = 
+label-muted = 󰀊
 label-muted-foreground = #dd5c54
 
 ;bar-volume-width = 10
@@ -442,21 +442,21 @@ label-muted-foreground = #dd5c54
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 80
+;warn-temperature = 80
 
 format = <label>
 format-underline = #e6d0ff
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
+;format-warn = <ramp> <label-warn>
+;format-warn-underline = ${self.format-underline}
 
-label = "  %temperature-c% "
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
+label = " 󰀍 %temperature-c% "
+;label-warn = %temperature-c%
+;label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
+;ramp-0 = 
+;ramp-1 = 
+;ramp-2 = 
+;ramp-foreground = ${colors.foreground-alt}
 
 ;[module/powermenu]
 ;type = custom/menu

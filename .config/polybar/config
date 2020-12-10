@@ -41,7 +41,7 @@ dwm-numbers = #ebe7ec
 width = 100%
 height = 23
 ;offset-x = 1%
-;offset-y = 1%
+;offset-y = 97.1%
 radius = 10.0
 fixed-center = false
 
@@ -66,20 +66,20 @@ font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
-font-4 = polymac:style=Regular:pixelsize=11:antialias=true;2
 
 modules-left = dwm
 ;modules-center = mpd
-modules-right = pulseaudio memory temperature battery wlan date
+modules-right = pulseaudio memory temperature wlan date
 
-tray-position = center
-tray-padding = 2
-;tray-background = #0063ff
+;tray-position = center
+;tray-padding = 2
+;tray-background = #00000000
 
 ;wm-restack = bspwm
 ;wm-restack = i3
+wm-restack = dwm
 
-;override-redirect = true
+override-redirect = false
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
@@ -89,6 +89,61 @@ tray-padding = 2
 
 cursor-click = pointer
 cursor-scroll = ns-resize
+
+[bar/music]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 23
+;offset-x = 40%
+offset-y = 97.1%
+radius = 10.0
+fixed-center = false
+
+background = #00
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
+
+modules-left = mpd
+modules-center = 
+modules-right =
+
+tray-position = right
+tray-padding = 10
+tray-background = #00000000
+
+wm-restack = dwm
+
+override-redirect = true
+
+;[module/xwindow]
+;type = internal/xwindow
+;label = %title:0:30:...%
+
+;[module/filesystem]
+;type = internal/fs
+;interval = 25
+
+;mount-0 = /
+
+;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+;label-unmounted = %mountpoint% not mounted
+;label-unmounted-foreground = ${colors.foreground-alt}
 
 ;[module/xwindow]
 ;type = internal/xwindow
@@ -141,7 +196,7 @@ secondary-layout-symbol = [M]
 label-title = %title%
 label-title-padding = 2
 label-title-foreground = ${colors.primary}
-label-title-maxlen = 118
+label-title-maxlen = 100
 
 ; Symbol of current layout
 ; Available tokens:
@@ -188,20 +243,19 @@ label-empty = ""
 label-empty-background = ${colors.primary}
 label-empty-padding = 2
 
-;[module/mpd]
-;type = internal/mpd
-;format-online = <label-song>
+[module/mpd]
+type = internal/mpd
+format-online =  <icon-prev> <icon-stop> <toggle> <icon-next>    <label-song>
 ;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-;
-;icon-prev = 
-;icon-stop = 
-;icon-play = 
-;icon-pause = 
-;icon-next = 
 
-;label-song-maxlen = 100
-;label-song-ellipsis = true
-;label-song-padding = 10
+icon-prev = prev
+icon-stop = stop
+icon-play = play
+icon-pause = pause
+icon-next = next
+
+label-song-maxlen = 1000
+label-song-ellipsis = true
 
 ;[module/xbacklight]
 ;type = internal/xbacklight
@@ -239,17 +293,16 @@ interval = 2
 ;format-prefix = " "
 ;format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #e6d0ff
-label = " 쀐 %percentage_used%% "
-# label = "  %percentage_used%% "
+label = " 󰀈 %percentage_used%% "
 
 [module/wlan]
 type = internal/network
-interface = wlan0
+interface = wlp6s0
 interval = 3.0
 
 format-connected =  <label-connected>
 format-connected-underline = #e6d0ff
-label-connected = "  "
+label-connected = " 󰀌 "
 ;label-connected = %essid%
 
 format-disconnected = "!"
@@ -302,10 +355,10 @@ type = internal/pulseaudio
 
 ;format-volume = <label-volume> <bar-volume>
 format-volume = <label-volume>
-label-volume = "쀓 %percentage%%"
+label-volume = "󰀋 %percentage%%"
 label-volume-foreground = ${root.foreground}
 
-label-muted = 쀒
+label-muted = 󰀊
 label-muted-foreground = #dd5c54
 
 ;bar-volume-width = 10
@@ -353,53 +406,57 @@ label-muted-foreground = #dd5c54
 ;bar-volume-empty-font = 2
 ;bar-volume-empty-foreground = ${colors.foreground-alt}
 
-[module/battery]
-type = internal/battery
-battery = BAT0
-adapter = ADP1
-full-at = 100
+;[module/battery]
+;type = internal/battery
+;battery = BAT0
+;adapter = ADP1
+;full-at = 98
 
-format-charging = "<animation-charging> <label-charging> "
-format-charging-underline = #e6d0ff
+;format-charging = <animation-charging> <label-charging>
+;format-charging-underline = #ffb52a
 
-format-discharging = "<ramp-capacity> <label-discharging> "
-format-discharging-underline = ${self.format-charging-underline}
+;format-discharging = <animation-discharging> <label-discharging>
+;format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " 쀉 "
-format-full-underline = #e6d0ff
-format-full-prefix-foreground = ${colors.foreground}
+;format-full-prefix = " "
+;format-full-prefix-foreground = ${colors.foreground-alt}
+;format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = " 쀅"
-ramp-capacity-1 = " 쀆"
-ramp-capacity-2 = " 쀈"
-ramp-capacity-3 = " 쀉"
-ramp-capacity-foreground = ${colors.foreground}
+;ramp-capacity-0 = 
+;ramp-capacity-1 = 
+;ramp-capacity-2 = 
+;ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = " 쀅"
-animation-charging-1 = " 쀆"
-animation-charging-2 = " 쀇"
-animation-charging-3 = " 쀈"
-animation-charging-4 = " 쀉"
-animation-charging-framerate = 1250
+;animation-charging-0 = 
+;animation-charging-1 = 
+;animation-charging-2 = 
+;animation-charging-foreground = ${colors.foreground-alt}
+;animation-charging-framerate = 750
+
+;animation-discharging-0 = 
+;animation-discharging-1 = 
+;animation-discharging-2 = 
+;animation-discharging-foreground = ${colors.foreground-alt}
+;animation-discharging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 80
+;warn-temperature = 80
 
 format = <label>
 format-underline = #e6d0ff
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
+;format-warn = <ramp> <label-warn>
+;format-warn-underline = ${self.format-underline}
 
-label = " 쀖 %temperature-c% "
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
+label = " 󰀍 %temperature-c% "
+;label-warn = %temperature-c%
+;label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
+;ramp-0 = 
+;ramp-1 = 
+;ramp-2 = 
+;ramp-foreground = ${colors.foreground-alt}
 
 ;[module/powermenu]
 ;type = custom/menu
@@ -436,7 +493,7 @@ screenchange-reload = true
 ;compositing-background = screen
 ;compositing-foreground = source
 ;compositing-border = over
-;pseudo-transparency = false
+; pseudo-transparency = true
 
 [global/wm]
 margin-top = 5

@@ -1,6 +1,7 @@
 fontello.com
 
 custom codes:
-    resume-stuff:   E001 - E003
-    polymac:        E004 - E008
-    basic-polybar:  E010 - E029
+    resume-stuff:   F0000 - F0002
+    polymac:        F0003 - F0007
+    basic-polybar:  F008 - F001A
+
