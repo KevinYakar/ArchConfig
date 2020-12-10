@@ -3,7 +3,7 @@
 # check if git is installed or not 
 [[ "" == $( pacman -Q | grep '^git [a-zA-Z0-9]' ) ]] && echo "You don't have git installed. Go install it!" && exit 
 
-echo -ne '\nWARNING: THIS SCRIPT WILL OVERWRITE/DELETE:\n\n~/.bashrc\n~/.xinitrc\n~/.vimrc\n~/.vim/\n~/.config/\n\nPress Ctrl-c and move these to a safe place if you do not want to lose this data.\n'
+echo -ne '\nWARNING: THIS SCRIPT WILL OVERWRITE/DELETE:\n\n~/.bashrc\n~/.bash_profile\n~/.xinitrc\n~/.vimrc\n~/.vim/\n~/.config/\n\nPress Ctrl-c and move these to a safe place if you do not want to lose this data.\n'
 echo -ne '\nThis script will install my configuration of Arch Linux! Press Enter to continue or Ctrl-c to cancel.\n' && read
 
 # install yay 

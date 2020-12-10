@@ -41,7 +41,7 @@ dwm-numbers = #ebe7ec
 width = 100%
 height = 23
 ;offset-x = 1%
-;offset-y = 1%
+;offset-y = 97.1%
 radius = 10.0
 fixed-center = false
 
@@ -71,9 +71,9 @@ modules-left = dwm
 ;modules-center = mpd
 modules-right = pulseaudio memory temperature wlan date
 
-tray-position = center
-tray-padding = 2
-;tray-background = #0063ff
+;tray-position = center
+;tray-padding = 2
+;tray-background = #00000000
 
 ;wm-restack = bspwm
 ;wm-restack = i3
@@ -89,6 +89,61 @@ override-redirect = false
 
 cursor-click = pointer
 cursor-scroll = ns-resize
+
+[bar/music]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 23
+;offset-x = 40%
+offset-y = 97.1%
+radius = 10.0
+fixed-center = false
+
+background = #00
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
+
+modules-left = mpd
+modules-center = 
+modules-right =
+
+tray-position = right
+tray-padding = 10
+tray-background = #00000000
+
+wm-restack = dwm
+
+override-redirect = true
+
+;[module/xwindow]
+;type = internal/xwindow
+;label = %title:0:30:...%
+
+;[module/filesystem]
+;type = internal/fs
+;interval = 25
+
+;mount-0 = /
+
+;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+;label-unmounted = %mountpoint% not mounted
+;label-unmounted-foreground = ${colors.foreground-alt}
 
 ;[module/xwindow]
 ;type = internal/xwindow
@@ -141,7 +196,7 @@ secondary-layout-symbol = [M]
 label-title = %title%
 label-title-padding = 2
 label-title-foreground = ${colors.primary}
-label-title-maxlen = 118
+label-title-maxlen = 100
 
 ; Symbol of current layout
 ; Available tokens:
@@ -188,18 +243,19 @@ label-empty = ""
 label-empty-background = ${colors.primary}
 label-empty-padding = 2
 
-;[module/mpd]
-;type = internal/mpd
+[module/mpd]
+type = internal/mpd
+format-online =  <icon-prev> <icon-stop> <toggle> <icon-next>    <label-song>
 ;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
-;icon-prev = 
-;icon-stop = 
-;icon-play = 
-;icon-pause = 
-;icon-next = 
+icon-prev = prev
+icon-stop = stop
+icon-play = play
+icon-pause = pause
+icon-next = next
 
-;label-song-maxlen = 25
-;label-song-ellipsis = true
+label-song-maxlen = 1000
+label-song-ellipsis = true
 
 ;[module/xbacklight]
 ;type = internal/xbacklight
@@ -437,7 +493,7 @@ screenchange-reload = true
 ;compositing-background = screen
 ;compositing-foreground = source
 ;compositing-border = over
-;pseudo-transparency = false
+; pseudo-transparency = true
 
 [global/wm]
 margin-top = 5
