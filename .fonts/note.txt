@@ -1,3 +1,5 @@
 fontello.com
 
-have fun
+custom codes:
+    basic-polybar: C010 - C029
+    polymac: C001-C009
