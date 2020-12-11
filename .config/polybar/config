@@ -245,14 +245,25 @@ label-empty-padding = 2
 
 [module/mpd]
 type = internal/mpd
-format-online =  <icon-prev> <icon-stop> <toggle> <icon-next>    <label-song>
+format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>   <label-song> 
 ;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
-icon-prev = prev
-icon-stop = stop
-icon-play = play
-icon-pause = pause
-icon-next = next
+;󰀘  󰀒 󰀐 󰀔  󰀖
+;󰀗  󰀑 󰀏 󰀓  󰀕
+;󰀚
+;󰀙
+
+icon-prev = 󰀘
+icon-stop = 󰀒
+icon-play = 󰀐
+icon-pause = 󰀔
+icon-next = 󰀖
+
+# icon-prev = 󰀗
+# icon-stop = 󰀑
+# icon-play = 󰀏
+# icon-pause = 󰀓
+# icon-next = 󰀕
 
 label-song-maxlen = 1000
 label-song-ellipsis = true

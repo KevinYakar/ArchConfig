@@ -69,7 +69,7 @@ font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
 
 modules-left = dwm
 ;modules-center = mpd
-modules-right = pulseaudio memory temperature wlan date
+modules-right = pulseaudio memory temperature battery wlan date
 
 ;tray-position = center
 ;tray-padding = 2
@@ -245,14 +245,25 @@ label-empty-padding = 2
 
 [module/mpd]
 type = internal/mpd
-format-online =  <icon-prev> <icon-stop> <toggle> <icon-next>    <label-song>
+format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>   <label-song> 
 ;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
-icon-prev = prev
-icon-stop = stop
-icon-play = play
-icon-pause = pause
-icon-next = next
+;󰀘  󰀒 󰀐 󰀔  󰀖
+;󰀗  󰀑 󰀏 󰀓  󰀕
+;󰀚
+;󰀙
+
+icon-prev = 󰀘
+icon-stop = 󰀒
+icon-play = 󰀐
+icon-pause = 󰀔
+icon-next = 󰀖
+
+# icon-prev = 󰀗
+# icon-stop = 󰀑
+# icon-play = 󰀏
+# icon-pause = 󰀓
+# icon-next = 󰀕
 
 label-song-maxlen = 1000
 label-song-ellipsis = true
@@ -297,7 +308,7 @@ label = " 󰀈 %percentage_used%% "
 
 [module/wlan]
 type = internal/network
-interface = wlp6s0
+interface = wlan0
 interval = 3.0
 
 format-connected =  <label-connected>

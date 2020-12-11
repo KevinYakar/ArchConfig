@@ -77,6 +77,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = browsercmd } },
 	{ MODKEY,                       XK_r,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "killall polybar && ~/.config/polybar/start-bar.sh", NULL } } },
+	{ MODKEY,                       XK_n,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "~/.config/polybar/toggle-tray.sh", NULL } } },
 	{ MODKEY,                       XK_c,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "~/.config/picom/start-picom.sh", NULL } } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ Mod4Mask,                       XK_3,      spawn,          {.v = upvol } },//
