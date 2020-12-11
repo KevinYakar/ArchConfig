@@ -430,7 +430,7 @@ format-charging-underline = #e6d0ff
 format-discharging = " <ramp-capacity> <label-discharging> "
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " 󰀇"
+format-full-prefix = " 󰀇 "
 format-full-underline = #e6d0ff
 format-full-prefix-foreground = ${colors.foreground}
 
