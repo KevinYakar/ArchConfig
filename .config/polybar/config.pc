@@ -42,7 +42,6 @@ white = #cac5c1
 cream = #fdffd0
 lavender = #e6d0ff
 
-
 [bar/first]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
@@ -73,7 +72,7 @@ font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
 
 modules-left = dwm
-;modules-center = mpd
+;modules-center =
 modules-right = pulseaudio memory temperature wlan date
 
 ;tray-position = center
@@ -257,11 +256,11 @@ label-empty-padding = 2
 
 [module/mpd]
 type = internal/mpd
-format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>   <label-song> 
-# label-song-underline = ${colors.tan}
-label-song-underline = ${colors.blue}
-# label-song-underline = ${colors.alert}
 ;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>   <label-song> 
+label-song-underline = ${colors.blue}
+# label-song-underline = ${colors.tan}
+# label-song-underline = ${colors.alert}
 
 ;󰀘  󰀒 󰀐 󰀔  󰀖
 ;󰀗  󰀑 󰀏 󰀓  󰀕
