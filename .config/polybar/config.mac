@@ -125,7 +125,7 @@ modules-center =
 modules-right =
 
 tray-position = right
-tray-padding = 10
+tray-padding = 3
 tray-background = #00000000
 
 wm-restack = dwm
