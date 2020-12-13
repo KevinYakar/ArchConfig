@@ -22,7 +22,6 @@ cd ~/ArchConfig
 # copy dotfiles into ~ 
 cp .bashrc ~/.bashrc
 cp .bash_profile ~/.bash_profile
-cp .gitconfig ~/.gitconfig
 cp .vimrc ~/.vimrc
 cp .xinitrc ~/.xinitrc
 
@@ -44,13 +43,13 @@ if [ -d "$HOME/pictures/" ]; then
 fi
 
 if (( $pictures == 1 )) && (( $wallpapers == 1 )); then
-    cd wallpapers && cp -r * ~/pictures/wallpapers && cd ~/ArchConfig
+    cd pictures/wallpapers && cp -r * ~/pictures/wallpapers && cd ~/ArchConfig
 
 elif (( $pictures == 1 )) && (( $wallpapers == 0 )); then
-    cp -r ./wallpapers ~/pictures/wallpapers
+    cp -r pictures/wallpapers ~/pictures
 
 elif (( $pictures == 0 )) && (( $wallpapers == 0 )); then
-    mkdir ~/pictures && cp -r ./wallpapers ~/pictures/wallpapers
+    cp -r pictures ~
 fi
 
 # .fonts/ 
