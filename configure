@@ -136,6 +136,4 @@ sudo make clean install
 cd ~
 
 clear
-echo '=====================================' | rainbow
-echo -ne '\nTo install the vim plugins, just do:\n\nvim ~/.vimrc\n:PlugInstall\n\nAnd you will be good to go!\n\n' | rainbow
-echo '=====================================' | rainbow
+echo -ne '=====================================\n\nTo install the vim plugins, just do:\n\nvim \n:PlugInstall\n\nAnd you will be good to go!\n\nYou may need to edit the modules in\n~/.config/polybar/config because they\nmay not be using the right data.\n\nYou should be seeing:\n\npulse\nmemory\ntemperature\nwlan\ndate\n\nin polybar\n\n=====================================\n' | rainbow
