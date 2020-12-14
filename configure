@@ -79,6 +79,7 @@ pacmanPackages=(
     'xorg-server'
     'xorg-xinit'
     'xorg-xset'
+    'xorg-xrandr'
     'xclip'
     'man'
     'dmenu'
