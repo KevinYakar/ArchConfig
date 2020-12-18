@@ -1,13 +1,20 @@
 Edit this file to your liking. If you mess anything up, the original colors are in ./original_colors.txt
 
 Place a '#' in the beinning of the lines you would like to modify
+
 For example, if you only wanted to change the color of directories to red, you would edit the 'di' line like so: #di=01;31
-Run the copytoclip script (./copytoclip) and paste in your ~/.bashrc
+Change colors of directories to white using 256 color: #di=\e[38;5;255;1
+
+Taking a closer look at the 256 color example above: #di=\e[38;5;255;1
+This changes the foreground to white, and makes it bold. Replace 255 with any 256 color code (0-255), and the 1 with other codes for italic, underline, etc.
+
+Run the copytoclip script (./copytoclip) and paste in your ~/.bashrc or ~/.bash_profile
 
 Refer to ./useful_codes.txt for what the codes below mean
+Run ./colors.sh to see all the 256 colors and their respective codes
 
 rs=0
-#di=01;33
+#di=\e[38;5;173;1
 ln=01;36
 mh=00
 pi=40;33
@@ -21,9 +28,9 @@ su=37;41
 sg=30;43
 ca=30;41
 tw=30;42
-#ow=01;33
+#ow=\e[38;5;173;1
 st=37;44
-#ex=01;97
+#ex=\e[38;5;174;1
 *.tar=01;31
 *.tgz=01;31
 *.arc=01;31
@@ -37,10 +44,10 @@ st=37;44
 *.txz=01;31
 *.tzo=01;31
 *.t7z=01;31
-#*.zip=01;31
+#*.zip=\e[38;5;167;1
 *.z=01;31
 *.dz=01;31
-#*.gz=01;31
+#*.gz=\e[38;5;167;1
 *.lrz=01;31
 *.lz=01;31
 *.lzo=01;31
@@ -54,7 +61,7 @@ st=37;44
 *.tz=01;31
 *.deb=01;31
 *.rpm=01;31
-#*.jar=01;97
+#*.jar=\e[38;5;174;1
 *.war=01;31
 *.ear=01;31
 *.sar=01;31
@@ -70,11 +77,11 @@ st=37;44
 *.swm=01;31
 *.dwm=01;31
 *.esd=01;31
-#*.jpg=01;36
-#*.jpeg=01;36
+#*.jpg=\e[38;5;111;1
+#*.jpeg=\e[38;5;111;1
 *.mjpg=01;35
 *.mjpeg=01;35
-#*.gif=01;36
+#*.gif=\e[38;5;111;1
 *.bmp=01;35
 *.pbm=01;35
 *.pgm=01;35
@@ -84,7 +91,7 @@ st=37;44
 *.xpm=01;35
 *.tif=01;35
 *.tiff=01;35
-#*.png=01;36
+#*.png=\e[38;5;111;1
 *.svg=01;35
 *.svgz=01;35
 *.mng=01;35
@@ -126,7 +133,7 @@ st=37;44
 *.mid=00;36
 *.midi=00;36
 *.mka=00;36
-#*.mp3=01;36
+#*.mp3=\e[38;5;111;1
 *.mpc=00;36
 *.ogg=00;36
 *.ra=00;36
@@ -135,5 +142,5 @@ st=37;44
 *.opus=00;36
 *.spx=00;36
 *.xspf=00;36
-#*.txt=32
-#*.pdf=34
+#*.txt=\e[38;5;108;1
+#*.pdf=\e[38;5;108;1

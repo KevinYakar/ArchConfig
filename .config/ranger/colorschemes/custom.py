@@ -21,26 +21,33 @@ class Custom(ColorScheme):
                 fg = 174
                 bg = 235
             if context.border:
-                fg = 210
+                attr |= bold
+                fg = 203
             if context.image:
-                fg = 109
+                attr |= bold
+                fg = 111
             if context.video:
-                fg = 66
+                attr |= bold
+                fg = 111
             if context.audio:
-                fg = 116
+                attr |= bold
+                fg = 111
             if context.document:
-                fg = 45
+                attr |= bold
+                fg = 108
             if context.container:
                 attr |= bold
-                fg = 174
+                fg = 167
             if context.directory:
                 attr |= bold
-                fg = 218
+                fg = 173
             elif context.executable and not \
                     any((context.media, context.container,
                          context.fifo, context.socket)):
                 attr |= bold
-                fg = 147
+#                 fg = 210
+#                 fg = 175
+                fg = 174
             if context.socket:
                 fg = 180
                 attr |= bold
@@ -67,7 +74,8 @@ class Custom(ColorScheme):
                     attr |= bold
                 if context.marked:
                     attr |= bold
-                    fg = 223
+                    fg = 160
+#                     fg = 223
             if context.badinfo:
                 if attr & reverse:
                     bg = 95
@@ -75,9 +83,11 @@ class Custom(ColorScheme):
                     fg = 95
 
         elif context.in_titlebar:
+            fg = 175
             attr |= bold
             if context.hostname:
-                fg = 174 if context.bad else 180
+#                 fg = 174 if context.bad else 180
+                fg = 174 if context.bad else 175
             elif context.directory:
                 fg = 223
             elif context.tab:

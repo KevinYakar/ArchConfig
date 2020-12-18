@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything 
 [[ $- != *i* ]] && return
 
-LS_COLORS='di=01;33:ow=01;33:ex=01;97:*.zip=01;31:*.gz=01;31:*.jar=01;97:*.jpg=01;36:*.jpeg=01;36:*.gif=01;36:*.png=01;36:*.mp3=01;36:*.txt=32:*.pdf=34'
+LS_COLORS='di=\e[38;5;173;1:ow=\e[38;5;173;1:ex=\e[38;5;174;1:*.zip=\e[38;5;167;1:*.gz=\e[38;5;167;1:*.jar=\e[38;5;174;1:*.jpg=\e[38;5;111;1:*.jpeg=\e[38;5;111;1:*.gif=\e[38;5;111;1:*.png=\e[38;5;111;1:*.mp3=\e[38;5;111;1:*.txt=\e[38;5;108;1:*.pdf=\e[38;5;108;1'
 export LS_COLORS
 
 alias ls='ls --color=auto'
@@ -20,12 +20,6 @@ reset=$( tput sgr0 )
 PS1='\[$purple$bold\][\u\[$reset\]\[$red$bold\]@\[$reset\]\[$purple$bold\]\h \[$reset\]\[$red$bold\]\W\[$reset\]\[$purple$bold\]]\$\[$reset\] '
 
 stty -ixon
-
-# ics46 stuff 
-alias ics46='ssh ics46@172.16.117.128'
-mvtolin () {
-    scp $@ ics46@172.16.117.128:~/Desktop
-}
 
 xset r rate 300 50
 

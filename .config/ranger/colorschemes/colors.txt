@@ -1,0 +1,15 @@
+general:
+203:    border
+111:    image + video + audio
+108:    document
+167:    container
+173:    directory
+174:    executable
+
+in_titlebar:
+175:    fg
+175:    hostname
+223:    directory
+
+marked:
+160:    fg
