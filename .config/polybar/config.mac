@@ -105,7 +105,7 @@ radius = 10.0
 fixed-center = true
 
 background = #00
-foreground = ${colors.tan}
+foreground = ${colors.alert}
 # alert = #bd2c40
 # dwm-numbers = #ebe7ec
 # tan = #907466

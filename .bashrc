@@ -9,7 +9,13 @@ LS_COLORS='di=\e[38;5;173;1:ow=\e[38;5;173;1:ex=\e[38;5;174;1:*.zip=\e[38;5;167;
 export LS_COLORS
 
 alias ls='ls --color=auto'
-alias grep='grep --color'
+alias grep='grep --color=auto'
+alias diff='diff --color=auto'
+
+alias sdn='sudo shutdown -h now'
+alias untar='tar -zxvf'
+alias myip='curl ipinfo.io/ip'
+alias mkdir='mkdir -pv'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
