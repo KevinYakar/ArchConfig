@@ -87,9 +87,6 @@ highlight Comment guifg=#907466 cterm=italic,bold
 
 
 
-" Easily exit modes
-:inoremap ii <Esc>
-
 " Moving in insert mode
 :inoremap <C-k> <Up>
 :inoremap <C-j> <Down>

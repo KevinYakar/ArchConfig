@@ -106,7 +106,6 @@ pacmanPackages=(
 )
 
 yayPackages=(
-    'gscreenshot'
     'ranger-git'
     'betterdiscordctl-git'
     'go-rainbow-git'

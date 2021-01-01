@@ -5,7 +5,7 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# merge in defaults and keymaps
+# merge in defaults and keymaps 
 
 if [ -f $sysresources ]; then
 
@@ -21,9 +21,6 @@ fi
 
 if [ -f $sysmodmap ]; then
     xmodmap $sysmodmap
-fi
-
-if [ -f "$userresources" ]; then
 
 
 
@@ -54,9 +51,16 @@ nitrogen --restore &
 # Compositor
 picom &
 
-# Execute DWM
-exec dwm
+# swap escape and caps-lock
+setxkbmap -option caps:swapescape
+
+# start sxhkd 
+sxhkd &
 
 # example from vincent's .xinitrc to fix screentearing
 xrandr --output HDMI-0 --set TearFree on
 # xrandr --output DisplayPort-0 --right-of HDMI-A-0 on
+
+# Execute DWM
+exec dwm
+

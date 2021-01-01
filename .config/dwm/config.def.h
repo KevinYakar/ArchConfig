@@ -1,9 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "+5%",     NULL }; // volume up main
-static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "-5%",     NULL }; // volume down main
-static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle",  NULL }; // mute toggle main
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappih    = 10;       /* horiz inner gap between windows */
@@ -70,19 +67,11 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_maroon, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *browsercmd[]  = { "firefox", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
-	{ MODKEY,                       XK_w,      spawn,          {.v = browsercmd } },
-	{ MODKEY,                       XK_r,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "killall polybar && ~/.config/polybar/start-bar.sh", NULL } } },
-	{ MODKEY,                       XK_n,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "~/.config/polybar/toggle-tray.sh", NULL } } },
-	{ MODKEY,                       XK_c,      spawn,          { .v = (const char*[]){ "/bin/sh", "-c", "~/.config/picom/start-picom.sh", NULL } } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-	{ Mod4Mask,                       XK_3,      spawn,          {.v = upvol } },//
-	{ Mod4Mask,                       XK_2,      spawn,          {.v = downvol } },//
-	{ Mod4Mask,                       XK_1,      spawn,          {.v = mutevol } },//
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
