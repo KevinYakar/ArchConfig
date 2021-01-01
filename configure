@@ -51,6 +51,7 @@ elif (( $pictures == 1 )) && (( $wallpapers == 0 )); then
 elif (( $pictures == 0 )) && (( $wallpapers == 0 )); then
     cp -r pictures ~
 fi
+mkdir ~/pictures/screenshots
 
 # .fonts/ 
 if [ -d "$HOME/.fonts" ]; then
