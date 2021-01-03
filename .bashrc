@@ -17,6 +17,7 @@ alias untar='tar -zxvf'
 alias myip='curl ipinfo.io/ip'
 alias mkdir='mkdir -pv'
 alias bindings='grep --color=none -P "^\w+|^\#" ~/.config/sxhkd/sxhkdrc'
+alias rmr='rm $(ls -At ~/pictures/screenshots/ | head -n 1)'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
