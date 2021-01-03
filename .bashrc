@@ -16,6 +16,7 @@ alias sdn='sudo shutdown -h now'
 alias untar='tar -zxvf'
 alias myip='curl ipinfo.io/ip'
 alias mkdir='mkdir -pv'
+alias bindings='grep --color=none -P "^\w+|^\#" ~/.config/sxhkd/sxhkdrc'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
@@ -26,6 +27,9 @@ reset=$( tput sgr0 )
 PS1='\[$purple$bold\][\u\[$reset\]\[$red$bold\]@\[$reset\]\[$purple$bold\]\h \[$reset\]\[$red$bold\]\W\[$reset\]\[$purple$bold\]]\$\[$reset\] '
 
 stty -ixon
+
+# vim bindings 
+set -o vi
 
 xset r rate 300 50
 

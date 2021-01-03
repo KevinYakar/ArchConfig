@@ -104,6 +104,8 @@ pacmanPackages=(
     'pacman-contrib'
     'mpd'
     'ncmpcpp'
+    'sxhkd'
+    'scrot'
 )
 
 yayPackages=(

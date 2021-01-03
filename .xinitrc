@@ -52,7 +52,7 @@ nitrogen --restore &
 picom &
 
 # swap escape and caps-lock
-setxkbmap -option caps:swapescape
+setxkbmap -option caps:swapescape &
 
 # start sxhkd 
 sxhkd &
