@@ -54,6 +54,9 @@ picom &
 # start sxhkd 
 sxhkd &
 
+# swap escape and caps-lock
+setxkbmap -option caps:swapescape
+
 # example from vincent's .xinitrc to fix screentearing
 xrandr --output HDMI-0 --set TearFree on
 # xrandr --output DisplayPort-0 --right-of HDMI-A-0 on

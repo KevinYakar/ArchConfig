@@ -21,8 +21,5 @@ export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass
 
-# swap escape and caps-lock
-setxkbmap -option caps:swapescape
-
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
