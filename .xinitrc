@@ -54,10 +54,6 @@ picom &
 # start sxhkd 
 sxhkd &
 
-# example from vincent's .xinitrc to fix screentearing
-xrandr --output HDMI-0 --set TearFree on
-# xrandr --output DisplayPort-0 --right-of HDMI-A-0 on
-
 # Execute DWM
 exec dwm
 
