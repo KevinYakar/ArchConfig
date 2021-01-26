@@ -224,9 +224,9 @@ current_item_suffix = $/r$(end)
 ## browser_sort_mode are "name", "mtime", "format" and "noop".
 ##
 #
-#browser_sort_mode = name
+browser_sort_mode = name
 #
-#browser_sort_format = {%a - }{%t}|{%f} {(%l)}
+# browser_sort_format = {%a - }{%t}|{%f} {(%l)}
 #
 ##### columns settings #####
 ##

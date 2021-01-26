@@ -106,6 +106,7 @@ pacmanPackages=(
     'ncmpcpp'
     'sxhkd'
     'scrot'
+    'hunspell-en_US'
 )
 
 yayPackages=(

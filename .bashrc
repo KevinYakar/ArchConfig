@@ -19,6 +19,7 @@ alias mkdir='mkdir -pv'
 alias bindings='grep --color=none -P "^\w+|^\#" ~/.config/sxhkd/sxhkdrc'
 alias rmr='rm ~/pictures/screenshots/$(ls -At ~/pictures/screenshots/ | head -n 1)'
 alias dlsong='youtube-dl --extract-audio --audio-quality 0 --audio-format mp3'
+alias update='checkupdates -d && sudo pacman -Syu'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
