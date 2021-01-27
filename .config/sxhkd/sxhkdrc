@@ -1,10 +1,10 @@
 # Take a screenshot of the entire screen 
 super + shift + 3
-    scrot '%Y-%m-%d_%I:%M:%S%P.png' -q 100 -e 'mv $f ~/pictures/screenshots'
+    scrot '%Y-%m-%d_%I:%M:%S%P.png' -q 100 -e 'xclip -selection clipboard -target image/png -i $f && mv $f ~/pictures/screenshots'
 
 # Take a screenshot of a selected area 
 super + shift + 4
-    sleep 0.2 && scrot '%Y-%m-%d_%I:%M:%S%P.png' -s -f -q 100 -e 'mv $f ~/pictures/screenshots'
+    sleep 0.2 && scrot '%Y-%m-%d_%I:%M:%S%P.png' -s -f -q 100 -e 'xclip -selection clipboard -target image/png -i $f && mv $f ~/pictures/screenshots'
 
 # Kill all polybar instances and restart 
 alt + r
