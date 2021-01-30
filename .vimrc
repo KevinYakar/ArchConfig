@@ -16,8 +16,10 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
 Plug 'https://github.com/wesQ3/vim-windowswap'
-Plug 'ghifarit53/tokyonight-vim'
 Plug 'sheerun/vim-polyglot'
+
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'https://github.com/co1ncidence/mountaineer.vim'
 
 call plug#end()
 
@@ -34,6 +36,7 @@ let g:airline_powerline_fonts = 1
 
 " Hexokinase customizations (:help hexokinase.txt)
 let g:Hexokinase_highlighters = [ 'foreground' ]
+" let g:Hexokinase_highlighters = [ 'backgroundfull' ]
 let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
 
 " Shift-tab autocompletion for coc.nvim
@@ -64,9 +67,9 @@ map <Leader>r :source ~/.vimrc<Return>
 set number
 syntax on
 
-set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
 
 set background=dark
 let g:tokyonight_style = 'night'
@@ -74,7 +77,10 @@ let g:tokyonight_enable_italic = 1
 let g:tokyonight_transparent_background = 1
 colorscheme tokyonight
 
-highlight Normal guifg=#dddddd
+" colorscheme mountaineer-grey
+" hi clear Normal
+" hi clear LineNr
+
 highlight LineNr cterm=italic guifg=#888fae
 highlight Comment guifg=#907466 cterm=italic,bold
 " highlight Comment guifg=#9e824c cterm=italic,bold

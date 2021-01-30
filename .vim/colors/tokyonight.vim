@@ -30,6 +30,8 @@ let s:configuration.current_word = get(g:, 'tokyonight_current_word', get(g:, 't
 " }}}
 " Palette: {{{
 "
+"         \ 'cream':     ['#E0AF68',   '179',  'Cream'],
+"         \ 'red':        ['#F7768E',   '203',  'Red'],
 if s:configuration.style ==# 'night'
   let s:palette = {
         \ 'black':      ['#06080a',   '237',  'DarkGrey'],
@@ -45,10 +47,10 @@ if s:configuration.style ==# 'night'
         \ 'bg_blue':    ['#7da6ff',   '110',  'Blue'],
         \ 'diff_blue':  ['#3e5380',   '17',   'DarkBlue'],
         \ 'fg':         ['#a9b1d6',   '250',  'White'],
-        \ 'red':        ['#F7768E',   '203',  'Red'],
+        \ 'red':        ['#d75f5f',   '203',  'Red'],
         \ 'orange':     ['#FF9E64',   '215',  'Orange'],
-        \ 'yellow':     ['#E0AF68',   '179',  'Yellow'],
-        \ 'green':      ['#9ECE6A',   '107',  'Green'],
+        \ 'cream':     ['#ffd7af',   '179',  'Cream'],
+        \ 'green':      ['#87af87',   '107',  'Green'],
         \ 'blue':       ['#7AA2F7',   '110',  'Blue'],
         \ 'purple':     ['#ad8ee6',   '176',  'Magenta'],
         \ 'grey':       ['#444B6A',   '246',  'LightGrey'],
@@ -71,7 +73,7 @@ elseif s:configuration.style ==# 'storm'
         \ 'fg':         ['#a9b1d6',   '250',  'White'],
         \ 'red':        ['#F7768E',   '203',  'Red'],
         \ 'orange':     ['#FF9E64',   '215',  'Orange'],
-        \ 'yellow':     ['#E0AF68',   '179',  'Yellow'],
+        \ 'cream':     ['#E0AF68',   '179',  'Cream'],
         \ 'green':      ['#9ECE6A',   '107',  'Green'],
         \ 'blue':       ['#7AA2F7',   '110',  'Blue'],
         \ 'purple':     ['#ad8ee6',   '176',  'Magenta'],
@@ -203,7 +205,7 @@ call s:HL('DiffDelete', s:palette.none, s:palette.diff_red)
 call s:HL('DiffText', s:palette.none, s:palette.none, 'reverse')
 call s:HL('Directory', s:palette.green, s:palette.none)
 call s:HL('ErrorMsg', s:palette.red, s:palette.none, 'bold,underline')
-call s:HL('WarningMsg', s:palette.yellow, s:palette.none, 'bold')
+call s:HL('WarningMsg', s:palette.cream, s:palette.none, 'bold')
 call s:HL('ModeMsg', s:palette.fg, s:palette.none, 'bold')
 call s:HL('MoreMsg', s:palette.blue, s:palette.none, 'bold')
 call s:HL('IncSearch', s:palette.bg0, s:palette.bg_red)
@@ -225,9 +227,9 @@ elseif s:configuration.menu_selection_background ==# 'red'
   call s:HL('WildMenu', s:palette.bg0, s:palette.bg_red)
 endif
 call s:HL('PmenuThumb', s:palette.none, s:palette.grey)
-call s:HL('Question', s:palette.yellow, s:palette.none)
+call s:HL('Question', s:palette.cream, s:palette.none)
 call s:HL('SpellBad', s:palette.red, s:palette.none, 'undercurl', s:palette.red)
-call s:HL('SpellCap', s:palette.yellow, s:palette.none, 'undercurl', s:palette.yellow)
+call s:HL('SpellCap', s:palette.cream, s:palette.none, 'undercurl', s:palette.cream)
 call s:HL('SpellLocal', s:palette.blue, s:palette.none, 'undercurl', s:palette.blue)
 call s:HL('SpellRare', s:palette.purple, s:palette.none, 'undercurl', s:palette.purple)
 call s:HL('StatusLine', s:palette.fg, s:palette.bg3)
@@ -241,14 +243,14 @@ call s:HL('VertSplit', s:palette.black, s:palette.none)
 call s:HL('Visual', s:palette.none, s:palette.bg3)
 call s:HL('VisualNOS', s:palette.none, s:palette.bg3, 'underline')
 call s:HL('QuickFixLine', s:palette.blue, s:palette.none, 'bold')
-call s:HL('Debug', s:palette.yellow, s:palette.none)
+call s:HL('Debug', s:palette.cream, s:palette.none)
 call s:HL('debugPC', s:palette.bg0, s:palette.green)
 call s:HL('debugBreakpoint', s:palette.bg0, s:palette.red)
 call s:HL('ToolbarButton', s:palette.bg0, s:palette.bg_blue)
 if has('nvim')
   highlight! link healthError Red
   highlight! link healthSuccess Green
-  highlight! link healthWarning Yellow
+  highlight! link healthWarning Cream
   highlight! link LspDiagnosticsError Grey
   highlight! link LspDiagnosticsWarning Grey
   highlight! link LspDiagnosticsInformation Grey
@@ -265,13 +267,13 @@ if s:configuration.enable_italic
   call s:HL('Structure', s:palette.blue, s:palette.none, 'italic')
   call s:HL('StorageClass', s:palette.blue, s:palette.none, 'italic')
   call s:HL('Identifier', s:palette.orange, s:palette.none, 'italic')
-  call s:HL('Constant', s:palette.orange, s:palette.none, 'italic')
+  call s:HL('Conscreamt', s:palette.orange, s:palette.none, 'italic')
 else
   call s:HL('Type', s:palette.blue, s:palette.none)
   call s:HL('Structure', s:palette.blue, s:palette.none)
   call s:HL('StorageClass', s:palette.blue, s:palette.none)
   call s:HL('Identifier', s:palette.orange, s:palette.none)
-  call s:HL('Constant', s:palette.orange, s:palette.none)
+  call s:HL('Conscreamt', s:palette.orange, s:palette.none)
 endif
 call s:HL('PreProc', s:palette.red, s:palette.none)
 call s:HL('PreCondit', s:palette.red, s:palette.none)
@@ -289,8 +291,8 @@ call s:HL('Label', s:palette.purple, s:palette.none)
 call s:HL('Special', s:palette.purple, s:palette.none)
 call s:HL('SpecialChar', s:palette.purple, s:palette.none)
 call s:HL('Boolean', s:palette.purple, s:palette.none)
-call s:HL('String', s:palette.yellow, s:palette.none)
-call s:HL('Character', s:palette.yellow, s:palette.none)
+call s:HL('String', s:palette.cream, s:palette.none)
+call s:HL('Character', s:palette.cream, s:palette.none)
 call s:HL('Number', s:palette.purple, s:palette.none)
 call s:HL('Float', s:palette.purple, s:palette.none)
 call s:HL('Function', s:palette.green, s:palette.none)
@@ -315,7 +317,7 @@ call s:HL('Fg', s:palette.fg, s:palette.none)
 call s:HL('Grey', s:palette.grey, s:palette.none)
 call s:HL('Red', s:palette.red, s:palette.none)
 call s:HL('Orange', s:palette.orange, s:palette.none)
-call s:HL('Yellow', s:palette.yellow, s:palette.none)
+call s:HL('Cream', s:palette.cream, s:palette.none)
 call s:HL('Green', s:palette.green, s:palette.none)
 call s:HL('Blue', s:palette.blue, s:palette.none)
 call s:HL('Purple', s:palette.purple, s:palette.none)
@@ -336,7 +338,7 @@ endif
 " builtin: {{{
 call s:HL('markdownH1', s:palette.red, s:palette.none, 'bold')
 call s:HL('markdownH2', s:palette.orange, s:palette.none, 'bold')
-call s:HL('markdownH3', s:palette.yellow, s:palette.none, 'bold')
+call s:HL('markdownH3', s:palette.cream, s:palette.none, 'bold')
 call s:HL('markdownH4', s:palette.green, s:palette.none, 'bold')
 call s:HL('markdownH5', s:palette.blue, s:palette.none, 'bold')
 call s:HL('markdownH6', s:palette.purple, s:palette.none, 'bold')
@@ -360,7 +362,7 @@ highlight! link markdownLinkText Red
 highlight! link markdownUrlTitleDelimiter Green
 highlight! link markdownIdDeclaration markdownLinkText
 highlight! link markdownBoldDelimiter Grey
-highlight! link markdownId Yellow
+highlight! link markdownId Cream
 " }}}
 " vim-markdown: https://github.com/gabrielelana/vim-markdown{{{
 call s:HL('mkdURL', s:palette.blue, s:palette.none, 'underline')
@@ -373,15 +375,15 @@ highlight! link mkdHeading Grey
 highlight! link mkdListItem Red
 highlight! link mkdRule Purple
 highlight! link mkdDelimiter Grey
-highlight! link mkdId Yellow
+highlight! link mkdId Cream
 " }}}
 " }}}
 " ReStructuredText: {{{
 " builtin: https://github.com/marshallward/vim-restructuredtext{{{
-call s:HL('rstStandaloneHyperlink', s:palette.purple, s:palette.none, 'underline')
+call s:HL('rstScreamdaloneHyperlink', s:palette.purple, s:palette.none, 'underline')
 call s:HL('rstEmphasis', s:palette.none, s:palette.none, 'italic')
 call s:HL('rstStrongEmphasis', s:palette.none, s:palette.none, 'bold')
-call s:HL('rstStandaloneHyperlink', s:palette.blue, s:palette.none, 'underline')
+call s:HL('rstScreamdaloneHyperlink', s:palette.blue, s:palette.none, 'underline')
 call s:HL('rstHyperlinkTarget', s:palette.blue, s:palette.none, 'underline')
 highlight! link rstSubstitutionReference Blue
 highlight! link rstInterpretedTextOrHyperlinkReference Green
@@ -395,7 +397,7 @@ highlight! link rstQuotedLiteralBlock Green
 " builtin: http://www.drchip.org/astronaut/vim/index.html#SYNTAX_TEX{{{
 highlight! link texStatement BlueItalic
 highlight! link texOnlyMath Grey
-highlight! link texDefName Yellow
+highlight! link texDefName Cream
 highlight! link texNewCmd Orange
 highlight! link texCmdName Blue
 highlight! link texBeginEnd Red
@@ -409,7 +411,7 @@ highlight! link texInputFile Green
 " builtin: https://notabug.org/jorgesumle/vim-html-syntax{{{
 call s:HL('htmlH1', s:palette.red, s:palette.none, 'bold')
 call s:HL('htmlH2', s:palette.orange, s:palette.none, 'bold')
-call s:HL('htmlH3', s:palette.yellow, s:palette.none, 'bold')
+call s:HL('htmlH3', s:palette.cream, s:palette.none, 'bold')
 call s:HL('htmlH4', s:palette.green, s:palette.none, 'bold')
 call s:HL('htmlH5', s:palette.blue, s:palette.none, 'bold')
 call s:HL('htmlH6', s:palette.purple, s:palette.none, 'bold')
@@ -460,10 +462,10 @@ highlight! link cssFunctionName Orange
 highlight! link cssAttr Green
 highlight! link cssCommonAttr Green
 highlight! link cssProp Blue
-highlight! link cssPseudoClassId Yellow
+highlight! link cssPseudoClassId Cream
 highlight! link cssPseudoClassFn Green
-highlight! link cssPseudoClass Yellow
-highlight! link cssImportant Red
+highlight! link cssPseudoClass Cream
+highlight! link cssImporcreamt Red
 highlight! link cssSelectorOp Orange
 highlight! link cssSelectorOp2 Orange
 highlight! link cssColor Green
@@ -483,7 +485,7 @@ highlight! link cssNoise Grey
 highlight! link scssMixinName Orange
 highlight! link scssSelectorChar Orange
 highlight! link scssSelectorName Red
-highlight! link scssInterpolationDelimiter Yellow
+highlight! link scssInterpolationDelimiter Cream
 highlight! link scssVariableValue Green
 highlight! link scssNull Purple
 highlight! link scssBoolean Purple
@@ -882,7 +884,7 @@ highlight! link cppSTLVariable BlueItalic
 highlight! link Member OrangeItalic
 highlight! link Variable Fg
 highlight! link Namespace BlueItalic
-highlight! link EnumConstant OrangeItalic
+highlight! link EnumConscreamt OrangeItalic
 highlight! link chromaticaException Red
 highlight! link chromaticaCast Red
 highlight! link OperatorOverload Red
@@ -893,7 +895,7 @@ highlight! link AutoType BlueItalic
 " vim-lsp-cxx-highlight https://github.com/jackguo380/vim-lsp-cxx-highlight{{{
 highlight! link LspCxxHlSkippedRegion Grey
 highlight! link LspCxxHlSkippedRegionBeginEnd Red
-highlight! link LspCxxHlGroupEnumConstant OrangeItalic
+highlight! link LspCxxHlGroupEnumConscreamt OrangeItalic
 highlight! link LspCxxHlGroupNamespace BlueItalic
 highlight! link LspCxxHlGroupMemberVariable OrangeItalic
 " }}}
@@ -1019,7 +1021,7 @@ highlight! link scalaKeywordModifier Red
 " Go: {{{
 " builtin: https://github.com/google/vim-ft-go{{{
 highlight! link goDirective Red
-highlight! link goConstants OrangeItalic
+highlight! link goConscreamts OrangeItalic
 highlight! link goDeclType Red
 " }}}
 " polyglot: {{{
@@ -1071,9 +1073,9 @@ highlight! link phpInterpVarname Fg
 highlight! link phpMemberSelector Red
 highlight! link phpLabel Red
 " }}}
-" php.vim: https://github.com/StanAngeloff/php.vim{{{
+" php.vim: https://github.com/ScreamAngeloff/php.vim{{{
 highlight! link phpParent Fg
-highlight! link phpNowDoc Yellow
+highlight! link phpNowDoc Cream
 highlight! link phpFunction Green
 highlight! link phpMethod Green
 highlight! link phpClass BlueItalic
@@ -1086,7 +1088,7 @@ highlight! link phpNullValue OrangeItalic
 highlight! link rubyKeywordAsMethod Green
 highlight! link rubyInterpolation Purple
 highlight! link rubyInterpolationDelimiter Purple
-highlight! link rubyStringDelimiter Yellow
+highlight! link rubyStringDelimiter Cream
 highlight! link rubyBlockParameterList Fg
 highlight! link rubyDefine Red
 highlight! link rubyModuleName Red
@@ -1118,7 +1120,7 @@ highlight! link perlVarSimpleMemberName Green
 highlight! link perlVarSimpleMember Fg
 highlight! link perlMethod Green
 highlight! link podVerbatimLine Green
-highlight! link podCmdText Yellow
+highlight! link podCmdText Cream
 highlight! link perlVarPlain Fg
 highlight! link perlVarPlain2 Fg
 " }}}
@@ -1156,7 +1158,7 @@ highlight! link erlangPipe Red
 " }}}
 " Elixir: {{{
 " vim-elixir: https://github.com/elixir-editors/vim-elixir{{{
-highlight! link elixirStringDelimiter Yellow
+highlight! link elixirStringDelimiter Cream
 highlight! link elixirKeyword Red
 highlight! link elixirInterpolation Purple
 highlight! link elixirInterpolationDelimiter Purple
@@ -1193,7 +1195,7 @@ highlight! link lispFunc Green
 " builtin: https://github.com/guns/vim-clojure-static{{{
 highlight! link clojureMacro Red
 highlight! link clojureFunc Green
-highlight! link clojureConstant OrangeItalic
+highlight! link clojureConscreamt OrangeItalic
 highlight! link clojureSpecial Red
 highlight! link clojureDefine Red
 highlight! link clojureKeyword Blue
@@ -1220,7 +1222,7 @@ highlight! link matlabLogicalOperator Red
 " builtin: http://www.drchip.org/astronaut/vim/index.html#SYNTAX_SH{{{
 highlight! link shRange Fg
 highlight! link shOption Purple
-highlight! link shQuote Yellow
+highlight! link shQuote Cream
 highlight! link shVariable BlueItalic
 highlight! link shDerefSimple BlueItalic
 highlight! link shDerefVar BlueItalic
@@ -1389,7 +1391,7 @@ highlight! link jsonBraces Fg
 " }}}
 " Yaml: {{{
 highlight! link yamlKey Red
-highlight! link yamlConstant BlueItalic
+highlight! link yamlConscreamt BlueItalic
 highlight! link yamlString Green
 " }}}
 " Toml: {{{
@@ -1403,7 +1405,7 @@ highlight! link tomlTableArray tomlTable
 highlight! link diffAdded Green
 highlight! link diffRemoved Red
 highlight! link diffChanged Blue
-highlight! link diffOldFile Yellow
+highlight! link diffOldFile Cream
 highlight! link diffNewFile Orange
 highlight! link diffFile Purple
 highlight! link diffLine Grey
@@ -1432,7 +1434,7 @@ call s:HL('helpHeader', s:palette.orange, s:palette.none, 'bold')
 call s:HL('helpURL', s:palette.green, s:palette.none, 'underline')
 call s:HL('helpHyperTextEntry', s:palette.blue, s:palette.none, 'bold')
 highlight! link helpHyperTextJump Blue
-highlight! link helpCommand Yellow
+highlight! link helpCommand Cream
 highlight! link helpExample Green
 highlight! link helpSpecial Purple
 highlight! link helpSectionDelim Grey
@@ -1441,7 +1443,7 @@ highlight! link helpSectionDelim Grey
 " Plugins: {{{
 " junegunn/vim-plug{{{
 call s:HL('plug1', s:palette.red, s:palette.none, 'bold')
-call s:HL('plugNumber', s:palette.yellow, s:palette.none, 'bold')
+call s:HL('plugNumber', s:palette.cream, s:palette.none, 'bold')
 highlight! link plug2 Blue
 highlight! link plugBracket Blue
 highlight! link plugName Green
@@ -1469,7 +1471,7 @@ endif
 call s:HL('CocHoverRange', s:palette.none, s:palette.none, 'bold,underline')
 call s:HL('CocHintHighlight', s:palette.none, s:palette.none, 'undercurl', s:palette.green)
 call s:HL('CocErrorFloat', s:palette.red, s:palette.bg2)
-call s:HL('CocWarningFloat', s:palette.yellow, s:palette.bg2)
+call s:HL('CocWarningFloat', s:palette.cream, s:palette.bg2)
 call s:HL('CocInfoFloat', s:palette.blue, s:palette.bg2)
 call s:HL('CocHintFloat', s:palette.green, s:palette.bg2)
 if s:configuration.transparent_background
@@ -1496,7 +1498,7 @@ highlight! link CocGitRemovedSign GitGutterDelete
 highlight! link CocGitTopRemovedSign GitGutterDelete
 highlight! link CocExplorerBufferRoot Red
 highlight! link CocExplorerBufferExpandIcon Blue
-highlight! link CocExplorerBufferBufnr Yellow
+highlight! link CocExplorerBufferBufnr Cream
 highlight! link CocExplorerBufferModified Red
 highlight! link CocExplorerBufferBufname Grey
 highlight! link CocExplorerBufferFullpath Grey
@@ -1505,7 +1507,7 @@ highlight! link CocExplorerFileExpandIcon Blue
 highlight! link CocExplorerFileFullpath Grey
 highlight! link CocExplorerFileDirectory Green
 highlight! link CocExplorerFileGitStage Blue
-highlight! link CocExplorerFileGitUnstage Yellow
+highlight! link CocExplorerFileGitUnstage Cream
 highlight! link CocExplorerFileSize Blue
 highlight! link CocExplorerTimeAccessed Purple
 highlight! link CocExplorerTimeCreated Purple
@@ -1515,15 +1517,15 @@ highlight! link CocExplorerBufferNameVisible Green
 " }}}
 " dense-analysis/ale{{{
 call s:HL('ALEError', s:palette.none, s:palette.none, 'undercurl', s:palette.red)
-call s:HL('ALEWarning', s:palette.none, s:palette.none, 'undercurl', s:palette.yellow)
+call s:HL('ALEWarning', s:palette.none, s:palette.none, 'undercurl', s:palette.cream)
 call s:HL('ALEInfo', s:palette.none, s:palette.none, 'undercurl', s:palette.blue)
 if s:configuration.transparent_background
   call s:HL('ALEErrorSign', s:palette.red, s:palette.none)
-  call s:HL('ALEWarningSign', s:palette.yellow, s:palette.none)
+  call s:HL('ALEWarningSign', s:palette.cream, s:palette.none)
   call s:HL('ALEInfoSign', s:palette.blue, s:palette.none)
 else
   call s:HL('ALEErrorSign', s:palette.red, s:palette.bg1)
-  call s:HL('ALEWarningSign', s:palette.yellow, s:palette.bg1)
+  call s:HL('ALEWarningSign', s:palette.cream, s:palette.bg1)
   call s:HL('ALEInfoSign', s:palette.blue, s:palette.bg1)
 endif
 highlight! link ALEVirtualTextError Grey
@@ -1560,9 +1562,9 @@ call s:HL('Lf_hl_match', s:palette.green, s:palette.none, 'bold')
 call s:HL('Lf_hl_match0', s:palette.green, s:palette.none, 'bold')
 call s:HL('Lf_hl_match1', s:palette.blue, s:palette.none, 'bold')
 call s:HL('Lf_hl_match2', s:palette.red, s:palette.none, 'bold')
-call s:HL('Lf_hl_match3', s:palette.yellow, s:palette.none, 'bold')
+call s:HL('Lf_hl_match3', s:palette.cream, s:palette.none, 'bold')
 call s:HL('Lf_hl_match4', s:palette.purple, s:palette.none, 'bold')
-call s:HL('Lf_hl_matchRefine', s:palette.yellow, s:palette.none, 'bold')
+call s:HL('Lf_hl_matchRefine', s:palette.cream, s:palette.none, 'bold')
 highlight! link Lf_hl_cursorline Fg
 highlight! link Lf_hl_selection DiffAdd
 highlight! link Lf_hl_rgHighlight Visual
@@ -1576,11 +1578,11 @@ let g:fzf_colors = {
       \ 'fg+': ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
       \ 'bg+': ['bg', 'CursorLine', 'CursorColumn'],
       \ 'hl+': ['fg', 'Green'],
-      \ 'info': ['fg', 'Yellow'],
+      \ 'info': ['fg', 'Cream'],
       \ 'prompt': ['fg', 'Red'],
       \ 'pointer': ['fg', 'Blue'],
       \ 'marker': ['fg', 'Blue'],
-      \ 'spinner': ['fg', 'Yellow'],
+      \ 'spinner': ['fg', 'Cream'],
       \ 'header': ['fg', 'Blue']
       \ }
 " }}}
@@ -1613,7 +1615,7 @@ highlight! link TagbarVisibilityPublic Blue
 " }}}
 " liuchengxu/vista.vim{{{
 highlight! link VistaBracket Grey
-highlight! link VistaChildrenNr Yellow
+highlight! link VistaChildrenNr Cream
 highlight! link VistaScope Red
 highlight! link VistaTag Green
 highlight! link VistaPrefix Grey
@@ -1658,7 +1660,7 @@ highlight! link NERDTreeLinkTarget Green
 " }}}
 " justinmk/vim-dirvish{{{
 highlight! link DirvishPathTail Blue
-highlight! link DirvishArg Yellow
+highlight! link DirvishArg Cream
 " }}}
 " vim.org/netrw {{{
 " https://www.vim.org/scripts/script.php?script_id=1075
@@ -1668,7 +1670,7 @@ highlight! link netrwLink Grey
 highlight! link netrwSymLink Fg
 highlight! link netrwExe Red
 highlight! link netrwComment Grey
-highlight! link netrwList Yellow
+highlight! link netrwList Cream
 highlight! link netrwHelpCmd Blue
 highlight! link netrwCmdSep Grey
 highlight! link netrwVersion Purple
@@ -1763,7 +1765,7 @@ highlight! link UndotreeNode Blue
 highlight! link UndotreeNodeCurrent Purple
 highlight! link UndotreeSeq Green
 highlight! link UndotreeCurrent Blue
-highlight! link UndotreeNext Yellow
+highlight! link UndotreeNext Cream
 highlight! link UndotreeTimeStamp Grey
 highlight! link UndotreeHead Purple
 highlight! link UndotreeBranch Blue
@@ -1790,7 +1792,7 @@ highlight! link agitStatMessage Orange
 highlight! link agitDiffRemove diffRemoved
 highlight! link agitDiffAdd diffAdded
 highlight! link agitDiffHeader Blue
-highlight! link agitAuthor Yellow
+highlight! link agitAuthor Cream
 " }}}
 " }}}
 " Terminal: {{{
@@ -1799,7 +1801,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   let s:terminal = {
         \ 'black':    s:palette.black,
         \ 'red':      s:palette.red,
-        \ 'yellow':   s:palette.yellow,
+        \ 'cream':   s:palette.cream,
         \ 'green':    s:palette.green,
         \ 'cyan':     s:palette.orange,
         \ 'blue':     s:palette.blue,
@@ -1808,14 +1810,14 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
         \ }
   " Implementation: {{{
   if !has('nvim')
-    let g:terminal_ansi_colors = [s:terminal.black[0], s:terminal.red[0], s:terminal.green[0], s:terminal.yellow[0],
+    let g:terminal_ansi_colors = [s:terminal.black[0], s:terminal.red[0], s:terminal.green[0], s:terminal.cream[0],
           \ s:terminal.blue[0], s:terminal.purple[0], s:terminal.cyan[0], s:terminal.white[0], s:terminal.black[0], s:terminal.red[0],
-          \ s:terminal.green[0], s:terminal.yellow[0], s:terminal.blue[0], s:terminal.purple[0], s:terminal.cyan[0], s:terminal.white[0]]
+          \ s:terminal.green[0], s:terminal.cream[0], s:terminal.blue[0], s:terminal.purple[0], s:terminal.cyan[0], s:terminal.white[0]]
   else
     let g:terminal_color_0 = s:terminal.black[0]
     let g:terminal_color_1 = s:terminal.red[0]
     let g:terminal_color_2 = s:terminal.green[0]
-    let g:terminal_color_3 = s:terminal.yellow[0]
+    let g:terminal_color_3 = s:terminal.cream[0]
     let g:terminal_color_4 = s:terminal.blue[0]
     let g:terminal_color_5 = s:terminal.purple[0]
     let g:terminal_color_6 = s:terminal.cyan[0]
@@ -1823,7 +1825,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_8 = s:terminal.black[0]
     let g:terminal_color_9 = s:terminal.red[0]
     let g:terminal_color_10 = s:terminal.green[0]
-    let g:terminal_color_11 = s:terminal.yellow[0]
+    let g:terminal_color_11 = s:terminal.cream[0]
     let g:terminal_color_12 = s:terminal.blue[0]
     let g:terminal_color_13 = s:terminal.purple[0]
     let g:terminal_color_14 = s:terminal.cyan[0]
