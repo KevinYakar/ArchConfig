@@ -32,6 +32,10 @@ let s:configuration.current_word = get(g:, 'tokyonight_current_word', get(g:, 't
 "
 "         \ 'cream':     ['#E0AF68',   '179',  'Cream'],
 "         \ 'red':        ['#F7768E',   '203',  'Red'],
+"         \ 'green':      ['#87af87',   '107',  'Green'],
+"         \ 'green':      ['#d7afff',   '107',  'Green'],
+"         \ 'purple':     ['#ad8ee6',   '176',  'Plum'],
+"         \ 'cream':     ['#ffd7af',   '179',  'Cream'],
 if s:configuration.style ==# 'night'
   let s:palette = {
         \ 'black':      ['#06080a',   '237',  'DarkGrey'],
@@ -49,10 +53,10 @@ if s:configuration.style ==# 'night'
         \ 'fg':         ['#a9b1d6',   '250',  'White'],
         \ 'red':        ['#d75f5f',   '203',  'Red'],
         \ 'orange':     ['#FF9E64',   '215',  'Orange'],
-        \ 'cream':     ['#ffd7af',   '179',  'Cream'],
-        \ 'green':      ['#87af87',   '107',  'Green'],
+        \ 'cream':     ['#eec69e',   '179',  'Cream'],
+        \ 'green':      ['#5fafd7',   '107',  'Green'],
         \ 'blue':       ['#7AA2F7',   '110',  'Blue'],
-        \ 'purple':     ['#ad8ee6',   '176',  'Magenta'],
+        \ 'plum':     ['#d7afff',   '176',  'Plum'],
         \ 'grey':       ['#444B6A',   '246',  'LightGrey'],
         \ 'none':       ['NONE',      'NONE', 'NONE']
         \ }
@@ -76,7 +80,7 @@ elseif s:configuration.style ==# 'storm'
         \ 'cream':     ['#E0AF68',   '179',  'Cream'],
         \ 'green':      ['#9ECE6A',   '107',  'Green'],
         \ 'blue':       ['#7AA2F7',   '110',  'Blue'],
-        \ 'purple':     ['#ad8ee6',   '176',  'Magenta'],
+        \ 'plum':     ['#ad8ee6',   '176',  'Plum'],
         \ 'grey':       ['#444B6A',   '246',  'LightGrey'],
         \ 'none':       ['NONE',      'NONE', 'NONE']
         \ }
@@ -231,7 +235,7 @@ call s:HL('Question', s:palette.cream, s:palette.none)
 call s:HL('SpellBad', s:palette.red, s:palette.none, 'undercurl', s:palette.red)
 call s:HL('SpellCap', s:palette.cream, s:palette.none, 'undercurl', s:palette.cream)
 call s:HL('SpellLocal', s:palette.blue, s:palette.none, 'undercurl', s:palette.blue)
-call s:HL('SpellRare', s:palette.purple, s:palette.none, 'undercurl', s:palette.purple)
+call s:HL('SpellRare', s:palette.plum, s:palette.none, 'undercurl', s:palette.plum)
 call s:HL('StatusLine', s:palette.fg, s:palette.bg3)
 call s:HL('StatusLineTerm', s:palette.fg, s:palette.bg3)
 call s:HL('StatusLineNC', s:palette.grey, s:palette.bg1)
@@ -285,16 +289,16 @@ call s:HL('Exception', s:palette.red, s:palette.none)
 call s:HL('Conditional', s:palette.red, s:palette.none)
 call s:HL('Repeat', s:palette.red, s:palette.none)
 call s:HL('Statement', s:palette.red, s:palette.none)
-call s:HL('Macro', s:palette.purple, s:palette.none)
+call s:HL('Macro', s:palette.plum, s:palette.none)
 call s:HL('Error', s:palette.red, s:palette.none)
-call s:HL('Label', s:palette.purple, s:palette.none)
-call s:HL('Special', s:palette.purple, s:palette.none)
-call s:HL('SpecialChar', s:palette.purple, s:palette.none)
-call s:HL('Boolean', s:palette.purple, s:palette.none)
+call s:HL('Label', s:palette.plum, s:palette.none)
+call s:HL('Special', s:palette.plum, s:palette.none)
+call s:HL('SpecialChar', s:palette.plum, s:palette.none)
+call s:HL('Boolean', s:palette.plum, s:palette.none)
 call s:HL('String', s:palette.cream, s:palette.none)
 call s:HL('Character', s:palette.cream, s:palette.none)
-call s:HL('Number', s:palette.purple, s:palette.none)
-call s:HL('Float', s:palette.purple, s:palette.none)
+call s:HL('Number', s:palette.plum, s:palette.none)
+call s:HL('Float', s:palette.plum, s:palette.none)
 call s:HL('Function', s:palette.green, s:palette.none)
 call s:HL('Operator', s:palette.red, s:palette.none)
 call s:HL('Title', s:palette.red, s:palette.none, 'bold')
@@ -320,7 +324,7 @@ call s:HL('Orange', s:palette.orange, s:palette.none)
 call s:HL('Cream', s:palette.cream, s:palette.none)
 call s:HL('Green', s:palette.green, s:palette.none)
 call s:HL('Blue', s:palette.blue, s:palette.none)
-call s:HL('Purple', s:palette.purple, s:palette.none)
+call s:HL('Purple', s:palette.plum, s:palette.none)
 if s:configuration.enable_italic
   call s:HL('RedItalic', s:palette.red, s:palette.none, 'italic')
   call s:HL('BlueItalic', s:palette.blue, s:palette.none, 'italic')
@@ -341,7 +345,7 @@ call s:HL('markdownH2', s:palette.orange, s:palette.none, 'bold')
 call s:HL('markdownH3', s:palette.cream, s:palette.none, 'bold')
 call s:HL('markdownH4', s:palette.green, s:palette.none, 'bold')
 call s:HL('markdownH5', s:palette.blue, s:palette.none, 'bold')
-call s:HL('markdownH6', s:palette.purple, s:palette.none, 'bold')
+call s:HL('markdownH6', s:palette.plum, s:palette.none, 'bold')
 call s:HL('markdownUrl', s:palette.blue, s:palette.none, 'underline')
 call s:HL('markdownItalic', s:palette.none, s:palette.none, 'italic')
 call s:HL('markdownBold', s:palette.none, s:palette.none, 'bold')
@@ -380,7 +384,7 @@ highlight! link mkdId Cream
 " }}}
 " ReStructuredText: {{{
 " builtin: https://github.com/marshallward/vim-restructuredtext{{{
-call s:HL('rstScreamdaloneHyperlink', s:palette.purple, s:palette.none, 'underline')
+call s:HL('rstScreamdaloneHyperlink', s:palette.plum, s:palette.none, 'underline')
 call s:HL('rstEmphasis', s:palette.none, s:palette.none, 'italic')
 call s:HL('rstStrongEmphasis', s:palette.none, s:palette.none, 'bold')
 call s:HL('rstScreamdaloneHyperlink', s:palette.blue, s:palette.none, 'underline')
@@ -414,7 +418,7 @@ call s:HL('htmlH2', s:palette.orange, s:palette.none, 'bold')
 call s:HL('htmlH3', s:palette.cream, s:palette.none, 'bold')
 call s:HL('htmlH4', s:palette.green, s:palette.none, 'bold')
 call s:HL('htmlH5', s:palette.blue, s:palette.none, 'bold')
-call s:HL('htmlH6', s:palette.purple, s:palette.none, 'bold')
+call s:HL('htmlH6', s:palette.plum, s:palette.none, 'bold')
 call s:HL('htmlLink', s:palette.none, s:palette.none, 'underline')
 call s:HL('htmlBold', s:palette.none, s:palette.none, 'bold')
 call s:HL('htmlBoldUnderline', s:palette.none, s:palette.none, 'bold,underline')
@@ -1395,7 +1399,7 @@ highlight! link yamlConscreamt BlueItalic
 highlight! link yamlString Green
 " }}}
 " Toml: {{{
-call s:HL('tomlTable', s:palette.purple, s:palette.none, 'bold')
+call s:HL('tomlTable', s:palette.plum, s:palette.none, 'bold')
 highlight! link tomlKey Red
 highlight! link tomlBoolean Blue
 highlight! link tomlString Green
@@ -1428,7 +1432,7 @@ highlight! link dosiniValue Green
 highlight! link dosiniNumber Green
 " }}}
 " Help: {{{
-call s:HL('helpNote', s:palette.purple, s:palette.none, 'bold')
+call s:HL('helpNote', s:palette.plum, s:palette.none, 'bold')
 call s:HL('helpHeadline', s:palette.red, s:palette.none, 'bold')
 call s:HL('helpHeader', s:palette.orange, s:palette.none, 'bold')
 call s:HL('helpURL', s:palette.green, s:palette.none, 'underline')
@@ -1475,9 +1479,9 @@ call s:HL('CocWarningFloat', s:palette.cream, s:palette.bg2)
 call s:HL('CocInfoFloat', s:palette.blue, s:palette.bg2)
 call s:HL('CocHintFloat', s:palette.green, s:palette.bg2)
 if s:configuration.transparent_background
-  call s:HL('CocHintSign', s:palette.purple, s:palette.none)
+  call s:HL('CocHintSign', s:palette.plum, s:palette.none)
 else
-  call s:HL('CocHintSign', s:palette.purple, s:palette.bg1)
+  call s:HL('CocHintSign', s:palette.plum, s:palette.bg1)
 endif
 highlight! link CocCodeLens Grey
 highlight! link CocErrorSign ALEErrorSign
@@ -1563,7 +1567,7 @@ call s:HL('Lf_hl_match0', s:palette.green, s:palette.none, 'bold')
 call s:HL('Lf_hl_match1', s:palette.blue, s:palette.none, 'bold')
 call s:HL('Lf_hl_match2', s:palette.red, s:palette.none, 'bold')
 call s:HL('Lf_hl_match3', s:palette.cream, s:palette.none, 'bold')
-call s:HL('Lf_hl_match4', s:palette.purple, s:palette.none, 'bold')
+call s:HL('Lf_hl_match4', s:palette.plum, s:palette.none, 'bold')
 call s:HL('Lf_hl_matchRefine', s:palette.cream, s:palette.none, 'bold')
 highlight! link Lf_hl_cursorline Fg
 highlight! link Lf_hl_selection DiffAdd
@@ -1590,7 +1594,7 @@ let g:fzf_colors = {
 call s:HL('deniteMatchedChar', s:palette.green, s:palette.none, 'bold')
 call s:HL('deniteMatchedRange', s:palette.green, s:palette.none, 'bold,underline')
 call s:HL('deniteInput', s:palette.green, s:palette.bg1, 'bold')
-call s:HL('deniteStatusLineNumber', s:palette.purple, s:palette.bg1)
+call s:HL('deniteStatusLineNumber', s:palette.plum, s:palette.bg1)
 call s:HL('deniteStatusLinePath', s:palette.fg, s:palette.bg1)
 highlight! link deniteSelectedLine Green
 " }}}
@@ -1628,12 +1632,12 @@ if s:configuration.transparent_background
   call s:HL('GitGutterAdd', s:palette.green, s:palette.none)
   call s:HL('GitGutterChange', s:palette.blue, s:palette.none)
   call s:HL('GitGutterDelete', s:palette.red, s:palette.none)
-  call s:HL('GitGutterChangeDelete', s:palette.purple, s:palette.none)
+  call s:HL('GitGutterChangeDelete', s:palette.plum, s:palette.none)
 else
   call s:HL('GitGutterAdd', s:palette.green, s:palette.bg1)
   call s:HL('GitGutterChange', s:palette.blue, s:palette.bg1)
   call s:HL('GitGutterDelete', s:palette.red, s:palette.bg1)
-  call s:HL('GitGutterChangeDelete', s:palette.purple, s:palette.bg1)
+  call s:HL('GitGutterChangeDelete', s:palette.plum, s:palette.bg1)
 endif
 " }}}
 " mhinz/vim-signify{{{
@@ -1805,21 +1809,21 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
         \ 'green':    s:palette.green,
         \ 'cyan':     s:palette.orange,
         \ 'blue':     s:palette.blue,
-        \ 'purple':   s:palette.purple,
+        \ 'plum':   s:palette.plum,
         \ 'white':    s:palette.fg
         \ }
   " Implementation: {{{
   if !has('nvim')
     let g:terminal_ansi_colors = [s:terminal.black[0], s:terminal.red[0], s:terminal.green[0], s:terminal.cream[0],
-          \ s:terminal.blue[0], s:terminal.purple[0], s:terminal.cyan[0], s:terminal.white[0], s:terminal.black[0], s:terminal.red[0],
-          \ s:terminal.green[0], s:terminal.cream[0], s:terminal.blue[0], s:terminal.purple[0], s:terminal.cyan[0], s:terminal.white[0]]
+          \ s:terminal.blue[0], s:terminal.plum[0], s:terminal.cyan[0], s:terminal.white[0], s:terminal.black[0], s:terminal.red[0],
+          \ s:terminal.green[0], s:terminal.cream[0], s:terminal.blue[0], s:terminal.plum[0], s:terminal.cyan[0], s:terminal.white[0]]
   else
     let g:terminal_color_0 = s:terminal.black[0]
     let g:terminal_color_1 = s:terminal.red[0]
     let g:terminal_color_2 = s:terminal.green[0]
     let g:terminal_color_3 = s:terminal.cream[0]
     let g:terminal_color_4 = s:terminal.blue[0]
-    let g:terminal_color_5 = s:terminal.purple[0]
+    let g:terminal_color_5 = s:terminal.plum[0]
     let g:terminal_color_6 = s:terminal.cyan[0]
     let g:terminal_color_7 = s:terminal.white[0]
     let g:terminal_color_8 = s:terminal.black[0]
@@ -1827,7 +1831,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_10 = s:terminal.green[0]
     let g:terminal_color_11 = s:terminal.cream[0]
     let g:terminal_color_12 = s:terminal.blue[0]
-    let g:terminal_color_13 = s:terminal.purple[0]
+    let g:terminal_color_13 = s:terminal.plum[0]
     let g:terminal_color_14 = s:terminal.cyan[0]
     let g:terminal_color_15 = s:terminal.white[0]
   endif
