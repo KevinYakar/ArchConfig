@@ -34,3 +34,11 @@ super + 1
 alt + w
     firefox
 
+# Put computer to sleep 
+super + s
+    systemctl suspend
+
+# Reboot computer
+super + r
+    reboot
+

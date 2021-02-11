@@ -36,6 +36,7 @@ let s:configuration.current_word = get(g:, 'tokyonight_current_word', get(g:, 't
 "         \ 'green':      ['#d7afff',   '107',  'Green'],
 "         \ 'purple':     ['#ad8ee6',   '176',  'Plum'],
 "         \ 'cream':     ['#ffd7af',   '179',  'Cream'],
+"         \ 'grey':       ['#444B6A',   '246',  'LightGrey'],
 if s:configuration.style ==# 'night'
   let s:palette = {
         \ 'black':      ['#06080a',   '237',  'DarkGrey'],
@@ -57,7 +58,7 @@ if s:configuration.style ==# 'night'
         \ 'green':      ['#5fafd7',   '107',  'Green'],
         \ 'blue':       ['#7AA2F7',   '110',  'Blue'],
         \ 'plum':     ['#d7afff',   '176',  'Plum'],
-        \ 'grey':       ['#444B6A',   '246',  'LightGrey'],
+        \ 'grey':       ['#ff5f5f',   '246',  'LightGrey'],
         \ 'none':       ['NONE',      'NONE', 'NONE']
         \ }
 elseif s:configuration.style ==# 'storm'

@@ -96,7 +96,6 @@ pacmanPackages=(
     'yajl'
     'feh'
     'gifsicle'
-    'flameshot'
     'firefox'
     'base-devel'
     'python-pip'
