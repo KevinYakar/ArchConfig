@@ -94,6 +94,33 @@ override-redirect = false
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+[bar/second]
+monitor = ${env:MONITOR:HDMI-0}
+width = 100%
+height = 23
+radius = 10.0
+fixed-center = false
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 2
+line-color = #f00
+border-size = 4
+border-color = #00000000
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 1
+font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
+modules-left = dwm
+modules-right = pulseaudio memory temperature wlan date
+wm-restack = dwm
+override-redirect = false
+cursor-click = pointer
+cursor-scroll = ns-resize
+
 [bar/music]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
@@ -218,7 +245,7 @@ label-title-maxlen = 100
 ;label-layout-background = ${colors.primary}
 
 ; Text to show when currently focused window is floating
-label-floating = F
+label-floating = 󰀙
 
 ; States: focused, unfocused, visible, urgent, empty
 ; Available tokens:

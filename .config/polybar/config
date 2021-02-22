@@ -245,7 +245,7 @@ label-title-maxlen = 100
 ;label-layout-background = ${colors.primary}
 
 ; Text to show when currently focused window is floating
-label-floating = F
+label-floating = 󰀙
 
 ; States: focused, unfocused, visible, urgent, empty
 ; Available tokens:
