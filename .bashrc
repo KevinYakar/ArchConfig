@@ -20,6 +20,8 @@ alias bindings='grep --color=none -P "^\w+|^\#" ~/.config/sxhkd/sxhkdrc'
 alias rmr='rm ~/pictures/screenshots/$(ls -At ~/pictures/screenshots/ | head -n 1)'
 alias dlsong='youtube-dl --extract-audio --audio-quality 0 --audio-format mp3'
 alias update='checkupdates -d && sudo pacman -Syu'
+alias mon2cam='while true; do timeout 120s mon2cam -f 60 -m 0 -r 1920:1080;date ; sleep .3; done'
+alias dup='alacritty & disown'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
