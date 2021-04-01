@@ -22,6 +22,7 @@ alias dlsong='youtube-dl --extract-audio --audio-quality 0 --audio-format mp3'
 alias update='checkupdates -d && sudo pacman -Syu'
 alias mon2cam='while true; do timeout 120s mon2cam -f 60 -m 0 -r 1920:1080;date ; sleep .3; done'
 alias dup='alacritty & disown'
+alias combinepdf='gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combined.pdf -dBATCH '
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
