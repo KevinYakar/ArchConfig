@@ -81,6 +81,7 @@ pacmanPackages=(
     'xorg-xinit'
     'xorg-xset'
     'xorg-xrandr'
+    'xorg-xprop'
     'xclip'
     'man'
     'dmenu'
@@ -111,7 +112,7 @@ pacmanPackages=(
 
 yayPackages=(
     'ranger-git'
-    'betterdiscordctl-git'
+    'betterdiscord'
     'go-rainbow-git'
     'bpytop'
     'picom-ibhagwan-git'

@@ -37,9 +37,8 @@
             },
             "plugins": {},
             "themes": {
-                "Test1": false,
-                "DarkerTest": false,
-                "EvenDarker": true
+                "EvenDarker": true,
+                "Olivia": false
             }
         },
         "canary": {},
@@ -47,5 +46,5 @@
     },
     "version": "0.3.5",
     "emoteCacheDays": 7,
-    "emoteCacheDate": "2020-09-07T01:59:44.295Z"
+    "emoteCacheDate": "2021-03-30T04:25:08.209Z"
 }
