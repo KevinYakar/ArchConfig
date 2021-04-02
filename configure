@@ -108,6 +108,7 @@ pacmanPackages=(
     'scrot'
     'hunspell-en_US'
     'youtube-dl'
+    'dunst'
 )
 
 yayPackages=(

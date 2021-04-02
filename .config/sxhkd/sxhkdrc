@@ -49,3 +49,7 @@ super + r
 # Open scratchpad
 alt + shift + s
     alacritty -t "scratchpad" -e vim ~/.local/share/scratchpad.txt
+
+# Toggle dunst
+alt + shift + m
+    notify-send "DUNST_COMMAND_TOGGLE"

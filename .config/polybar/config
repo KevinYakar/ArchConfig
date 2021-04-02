@@ -197,6 +197,13 @@ override-redirect = true
 ;label-unmounted = %mountpoint% not mounted
 ;label-unmounted-foreground = ${colors.foreground-alt}
 
+
+[module/dnd]
+;type = custom/script
+;exec = runscript
+;exec = notify-send "DUNST_COMMAND_TOGGLE"
+;click-left = notify-send "DUNST_COMMAND_TOGGLE"
+
 [module/dwm]
 type = internal/dwm
 format = <label-tags> <label-floating> <label-title>
