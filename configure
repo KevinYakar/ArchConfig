@@ -139,6 +139,10 @@ cd vcpkg
 # install dwm 
 cd ~/.config/dwm
 sudo make clean install
+
+cd /etc
+sudo patch < ~/ArchConfig/patches/pacman.diff
+sudo patch < ~/ArchConfig/patches/sudoers.diff
 cd ~
 
 clear
