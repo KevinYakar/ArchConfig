@@ -1,0 +1,18 @@
+--- sudoers	2021-04-03 03:19:46.705389637 -0700
++++ ../sudoers	2021-04-03 02:45:47.815379837 -0700
+@@ -79,11 +79,14 @@
+ root ALL=(ALL) ALL
+ 
+ ## Uncomment to allow members of group wheel to execute any command
+-# %wheel ALL=(ALL) ALL
++%wheel ALL=(ALL) ALL
+ 
+ ## Same thing without a password
+ # %wheel ALL=(ALL) NOPASSWD: ALL
+ 
++## Run these commands using sudo and without a password
++kevin ALL=(ALL) NOPASSWD:/bin/shutdown,/bin/pacman,/bin/vim
++
+ ## Uncomment to allow members of group sudo to execute any command
+ # %sudo	ALL=(ALL) ALL
+ 

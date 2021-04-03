@@ -1,0 +1,11 @@
+--- pacman.conf	2021-04-03 02:29:35.502041830 -0700
++++ ../pacman.conf	2021-04-03 02:30:02.798708627 -0700
+@@ -30,7 +30,7 @@
+ 
+ # Misc options
+ #UseSyslog
+-#Color
++Color
+ #TotalDownload
+ CheckSpace
+ #VerbosePkgLists
