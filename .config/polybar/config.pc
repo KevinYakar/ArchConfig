@@ -49,7 +49,7 @@ height = 23
 ;offset-x = 1%
 ;offset-y = 97.1%
 radius = 10.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -99,7 +99,7 @@ monitor = ${env:MONITOR:HDMI-0}
 width = 100%
 height = 23
 radius = 10.0
-fixed-center = false
+fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 line-size = 2
@@ -156,10 +156,11 @@ font-0 = Montserrat:style=Regular:pixelsize=9:antialias=true;3
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=13:antialias=true;3
+font-4 = basic\-polybar:style=Regular:pixelsize=12:antialias=true;2
 
 modules-left = mpd
-modules-center = 
-modules-right =
+modules-center =
+modules-right = dnd
 
 tray-position = right
 tray-padding = 3
@@ -196,6 +197,15 @@ override-redirect = true
 ;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 ;label-unmounted = %mountpoint% not mounted
 ;label-unmounted-foreground = ${colors.foreground-alt}
+
+
+[module/dnd]
+type = custom/script
+exec = ~/.config/polybar/dunst-dnd.sh
+tail = true
+click-left = kill -USR1 %pid%
+label = %output%
+label-font = 5
 
 [module/dwm]
 type = internal/dwm
@@ -245,7 +255,8 @@ label-title-maxlen = 100
 ;label-layout-background = ${colors.primary}
 
 ; Text to show when currently focused window is floating
-label-floating = 󰀙
+;label-floating = 󰁕
+label-floating = 󰁖
 
 ; States: focused, unfocused, visible, urgent, empty
 ; Available tokens:
@@ -289,22 +300,12 @@ label-song-underline = ${colors.blue}
 # label-song-underline = ${colors.tan}
 # label-song-underline = ${colors.alert}
 
-;󰀘  󰀒 󰀐 󰀔  󰀖
-;󰀗  󰀑 󰀏 󰀓  󰀕
-;󰀚
-;󰀙
 
-icon-prev = 󰀘
-icon-stop = 󰀒
-icon-play = 󰀐
-icon-pause = 󰀔
-icon-next = 󰀖
-
-# icon-prev = 󰀗
-# icon-stop = 󰀑
-# icon-play = 󰀏
-# icon-pause = 󰀓
-# icon-next = 󰀕
+icon-prev = 󰁐
+icon-stop = 󰁊
+icon-play = 󰁈
+icon-pause = 󰁌
+icon-next = 󰁎
 
 label-song-maxlen = 1000
 label-song-ellipsis = true
@@ -345,7 +346,7 @@ interval = 2
 ;format-prefix = " "
 ;format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #e6d0ff
-label = " 󰀈 %percentage_used%% "
+label = " 󰁀 %percentage_used%% "
 
 [module/wlan]
 type = internal/network
@@ -354,7 +355,7 @@ interval = 3.0
 
 format-connected =  <label-connected>
 format-connected-underline = #e6d0ff
-label-connected = " 󰀌 "
+label-connected = " 󰁄 "
 ;label-connected = %essid%
 
 format-disconnected = "!"
@@ -407,10 +408,10 @@ type = internal/pulseaudio
 
 ;format-volume = <label-volume> <bar-volume>
 format-volume = <label-volume>
-label-volume = "󰀋 %percentage%%"
+label-volume = "󰁃 %percentage%%"
 label-volume-foreground = ${root.foreground}
 
-label-muted = 󰀊
+label-muted = 󰁂
 label-muted-foreground = #dd5c54
 
 ;bar-volume-width = 10
@@ -501,7 +502,7 @@ format-underline = #e6d0ff
 ;format-warn = <ramp> <label-warn>
 ;format-warn-underline = ${self.format-underline}
 
-label = " 󰀍 %temperature-c% "
+label = " 󰁅 %temperature-c% "
 ;label-warn = %temperature-c%
 ;label-warn-foreground = ${colors.secondary}
 
