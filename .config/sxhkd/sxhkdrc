@@ -50,6 +50,6 @@ super + r
 alt + shift + s
     alacritty -t "scratchpad" -e vim ~/.local/share/scratchpad.txt
 
-# Toggle dunst
+# Open signal
 alt + shift + m
-    notify-send "DUNST_COMMAND_TOGGLE"
+    signal-desktop --use-tray-icon

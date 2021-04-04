@@ -129,8 +129,8 @@ module-margin-right = 1
 font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
-font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
-font-4 = basic\-polybar:style=Regular:pixelsize=10:antialias=true;2
+font-3 = basic\-polybar:style=Regular:pixelsize=16:antialias=true;2
+font-4 = basic\-polybar:style=Regular:pixelsize=15:antialias=true;2
 
 modules-left = mpd
 modules-center = 
