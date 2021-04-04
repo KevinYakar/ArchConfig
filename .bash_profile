@@ -22,4 +22,5 @@ export CUDA_CACHE_PATH="~/.cache/nv"
 export PASSWORD_STORE_DIR="~/.local/share/gnupg/pass"
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
+startx
 
