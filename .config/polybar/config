@@ -49,7 +49,7 @@ height = 23
 ;offset-x = 1%
 ;offset-y = 97.1%
 radius = 10.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -99,7 +99,7 @@ monitor = ${env:MONITOR:HDMI-0}
 width = 100%
 height = 23
 radius = 10.0
-fixed-center = false
+fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 line-size = 2
@@ -158,7 +158,7 @@ font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=13:antialias=true;3
 
 modules-left = mpd
-modules-center = 
+modules-center =
 modules-right =
 
 tray-position = right
@@ -200,6 +200,13 @@ override-redirect = true
 
 [module/dnd]
 ;type = custom/script
+;exec = echo "hi"
+;label = %output%
+;click-left = alacritty
+;format-underline = #FFFFFF
+;format-background = #FFFFFF
+;format-foreground = #000000
+;format-padding = 1
 ;exec = runscript
 ;exec = notify-send "DUNST_COMMAND_TOGGLE"
 ;click-left = notify-send "DUNST_COMMAND_TOGGLE"
