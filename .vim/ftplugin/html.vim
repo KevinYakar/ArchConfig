@@ -1,10 +1,15 @@
-:inoremap !!<Return> <!DOCTYPE html><Return><html><Return><Return></html><Up>
+:inoremap !!<Return> <!DOCTYPE html><Return><html lang="en"><Return><Return></html><Up>
 :inoremap <!<Return> <!--  --><Esc>3hi
 :inoremap <body<Return> <body></body><Esc>6hi
 :inoremap <main<Return> <main></main><Esc>6hi
 :inoremap <head<Return> <head></head><Esc>6hi
-:inoremap <meta<Return> <meta></meta><Esc>6hi
+:inoremap <meta<Return> <meta  /><Esc>2hi
+:inoremap <link<Return> <link rel="stylesheet" href="" /><Esc>3hi
 :inoremap <title<Return> <title></title><Esc>7hi
+:inoremap <script<Return> <script src=""></script><Esc>10hi
+:inoremap <section<Return> <section></section><Esc>9hi
+:inoremap <header<Return> <header></header><Esc>8hi
+:inoremap <nav<Return> <nav></nav><Esc>5hi
 
 :inoremap <h1<Return> <h1></h1><Esc>4hi
 :inoremap <h2<Return> <h2></h2><Esc>4hi
