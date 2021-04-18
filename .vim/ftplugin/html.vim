@@ -1,9 +1,16 @@
-:inoremap !!<Return> <!DOCTYPE html><Return><html lang="en"><Return><Return></html><Up>
+:imap !!<Return> <!DOCTYPE html><Return><html lang="en<Right>><Return><Return></html><Up><Tab><head<Return><Return><Return><Up><Tab><Tab>!meta<Return><Return><title<Return>
+
+:imap !meta<Return> !mdesc<Return><Return>!mchar<Return><Return>!mview<Return><Return>!mxua<Return>
+:inoremap !mdesc<Return> <meta name="description" content="">
+:inoremap !mchar<Return> <meta charset="UTF-8">
+:inoremap !mview<Return> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+:inoremap !mxua<Return> <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 :inoremap <!<Return> <!--  --><Esc>3hi
 :inoremap <body<Return> <body></body><Esc>6hi
 :inoremap <main<Return> <main></main><Esc>6hi
 :inoremap <head<Return> <head></head><Esc>6hi
-:inoremap <meta<Return> <meta  /><Esc>2hi
+:inoremap <meta<Return> <meta ><Left>
 :inoremap <link<Return> <link rel="stylesheet" href="" /><Esc>3hi
 :inoremap <title<Return> <title></title><Esc>7hi
 :inoremap <script<Return> <script src=""></script><Esc>10hi

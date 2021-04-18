@@ -23,6 +23,7 @@ alias update='checkupdates -d && sudo pacman -Syu'
 alias mon2cam='while true; do timeout 120s mon2cam -f 60 -m 0 -r 1920:1080;date ; sleep .3; done'
 alias dup='alacritty & disown'
 alias combinepdf='gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combined.pdf -dBATCH '
+alias live-server='live-server --port=5500 --host=127.0.0.1 --quiet &'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
