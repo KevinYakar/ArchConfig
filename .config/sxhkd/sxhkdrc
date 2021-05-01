@@ -6,6 +6,10 @@ super + shift + 3
 super + shift + 4
     sleep 0.2 && scrot '%Y-%m-%d_%I:%M:%S%P.png' -s -f -q 100 -e 'xclip -selection clipboard -target image/png -i $f && mv $f ~/pictures/screenshots'
 
+# Copy screenshot to clipboard but don't save
+super + shift + 5
+    sleep 0.2 && scrot '%Y-%m-%d_%I:%M:%S%P.png' -s -f -q 100 -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
+
 # Kill all polybar instances and restart 
 alt + r
     killall polybar && sleep 0.3 && ~/.config/polybar/start-bar.sh &
