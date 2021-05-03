@@ -15,10 +15,10 @@ trap "toggle" USR1
 
 while true; do
     if [ $t -eq 0 ]; then
-        notify-send "DUNST_COMMAND_RESUME"
+        dunstctl set-paused false
         echo "%{F#DDD}󰁓"
     else
-        notify-send "DUNST_COMMAND_PAUSE"
+        dunstctl set-paused true
         echo "%{F#9F78e1}󰁔"
     fi
     sleep 1 &
