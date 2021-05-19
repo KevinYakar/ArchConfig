@@ -55,3 +55,9 @@ This theme is meant to be used with the dark version of discord
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #747f8d;
 }
+.theme-dark{
+--background-modifier-hover:transparent;
+--background-secondary:transparent;
+--background-primary:transparent;
+--background-tertiary:transparent;
+}
