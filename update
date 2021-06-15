@@ -1,31 +1,31 @@
 #!/bin/bash
 
-different=()
-nonLocal=()
+cd ~/ArchConfig
 
-entries=($( ls -a | sed -r 's/[\/a-zA-z0-9]*(configure|README.md|update|\.git)//g'))
-touch temp_diff_file
-for entry in ${entries[@]:2}; do
-    # don't mess with things that are only on local
-    diff -u ~/$entry ./$entry | sed -r 's/^Only .*$//g' >> temp_diff_file
+# show differences from last commit
+# differences=$(git diff $(git log | grep commit | head -n 2 | tail -n 1 | sed -e "s/commit //g") | grep -E '^diff|\/dev\/null' | sed "s/diff.* b\///")
+
+# differences=$(git diff b17b 6d4a | grep -E '^diff|\/dev\/null' | sed -e "s/diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g")
+differences=($(git diff b17b 6d4a | grep -E '^diff|\/dev\/null' | sed -e "s/^diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
+
+# differences is an array containing files and words
+# echo ${#differences[@]} -> 28
+
+for item in ${differences[@]}
+do
+    echo $item
 done
 
-# echo 'These files have differences:'
-# grep '\-\-\-' temp_diff_file | awk '{print $2}'
-
-rm temp_diff_file
-
-# No such file or directory (means only in ArchConfig)
-# Only in /home (means only on local)
-
-
 # figure out:
+    # added files (add them to local if not in local)
+    # deleted files
+    # differing files (ask if want to update)
+    # same but directories ^
 
-# files with differences (ask if want to update)
-# files in ArchConfig and not in ~ (add them to local)
-# common subdirectories (check them)
+# if ---/dev/null, file was created
+# if +++/dev/null, file was deleted
 
-# prints the files that differ:
-# ./update | grep '\-\-\-' | awk '{print $2}'
+# get "diff" line
+# get --- line
+# get +++ line
 
-# maybe output to file and grep to retrieve relevant data. That way you only need the loop to run once, and u just manipulate the data. Then delete the temp file ofc.
