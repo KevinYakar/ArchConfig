@@ -2,30 +2,65 @@
 
 cd ~/ArchConfig
 
+printArray () {
+    arr=("$@")
+    (( ${#arr[@]} == 0 )) && echo "none" && return
+    for item in ${arr[@]};
+    do
+        echo $item
+    done
+}
+
 # show differences from last commit
-# differences=$(git diff $(git log | grep commit | head -n 2 | tail -n 1 | sed -e "s/commit //g") | grep -E '^diff|\/dev\/null' | sed "s/diff.* b\///")
+# differences=($(git diff b17b 6d4a | grep -E '^diff|\-\-\- \/dev\/null|\+\+\+ \/dev\/null' | sed -e "s/^diff.* b\//\.\//" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
+differences=($(git diff $(git log | grep commit | head -n 2 | tail -n 1 | sed -e "s/commit //g") | grep -E '^diff|\-\-\- \/dev\/null|\+\+\+ \/dev\/null' | sed -e "s/^diff.* b\//\.\//" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
 
-# differences=$(git diff b17b 6d4a | grep -E '^diff|\/dev\/null' | sed -e "s/diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g")
-differences=($(git diff b17b 6d4a | grep -E '^diff|\/dev\/null' | sed -e "s/^diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
+add=()
+delete=()
+modify=()
 
-# differences is an array containing files and words
-# echo ${#differences[@]} -> 28
-
-for item in ${differences[@]}
+idx=0
+while (( $idx < ${#differences[@]} ));
 do
-    echo $item
+    current=${differences[$idx]}
+    next=${differences[(( $idx + 1 ))]}
+
+    case $next in
+        added)
+            add+=($current)
+            ;;
+
+        deleted)
+            delete+=($current)
+            ;;
+
+        *)
+            [ -z "$next" ] && [ $current != "added" ] && [ $current != "deleted" ] && modify+=($current)
+            [ -n "$next" ] && [ $next != "added" ] && [ $next != "deleted" ] && [ $current != "added" ] && [ $current != "deleted" ] && modify+=($current)
+            ;;
+    esac
+    idx=$(( idx + 1 ))
 done
 
-# figure out:
-    # added files (add them to local if not in local)
-    # deleted files
-    # differing files (ask if want to update)
-    # same but directories ^
+echo -e "Added:" | rainbow
+printArray "${add[@]}"
+echo
 
-# if ---/dev/null, file was created
-# if +++/dev/null, file was deleted
+echo -e "Deleted:" | rainbow
+printArray "${delete[@]}"
+echo
 
-# get "diff" line
-# get --- line
-# get +++ line
+echo -e "Modified:" | rainbow
+printArray "${modify[@]}"
+echo
+
+# use these when creating directories
+
+# printArray "${add[@]}" | awk -F '/' '{for(i=1;i<=NF-1;i++) printf $i"/"; print"'$add'"}' | uniq
+# printArray "${delete[@]}" | awk -F '/' '{for(i=1;i<=NF-1;i++) printf $i"/"; print"'$delete'"}' | uniq
+# printArray "${modify[@]}" | awk -F '/' '{for(i=1;i<=NF-1;i++) printf $i"/"; print"'$modify'"}' | uniq
+
+# add shiz
+# delete shiz
+# only replace if it exists on local (for example, /home/kevin/update doesnt exist, so dont modify)
 
