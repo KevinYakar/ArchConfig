@@ -12,14 +12,14 @@ printArray () {
     done
 }
 
-# show differences from last commit
-differences=($(git diff b17b 6d4a | grep -E '^diff|\-\-\- \/dev\/null|\+\+\+ \/dev\/null' | sed -e "s/^diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
-# differences=($(git diff $(git log | grep commit | head -n 2 | tail -n 1 | sed -e "s/commit //g") | grep -E '^diff|\-\-\- \/dev\/null|\+\+\+ \/dev\/null' | sed -e "s/^diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
+# find differences from last commit
+differences=($(git diff $(git log | grep commit | head -n 2 | tail -n 1 | sed -e "s/commit //g") | grep -E '^diff|\-\-\- \/dev\/null|\+\+\+ \/dev\/null' | sed -e "s/^diff.* b\///" -e "s/^\+.*/deleted/g" -e "s/^\-.*/added/g"))
 
 add=()
 delete=()
 modify=()
 
+# add appropriate files to the right arrays
 idx=0
 while (( $idx < ${#differences[@]} ));
 do
@@ -63,24 +63,38 @@ case $response in
     *) exit;;
 esac
 
-# create dirs
+# create dirs if they dont exist
 dirNames=$(printArray "${add[@]}" | awk -F '/' '{printf "'$HOME'/"; for(i=1;i<=NF-1;i++) printf $i"/"; print""}' | uniq)
 mkdir -pv $dirNames
 
-# copy new files over
+# copy new files over from "add" array
 for fileName in ${add[@]};
 do
-    # change this to remove the echo
-    echo "sudo cp $fileName $HOME/$fileName"
-    # sudo cp $fileName "$HOME/$fileName"
+    sudo cp $fileName "$HOME/$fileName"
 done
 
-# printArray "${delete[@]}" | awk -F '/' '{for(i=1;i<=NF-1;i++) printf $i"/"; print""}' | uniq
+# delete all individual files from "delete" array
+for fileName in ${delete[@]};
+do
+    sudo rm -rf "$HOME/$fileName"
+done
 
-# i dont think i would be using this since i have to check if the file exists
-# printArray "${modify[@]}" | awk -F '/' '{for(i=1;i<=NF-1;i++) printf $i"/"; print"'$modify'"}' | uniq
+# remove empty directories after deleting individual files
+baseDirs=$(printArray "${delete[@]}" | awk -F '/' '{printf "'$HOME'/"; for(i=1;i<=2;i++) printf $i"/"; print""}' | uniq | sed 's/\/$//g')
+subDirs=$(printArray "${delete[@]}" | awk -F '/' '{printf "'$HOME'/"; for(i=1;i<=NF-1;i++) printf $i"/"; print""}' | uniq | sed 's/\/$//g')
+for fileName in ${subDirs[@]};
+do
+    sudo rmdir "$fileName" 2>/dev/null
+done
 
-# add shiz
-# delete shiz
-# only replace if it exists on local (for example, /home/kevin/update doesnt exist, so dont modify)
+for fileName in ${baseDirs[@]};
+do
+    sudo rmdir "$fileName" 2>/dev/null
+done
+
+# only update modified files if they exist on local
+for fileName in ${modify[@]};
+do
+    [ -e "$HOME/$fileName" ] && sudo cp "$fileName" "$HOME/$fileName"
+done
 
