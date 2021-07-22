@@ -113,7 +113,7 @@ pacmanPackages=(
 
 yayPackages=(
     'ranger-git'
-    'betterdiscord'
+    'betterdiscord-installer'
     'go-rainbow-git'
     'bpytop'
     'picom-ibhagwan-git'
