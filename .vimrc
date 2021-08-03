@@ -121,6 +121,10 @@ set splitbelow splitright
 " For autocomplete in command mode
 set wildmode=longest,list,full
 
+" Better searching
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
 " Remove trailing whitespace on save
 " autocmd BufWritePre * %s/\s\+$//e
 
