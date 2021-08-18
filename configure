@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# check if git is installed or not 
-[[ "" == $( pacman -Qqs | grep '^git$' ) ]] && echo "You don't have git installed. Go install it!" && exit 
+# check if git is installed or not
+[[ "" == $( pacman -Qqs | grep '^git$' ) ]] && echo "You don't have git installed. Go install it!" && exit
 
 echo -ne '\nWARNING: THIS SCRIPT WILL OVERWRITE/DELETE:\n\n~/.bashrc\n~/.bash_profile\n~/.xinitrc\n~/.vimrc\n~/.vim/\n~/.config/\n\nPress Ctrl-c and move these to a safe place if you do not want to lose this data.\n'
 echo -ne '\nThis script will install my configuration of Arch Linux! Press Enter to continue or Ctrl-c to cancel.\n' && read
 
-# install yay 
+# install yay
 cd ~ && git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
@@ -14,24 +14,24 @@ cd ~ && rm -rf yay
 
 mkdir downloads documents music pictures videos
 
-# download dotfiles (uncomment if you didn't obtain this from the repo) 
+# download dotfiles (uncomment if you didn't obtain this from the repo)
 # git clone https://github.com/KevinYakar/ArchConfig.git || (echo 'ERROR: Could not clone ArchConfig' && exit)
 
 cd ~/ArchConfig
 
-# copy dotfiles into ~ 
+# copy dotfiles into ~
 cp .bashrc ~/.bashrc
 cp .bash_profile ~/.bash_profile
 cp .vimrc ~/.vimrc
 cp .xinitrc ~/.xinitrc
 
-# .vim/ 
+# .vim/
 if [ -d "$HOME/.vim" ]; then
     rm -rf ~/.vim
 fi
 cp -r .vim ~/.vim
 
-# wallpapers 
+# wallpapers
 pictures=0
 wallpapers=0
 if [ -d "$HOME/pictures/" ]; then
@@ -53,7 +53,7 @@ elif (( $pictures == 0 )) && (( $wallpapers == 0 )); then
 fi
 mkdir ~/pictures/screenshots
 
-# .fonts/ 
+# .fonts/
 if [ -d "$HOME/.fonts" ]; then
     cd ./.fonts && cp -r * ~/.fonts && cd ~/ArchConfig
 else
@@ -63,19 +63,19 @@ sudo pacman -S ttf-inconsolata adobe-source-han-sans-jp-fonts adobe-source-han-s
 yay -S ttf-iosevka
 fc-cache
 
-# .config/ 
+# .config/
 if [ -d "$HOME/.config" ]; then
     rm -rf ~/.config
 fi
 cp -r .config ~/.config
 
-# fix nitrogen path 
+# fix nitrogen path
 echo -ne "[xin_-1]\nfile=$HOME/pictures/wallpapers/cityandwater.jpg\nmode=4\nbgcolor=#000000" > ~/.config/nitrogen/bg-saved.cfg
 
-# install node for coc.nvim 
+# install node for coc.nvim
 sudo curl -sL install-node.now.sh/lts | sudo bash
 
-# install packages 
+# install packages
 pacmanPackages=(
     'xorg-server'
     'xorg-xinit'
@@ -125,10 +125,10 @@ yayPackages=(
 sudo pacman -S ${pacmanPackages[@]}
 yay -S ${yayPackages[@]}
 
-# install ueberzug for ranger 
+# install ueberzug for ranger
 pip install ueberzug
 
-# vcpkg (for polybar and dwm) 
+# vcpkg (for polybar and dwm)
 cd ~/.config
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
@@ -136,7 +136,7 @@ cd vcpkg
 ./vcpkg integrate install
 ./vcpkg install jsoncpp
 
-# install dwm 
+# install dwm
 cd ~/.config/dwm
 sudo make clean install
 
