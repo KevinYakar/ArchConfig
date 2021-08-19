@@ -382,6 +382,30 @@ click-left = alacritty -t "calcurse" -e calcurse
 
 # label = %date% %time%
 
+[module/calendars]
+type = custom/menu
+expand-right = true
+
+label-open = "Calendars"
+label-close = "X"
+label-close-foreground = ${colors.red}
+label-separator = " | "
+
+menu-0-0 = Browsers
+menu-0-0-exec = #calendars.open.1
+menu-0-1 = Multimedia
+menu-0-1-exec = #calendars.open.2
+
+menu-1-0 = Firefox
+menu-1-0-exec = firefox
+menu-1-1 = Alacritty
+menu-1-1-exec = alacritty
+
+menu-2-0 = Firefox
+menu-2-0-exec = firefox
+menu-2-1 = Alacritty
+menu-2-1-exec = alacritty
+
 [module/pulseaudio]
 type = internal/pulseaudio
 
