@@ -109,6 +109,7 @@ pacmanPackages=(
     'hunspell-en_US'
     'youtube-dl'
     'dunst'
+    'calcurse'
 )
 
 yayPackages=(
