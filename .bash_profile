@@ -15,7 +15,8 @@ append_path '/home/kevin/.local/bin'
 append_path '/opt/VIA'
 export PATH
 
-BROWSER=/usr/bin/firefox
+export BROWSER=/usr/bin/firefox
+export EDITOR=vim
 
 export LESSHISTFILE="-"
 export GNUPGHOME="~/.local/share/gnupg"
