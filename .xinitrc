@@ -46,8 +46,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # add resolution and set up monitors
-# xrandr --output DP-0 --mode 1920x1080 --rate 144 --primary
-# xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --left-of DP-0
+xrandr --output DP-0 --mode 2560x1440 --rate 144 --primary
+xrandr --output DP-4 --mode 1920x1080 --rate 144 --left-of DP-0
 
 # Wallpaper
 nitrogen --restore &
