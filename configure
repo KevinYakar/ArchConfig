@@ -24,6 +24,7 @@ cp .bashrc ~/.bashrc
 cp .bash_profile ~/.bash_profile
 cp .vimrc ~/.vimrc
 cp .xinitrc ~/.xinitrc
+cp .Xresources ~/.Xresources
 
 # .vim/
 if [ -d "$HOME/.vim" ]; then
