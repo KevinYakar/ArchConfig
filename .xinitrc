@@ -5,7 +5,7 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# merge in defaults and keymaps 
+# merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
 
@@ -52,10 +52,13 @@ xrandr --output DP-4 --mode 1920x1080 --rate 144 --left-of DP-0
 # Wallpaper
 nitrogen --restore &
 
+# Cursor size
+xrdb -merge ~/.Xresources
+
 # Compositor
 picom &
 
-# start sxhkd 
+# start sxhkd
 sxhkd &
 
 # Execute DWM
