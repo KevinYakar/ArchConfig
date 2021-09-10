@@ -111,6 +111,7 @@ pacmanPackages=(
     'youtube-dl'
     'dunst'
     'calcurse'
+    'vim-fugitive'
 )
 
 yayPackages=(

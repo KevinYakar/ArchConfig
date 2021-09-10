@@ -25,6 +25,7 @@ call plug#end()
 
 " Airline customizations
 let g:airline_stl_path_style = 'short'
+let g:airline#extensions#branch#enabled = 1
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
