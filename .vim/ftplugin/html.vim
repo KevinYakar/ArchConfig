@@ -27,7 +27,7 @@
 
 :inoremap <p<Return> <p></p><Esc>3hi
 :inoremap <a<Return> <a href=""></a><Esc>3hi
-:inoremap <img<Return> <img src="" alt="" width="" height=""></img><Esc>5hi
+:inoremap <img<Return> <img src="" alt="" width="" height=""><Esc>27hi
 
 :inoremap <b<Return> <b></b><Esc>3hi
 :inoremap <strong<Return> <strong></strong><Esc>8hi
@@ -43,6 +43,7 @@
 
 :inoremap <sub<Return> <sub></sub><Esc>5hi
 :inoremap <sup<Return> <sup></sup><Esc>5hi
+:inoremap <u<Return> <u></u><Esc>3hi
 
 :inoremap <abbr<Return> <abbr title=""></abbr><Esc>6hi
 

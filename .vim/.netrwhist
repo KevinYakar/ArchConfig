@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/kevin/.config/alacritty'
+let g:netrw_dirhist_6='/home/kevin/.config/polybar'
+let g:netrw_dirhist_5='/home/kevin/.config/dwm'
+let g:netrw_dirhist_4='/home/kevin/ArchConfig/.config'
+let g:netrw_dirhist_3='/home/kevin/.config/polybar'
+let g:netrw_dirhist_2='/home/kevin/school/winter2020/cs121/a3/cs121_a3'
+let g:netrw_dirhist_1='/home/kevin/.config/alacritty'
