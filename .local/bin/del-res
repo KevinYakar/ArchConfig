@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# $1 = width
+# $2 = height
+# $3 = refresh rate
+# $4 = display
+
+argsDontExist=false
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ] || [ -z "$4" ]; then
+    argsDontExist=true
+fi
+
+$argsDontExist && echo -e "You must enter all arguments.\nArg 1: width\nArg 2: height\nArg 3: refresh rate\nArg 4: display (example: HDMI-1)\nExample: del-res 2560 1440 144 DP-1" && exit
+
+modeline=$( cvt $1 $2 $3 | grep 'Modeline' | sed -e 's/Modeline //g' -e 's/"//g' )
+name=$( echo $modeline | sed -e 's/ .*//g' )
+
+echo "Deleting [$name] from $4's xrandr resolutions"
+
+echo -n 'Apply changes? [Y/n]: '
+read response;
+
+case $response in
+    y|Y|'') echo -n '';;
+    *) exit;;
+esac
+
+xrandr --delmode $4 $name
+xrandr --rmmode $name
+
