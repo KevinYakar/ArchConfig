@@ -8,6 +8,7 @@ rounded-corners-exclude = [
 #  "class_g = 'Alacritty'",
   "class_g = 'Polybar'",
   "class_g = 'Dunst'",
+  "class_g = 'veloren-voxygen'",
 #  "class_g = 'firefox'",
 ];
 #round-borders = 0;
@@ -202,6 +203,11 @@ opacity-rule = [
   "100:name *= 'feh'",
   "100:name *= 'gif'", 
   "100:name *= 'VMware'", 
+  "100:name *= 'NetBeans'", 
+  "100:name *= 'AnyDesk'", 
+  "100:class_g = 'jetbrains-idea'", 
+  "100:class_g = 'TablePlus'",
+  "100:class_g = 'veloren-voxygen'",
 ];
 
 
@@ -430,7 +436,7 @@ use-damage = true
 # Make transparent windows clip other windows like non-transparent windows do,
 # instead of blending on top of them.
 #
-# transparent-clipping = false
+transparent-clipping = true
 
 # Set the log level. Possible values are:
 #  "trace", "debug", "info", "warn", "error"

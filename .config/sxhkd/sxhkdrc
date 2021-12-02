@@ -57,3 +57,20 @@ alt + shift + s
 # Open signal
 alt + shift + m
     signal-desktop --use-tray-icon
+
+# Close dunst notification
+ctrl + space
+  dunstctl close
+
+# Close all dunst notifications
+ctrl + shift + space
+  dunstctl close-all
+
+# Show last notification
+ctrl + grave
+  dunstctl history-pop
+
+# Open context menu for notification
+ctrl + shift + period
+  dunstctl context
+
