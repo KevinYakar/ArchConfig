@@ -104,7 +104,7 @@ module.exports = (() => {
 						.hideElement { width: 0 !important; }
 						.sidebar-2K8pFh .container-3baos1 { transition: 400ms ease all; }
 						.sidebar-2K8pFh.hideElement .container-3baos1 { position: absolute; box-sizing: border-box; width: 240px; height: 68px; bottom: 0; margin-bottom: 0; padding: 0 8px; z-index: 2; }
-						.sidebar-2K8pFh.hideElement .container-3baos1 { background-color: var(--background-primary); }
+						.sidebar-2K8pFh.hideElement .container-3baos1 { background-color: var(--backgroundColor02); }
 						.sidebar-2K8pFh + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU { margin-left: 0; transition: 400ms ease margin-left; }
 						.sidebar-2K8pFh.hideElement + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU { margin-left: 240px; }
 						.sidebar-2K8pFh, .hideElement { transition: width 400ms ease; }
