@@ -26,5 +26,8 @@ export PASSWORD_STORE_DIR="~/.local/share/gnupg/pass"
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-startx
+
+if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+    startx
+fi
 

@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything 
+# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 LS_COLORS='di=\e[38;5;173;1:ow=\e[38;5;173;1:ex=\e[38;5;174;1:*.zip=\e[38;5;167;1:*.gz=\e[38;5;167;1:*.jar=\e[38;5;174;1:*.jpg=\e[38;5;111;1:*.jpeg=\e[38;5;111;1:*.gif=\e[38;5;111;1:*.png=\e[38;5;111;1:*.mp4=\e[38;5;111;1:*.mp3=\e[38;5;111;1:*.txt=\e[38;5;108;1:*.pdf=\e[38;5;108;1'
@@ -37,8 +37,10 @@ PS1='\[$purple$bold\][\u\[$reset\]\[$red$bold\]@\[$reset\]\[$purple$bold\]\h \[$
 
 stty -ixon
 
-# vim bindings 
+# vim bindings
 set -o vi
 
-xset r rate 300 50
+if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+    xset r rate 300 50
+fi
 
