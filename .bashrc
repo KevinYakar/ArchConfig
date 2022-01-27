@@ -40,7 +40,7 @@ stty -ixon
 # vim bindings
 set -o vi
 
-if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+if [[ $XDG_VTNR -eq 1 ]]; then
     xset r rate 300 50
 fi
 
