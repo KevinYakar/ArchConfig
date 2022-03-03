@@ -17,6 +17,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
 Plug 'https://github.com/wesQ3/vim-windowswap'
 Plug 'sheerun/vim-polyglot'
+Plug 'https://github.com/tpope/vim-commentary'
 
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'https://github.com/co1ncidence/mountaineer.vim'

@@ -1,3 +1,7 @@
+:imap <silent> <C-_> <Esc>gccA
+:nmap <silent> <C-_> gcc
+:vmap <silent> <C-_> gc
+
 :imap !!<Return> <!DOCTYPE html><Return><html lang="en<Right>><Return><Return></html><Up><Tab><head<Return><Return><Return><Up><Tab><Tab>!meta<Return><Return><title<Return>
 
 :imap !meta<Return> !mdesc<Return><Return>!mchar<Return><Return>!mview<Return><Return>!mxua<Return>
