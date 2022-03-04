@@ -153,3 +153,11 @@ nnoremap N Nzzzv
 " General coding
 :inoremap {<Return> {}<Left><Return><Esc>kA<Return>
 
+" Copy selected text to clipboard
+func! CopySelection(lofs)
+    let l:clipboard = "/tmp/.vim_clipboard"
+    call writefile(a:lofs, l:clipboard)
+    call system("xclip -r -sel c " . l:clipboard)
+endfunc
+vnoremap <silent> Y y:call CopySelection(getreg('"', 1, 1))<CR>
+
