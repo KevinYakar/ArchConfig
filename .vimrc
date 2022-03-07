@@ -4,6 +4,7 @@ set expandtab
 set autoindent
 set lazyredraw
 set nocompatible
+set re=0
 
 
 
@@ -159,5 +160,5 @@ func! CopySelection(lofs)
     call writefile(a:lofs, l:clipboard)
     call system("xclip -r -sel c " . l:clipboard)
 endfunc
-vnoremap <silent> Y y:call CopySelection(getreg('"', 1, 1))<CR>
+:vnoremap <silent> Y y:call CopySelection(getreg('"', 1, 1))<CR>
 
