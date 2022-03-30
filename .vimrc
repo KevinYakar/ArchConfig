@@ -19,6 +19,7 @@ Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
 Plug 'https://github.com/wesQ3/vim-windowswap'
 Plug 'sheerun/vim-polyglot'
 Plug 'https://github.com/tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
 
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'https://github.com/co1ncidence/mountaineer.vim'
@@ -132,7 +133,7 @@ nnoremap n nzzzv
 nnoremap N Nzzzv
 
 " Remove trailing whitespace on save
-" autocmd BufWritePre * %s/\s\+$//e
+autocmd BufWritePre * %s/\s\+$//e
 
 " Substitute selected text in visual-line mode
 :vnoremap S :s//g<Left><Left>
