@@ -111,6 +111,8 @@ pacmanPackages=(
     'youtube-dl'
     'dunst'
     'calcurse'
+    'fzf'
+    'the_silver_searcher'
 )
 
 yayPackages=(

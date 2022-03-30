@@ -20,6 +20,8 @@ Plug 'https://github.com/wesQ3/vim-windowswap'
 Plug 'sheerun/vim-polyglot'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'https://github.com/co1ncidence/mountaineer.vim'
@@ -55,6 +57,10 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+" CocUpdate to update extensions
+" CocInstall to install extensions
+"   ex: CocInstall coc-java
+
 " Support comments for more filetypes
 " autocmd FileType ${ftype} setlocal commentstring=#\ %s
 
@@ -64,6 +70,9 @@ endfunction
 " These only work if you put 'stty -ixon' in your .bashrc file
 :nnoremap <silent> <C-s> :silent w<CR>
 :inoremap <silent> <C-s> <Esc>:silent w<CR>a
+
+" Set leader key
+let mapleader = ' '
 
 " Source ~/.vimrc file
 map <Leader>r :source ~/.vimrc<Return>
@@ -106,8 +115,6 @@ highlight Comment guifg=#907466 cterm=italic,bold
 :inoremap <C-h> <Left>
 :inoremap <C-l> <Right>
 
-
-
 " Moving between vim windows
 :nnoremap <C-k> <C-w>k
 :nnoremap <C-j> <C-w>j
@@ -141,6 +148,14 @@ autocmd BufWritePre * %s/\s\+$//e
 " Substitute all occurences of matching text in normal mode
 :nnoremap S :%s//g<Left><Left>
 
+" Copy selected text to clipboard
+func! CopySelection(lofs)
+    let l:clipboard = "/tmp/.vim_clipboard"
+    call writefile(a:lofs, l:clipboard)
+    call system("xclip -r -sel c " . l:clipboard)
+endfunc
+:vnoremap <silent> Y y:call CopySelection(getreg('"', 1, 1))<CR>
+
 
 
 " Pairs
@@ -155,11 +170,13 @@ autocmd BufWritePre * %s/\s\+$//e
 " General coding
 :inoremap {<Return> {}<Left><Return><Esc>kA<Return>
 
-" Copy selected text to clipboard
-func! CopySelection(lofs)
-    let l:clipboard = "/tmp/.vim_clipboard"
-    call writefile(a:lofs, l:clipboard)
-    call system("xclip -r -sel c " . l:clipboard)
-endfunc
-:vnoremap <silent> Y y:call CopySelection(getreg('"', 1, 1))<CR>
+" Go to definition and references
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
+
+" fzf
+" must install:
+"   https://github.com/ggreer/the_silver_searcher
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -f -g ""'
+nmap <leader>s :Files<CR>
 
