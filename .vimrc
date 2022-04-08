@@ -24,7 +24,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'ghifarit53/tokyonight-vim'
-Plug 'https://github.com/co1ncidence/mountaineer.vim'
+Plug 'catppuccin/nvim', {'as': 'catppuccin', 'branch': 'main'}
 
 call plug#end()
 
@@ -92,10 +92,6 @@ let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 let g:tokyonight_transparent_background = 1
 colorscheme tokyonight
-
-" colorscheme mountaineer-grey
-" hi clear Normal
-" hi clear LineNr
 
 highlight LineNr cterm=italic guifg=#888fae
 highlight Comment guifg=#907466 cterm=italic,bold

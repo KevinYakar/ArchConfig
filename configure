@@ -113,6 +113,7 @@ pacmanPackages=(
     'calcurse'
     'fzf'
     'the_silver_searcher'
+    'tmux'
 )
 
 yayPackages=(

@@ -26,6 +26,7 @@ alias combinepdf='gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combined.pdf -dBAT
 alias live-server='live-server --port=5500 --host=127.0.0.1 --quiet &'
 alias sson='xset s on && xset +dpms'
 alias ssoff='xset s off && xset -dpms'
+alias tmux='tmux -f ~/.config/tmux.conf'
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
