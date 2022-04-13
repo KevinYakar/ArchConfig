@@ -97,8 +97,8 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Iosevka
-    #family: Inconsolata
+    #family: Iosevka
+    family: JetBrainsMonoNL Nerd Font Mono
     #family: monospace
 
     # The `style` can be specified to pick a specific face.
@@ -140,7 +140,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 10.5
+  size: 10
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
