@@ -1,8 +1,8 @@
-# Take a screenshot of the entire screen 
+# Take a screenshot of the entire screen
 super + shift + 3
     scrot '%Y-%m-%d_%I:%M:%S%P.png' -q 100 -e 'xclip -selection clipboard -target image/png -i $f && mv $f ~/pictures/screenshots'
 
-# Take a screenshot of a selected area 
+# Take a screenshot of a selected area
 super + shift + 4
     sleep 0.2 && scrot '%Y-%m-%d_%I:%M:%S%P.png' -s -f -q 100 -e 'xclip -selection clipboard -target image/png -i $f && mv $f ~/pictures/screenshots'
 
@@ -10,11 +10,11 @@ super + shift + 4
 super + shift + 5
     sleep 0.2 && scrot '%Y-%m-%d_%I:%M:%S%P.png' -s -f -q 100 -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
 
-# Kill all polybar instances and restart 
+# Kill all polybar instances and restart
 alt + r
     killall polybar && sleep 0.3 && ~/.config/polybar/start-bar.sh &
 
-# Toggle tray/music bar 
+# Toggle tray/music bar
 alt + n
     ~/.config/polybar/toggle-tray.sh
 
@@ -22,27 +22,27 @@ alt + n
 alt + shift + n
     alacritty -t "ncmpcpp" -e ncmpcpp
 
-# Start picom 
+# Start picom
 alt + c
     ~/.config/picom/start-picom.sh
 
-# Increment volume 
+# Increment volume
 super + 3
     pactl set-sink-volume @DEFAULT_SINK@ +5%
 
-# Decrement volume 
+# Decrement volume
 super + 2
     pactl set-sink-volume @DEFAULT_SINK@ -5%
 
-# Toggle mute 
+# Toggle mute
 super + 1
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 
-# Open browser 
+# Open browser
 alt + w
     firefox
 
-# Put computer to sleep 
+# Put computer to sleep
 super + s
     systemctl suspend
 
@@ -73,4 +73,22 @@ ctrl + grave
 # Open context menu for notification
 ctrl + shift + period
   dunstctl context
+
+# Play/Pause spotify
+super + Down
+    ~/.local/bin/spotify_control playpause > /dev/null
+XF86AudioPlay
+    ~/.local/bin/spotify_control playpause > /dev/null
+
+# Go to next song in spotify
+super + Right
+    ~/.local/bin/spotify_control next > /dev/null
+XF86AudioNext
+    ~/.local/bin/spotify_control next > /dev/null
+
+# Go to previous song in spotify
+super + Left
+    ~/.local/bin/spotify_control previous > /dev/null
+XF86AudioPrev
+    ~/.local/bin/spotify_control previous > /dev/null
 

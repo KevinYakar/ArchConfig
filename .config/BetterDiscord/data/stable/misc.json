@@ -1,10 +1,14 @@
 {
-    "version": "1.0.0",
+    "version": "1.5.3",
     "drawerStates": {
         "settings": {
-            "developer": false,
+            "developer": true,
             "window": false,
             "customcss": false
         }
+    },
+    "emoteVersion": "v1.5.3",
+    "favoriteEmotes": {
+        "BRUH": "https://cdn.frankerfacez.com/emoticon/306816/1"
     }
 }

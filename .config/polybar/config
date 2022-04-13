@@ -297,7 +297,7 @@ label-empty-padding = 2
 [module/mpd]
 type = internal/mpd
 ;format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>   <label-song> 
+format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>   <label-song>
 label-song-underline = ${colors.blue}
 # label-song-underline = ${colors.tan}
 # label-song-underline = ${colors.alert}
@@ -352,8 +352,8 @@ label = " 󰁀 %percentage_used%% "
 
 [module/wlan]
 type = internal/network
-interface = enp7s0
-# interface = wlp6s0
+# interface = enp7s0
+interface = wlp6s0
 interval = 3.0
 
 format-connected =  <label-connected>
@@ -393,7 +393,7 @@ format-disconnected-underline = ${colors.primary}
 [module/date]
 type = custom/script
 exec = date +"%a %b %d %l:%M%P"
-interval = 60
+interval = 1
 label = %output%
 click-left = alacritty -t "calcurse" -e calcurse
 # type = internal/date

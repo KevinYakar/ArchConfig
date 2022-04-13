@@ -1,608 +1,612 @@
-sw_volume: 36
+sw_volume: 60
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 98
-time: 91.953000
+state: stop
+current: 597
 random: 0
-repeat: 0
-single: 0
+repeat: 1
+single: 1
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:nekoi ✨- i can't describe this feeling..mp3
-1:theor - smoke gets in your eyes.mp3
-2:nohidea - falling down (ft. shiloh).mp3
-3:stian - how could you.mp3
-4:beowulf - savior.mp3
-5:Kendall Miles x Somar - Light Year Love.mp3
-6:kerri - misery (audio).mp3
-7:kudasai - memories with her.mp3
-8:elijah who - backseat bump.mp3
-9:Danny Bonsai - far away.mp3
-10:kudasai - Platinum.mp3
-11:elijah who - drifting (w_ jinsang).mp3
-12:Kina - get you the moon (ft. Snow).mp3
-13:elijah who - here.mp3
-14:Nymano - Comfy.mp3
-15:star.bump.mp3
-16:sagun feat. Shiloh Dynasty - I Know You So Well.mp3
-17:idealism - seeing you.mp3
-18:Kudasai - Where he's been (extended).mp3
-19:downtυne - trying to smile when youre sad.mp3
-20:TRA$H - ＦＯＲＧＥＴ.mp3
-21:nick leng - Ticking.mp3
-22:Bassti - i'm sad.mp3
-23:kudasai - a light of mine.mp3
-24:elijah who - spring love.mp3
-25:tired - yeaaa..mp3
-26:S M I T T Y M A M B A - T O O L A T E.mp3
-27:MOSHi - dead feelings.mp3
-28:sad boy with a laptop - you're the dream i never wanna wake up from.mp3
-29:Nujabes ft. MINMI - Shiki No Uta (Levox Remix).mp3
-30:venom - i love to pretend that you love me (prod. ZETO).mp3
-31:coldhart - spyro.mp3
-32:w00ds - bl00m.mp3
-33:young whack - goodbye.mp3
-34:elijah who - bloom.mp3
-35:Alicks w_ jshu - dont let me fall asleep.mp3
-36:pedrolina. - Awamori.mp3
-37:Mon-Day - ive been tired.mp3
-38:DeadPlanets - Perfect Circle.mp3
-39:lil peep - we think too much (prod. nedarb).mp3
-40:Flume feat. Kai - Never Be Like You (A.T. Remix).mp3
-41:elijah who - i love you still.mp3
-42:elijah who - first kiss.mp3
-43:kudasai - dream of her.mp3
-44:Nujabes - Lady Brown.mp3
-45:Chedum - Seikatsu.mp3
-46:kudasai - where she is.mp3
-47:harris cole - good morning.mp3
-48:elijah who - together with you.mp3
-49:mewsyc ツ- i'm never good enough..mp3
-50:elijah who - sad and boujee.mp3
-51:redpest ☯ - Falling In Love Pt. 3.mp3
-52:Somebody Else.mp3
-53:joji x shamana - BESIDJU.mp3
-54:zeni moe - in my thoughts.mp3
-55:luv.ly - the girl from..mp3
-56:TRA$H - ＴＩＭＥ.mp3
-57:shinigami - ghosts.mp3
-58:joji - worldstar money.mp3
-59:TRA$H - ＳＡＦＥ.mp3
-60:VULPIX - Hazy.mp3
-61:aftertheparty - reflection.mp3
-62:vague003 - i know you're probably not home.mp3
-63:Kudasai - First Sight  _ PitterPatter.mp3
-64:Tides. - Sleeep.mp3
-65:kudasai - oh darling.mp3
-66:Karma Rhythm - Nineteen 🌇.mp3
-67:elijah who - soy latte.mp3
-68:BØJET - lost.mp3
-69:lil mochi - I Hate The Way I Dont Hate You_Put The Pen Down.mp3
-70:loprofile . - ☁️ entre.nubes. ☁️.mp3
-71:kudasai - technicolor.mp3
-72:elijah who - i'm tired of feeling this way.mp3
-73:mochi - puzzles.mp3
-74:Nymano - Romance [Full BeatTape].mp3
-75:House Pet - UP ALL NIGHT.mp3
-76:towser - knight.mp3
-77:angelo - melancholy.mp3
-78:lildeath - banana split.mp3
-79:elijah who - don't make me cry (full project).mp3
-80:elijah who - empty space.mp3
-81:keshi - over u.mp3
-82:ℒund - Mirror.mp3
-83:elijah who - freak no more.mp3
-84:NIKK BLVKK - Zephyr's Flutter.mp3
-85:moses - hotboy.mp3
-86:never,forever - i wanted to cry, i wanted to die.mp3
-87:@sadisasxx - ☆love letter☆.mp3
-88:elijah who - act right.mp3
-89:oliver - let my guard down.mp3
-90:Kudasai - Overcast.mp3
-91:joji - i don't wanna waste my time.mp3
-92:MEECHY -Ｓｏｕｌ Ｓｅａｒｃｈｉｎ.mp3
-93:ℒund - 破碎 (Broken).mp3
-94:Cadmio - Submerging.mp3
-95:Oh Wonder - Technicolour Beat.mp3
-96:MOSHi - Without you..mp3
-97:matt sims - wanderlust.mp3
-98:Kina - Can We Kiss Forever_ (ft. Adriana Proenza).mp3
-99:cucu [回顧] - i don't trust nobody (feat. shiloh).mp3
-100:rené - january.mp3
-101:elijah who - molly.mp3
-102:elijah who - roses.mp3
-103:in love with a ghost _ we were friends.mp3
-104:House Pet - 103.mp3
-105:l e a f s愛 - When you_re gone.mp3
-106:elijah who - april (x kavv).mp3
-107:Idealism - Rainy Evening [Full BeatTape].mp3
-108:elijah who - designer.mp3
-109:elijah who - feelin' fine.mp3
-110:slipfunc - upon my skin.mp3
-111:Oui Lele -ｂｅｔｔｅｒ ｄａｙｓ.mp3
-112:the girl next door - lovesick..mp3
-113:jurp - pain pills.mp3
-114:𝙊 𝙤 𝙞 🌜 - old time.mp3
-115:Idealism x Jinsang - WInter Bokeh.mp3
-116:saib. - in your arms..mp3
-117:slipfunc - glance.mp3
-118:Chinsaku - Sunset.mp3
-119:Tomppabeats - She doesn't pick up.mp3
-120:$hy - sxsw (ft. eric north).mp3
-121:elijah who - new feelings [lo-fi ep].mp3
-122:Oh Wonder - Shark.mp3
-123:redpest ☯ - The last date __ 海洋波.mp3
-124:[Chilltrap] idealism - Wanna Know.mp3
-125:slipfunc - days with you.mp3
-126:Hakaisu - mellow skies.mp3
-127:kudasai - separate ways.mp3
-128:a l e x - (sad song title).mp3
-129:elijah who - yah YEET (w_ luv.ly).mp3
-130:Saint Romain - i was all you needed (feat. Shiloh).mp3
-131:Idealism - Both of us.mp3
-132:saib. - Spike Spiegel.mp3
-133:Flowers.mp3
-134:sad boy with a laptop - quiet walks on a snowy street.mp3
-135:kavv - now that you_re gone.mp3
-136:no1 - feeling in color.mp3
-137:oliver - nu nardis.mp3
-138:four fing - you know how i feel.mp3
-139:schoolboy Q - man of the year [1999 Lofi Mix].mp3
-140:June - I'll Be Back.mp3
-141:mac moon - love spell (ft. souly had).mp3
-142:elijah who - ding mogu.mp3
-143:w00ds - pink skies.mp3
-144:omar - light w_ H E R B.mp3
-145:Cody G. - ukulele and chill.mp3
-146:jack cates - tap dance.mp3
-147:bsd.u - Late Night Bumps [Full Album].mp3
-148:ok2222 x j'san - nobody like you.mp3
-149:J'san - Just a Dream.mp3
-150:j'san. - i'm in love with u, sorry.mp3
-151:hisohkah - school rooftop.mp3
-152:Soft Powder - I Wonder If You Dream.mp3
-153:Alicks - cut it out.mp3
-154:nilöwh. - a sweet beginning.mp3
-155:sarcastic sounds - dead dreams.mp3
-156:engelwood - passing.by.mp3
-157:Imaginary Ambition - Low Fidelity.mp3
-158:elijah who - sweet.mp3
-159:To the Moon.mp3
-160:elijah who - flyin.mp3
-161:Caleb Belkin - reminisce.mp3
-162:Prod. Seany OWE - Could I Ever Be Loved Feat. Little Kuma.mp3
-163:omar - i've got my eye on you.mp3
-164:WANTED U.mp3
-165:Through & Through - the world forgetting, by the world forgot.mp3
-166:Nujabes - aruarian dance (Japanese Names remix).mp3
-167:keshi - magnolia.mp3
-168:E66S 卵 - i spilled moonshine on my 404 and this came out.mp3
-169:NKOHA – 永遠の.mp3
-170:depression sweater - affogato.mp3
-171:Moo Latte - Zouk.mp3
-172:elijah who - why not.mp3
-173:aftertheparty - someone else.mp3
-174:Charlie Myles - this is crack {open a book}.mp3
-175:Oliver - U Kno.mp3
-176:fortnight - 2000.mp3
-177:jump man 93 - bruh.mp3
-178:mr. hong - long days​.​short years [EP] nostalgic ' chillhop.mp3
-179:SpoonBeats - GunShot.mp3
-180:nat - even the sky reminds me of you.mp3
-181:jurp - 2002.mp3
-182:Letskey - Let's stay in the car.mp3
-183:ÆkaSora - one day in Japan.mp3
-184:potsu - food court.mp3
-185:ＦＯＲ ＹＯＵ.mp3
-186:Demons.mp3
-187:Sky.High - It's just a blur.mp3
-188:yung mase - i don't wanna die.mp3
-189:chief. - stay.mp3
-190:toph - purr-fect.mp3
-191:dreya - blue.mp3
-192:Dream Koala - Synthetic Evolution.mp3
-193:slipfunc - left alone.mp3
-194:buster - in these arms tonight (feat. shiloh).mp3
-195:potsu - im closing my eyes (feat. shiloh).mp3
-196:trevor daniel - indécis (prod. eric dingus).mp3
-197:ＲＥＭＥＭＢＥＲ.mp3
-198:koi - yayaya.mp3
-199:cat naps - nothing was the same.mp3
-200:B A D  F E E L S   _ chillout _.mp3
-201:marc - Oceans w_ demxntia & Indii G..mp3
-202:nat - leaving.mp3
-203:elijah who - crying without knowing why.mp3
-204:Kina - u're mine (ft. shiloh).mp3
-205:boogie.bump.mp3
-206:TRA$H - ＡＬＯＮＥ.mp3
-207:beta max - tap water.mp3
-208:j^p^n - amend..mp3
-209:the girl next door - roses in france.mp3
-210:Congratulaions - Post Malone ft. Quavo (Lo-Fi Remix).mp3
-211:Vague003 - girl, friend.mp3
-212:ondi vil & teqkoi - please come back.mp3
-213:Dream Koala - Gold.mp3
-214:aura - sunset breeze.mp3
-215:June - Cycle Speeds (feat. lastminutecustomer).mp3
-216:A I R I - E V E R Y T H I N G.mp3
-217:olli - i don't wanna do this anymore.mp3
-218:Nymano - Short Stories [Full BeatTape].mp3
-219:ibrahim - wool sweaters and early mornings (w_ Juan).mp3
-220:Sonorous - Outside.mp3
-221:Prod. Seany OWE - Stay Ft. Ariel McCleary.mp3
-222:sugi.wa - urtha1.mp3
-223:nova - not around 2.mp3
-224:Powfu - Life with you (Prod. Just big hills.).mp3
-225:potsu - [oops].mp3
-226:TRA$H - ＷＯＲＲＹ.mp3
-227:Geek Boy - We Can Run Away.mp3
-228:luhx - sober.mp3
-229:ANDRU - My Love.mp3
-230:Idealism - Nagashi.mp3
-231:slipfunc - warm thoughts w_ omar.mp3
-232:MEECHY -Ｉ ｊｕｓｔ ｗａｎｔ ｔｏ ｌｉｖｅ.mp3
-233:TRA$H - ＡＷＡＫＥ.mp3
-234:What I Wish - 2am.mp3
-235:Joji & Trippie Redd - 18 (Joji & Trippie Redd Verse Only).mp3
-236:Philip von Wartenberg – we had fun.mp3
-237:F@ B - Noname.mp3
-238:Plastic Memories Opening _ プラスティック・メモリーズ OP - Ring of Fortune [HD] Subbed.mp3
-239:ruiji - I Need A New Beginning.mp3
-240:Rythmatical - Swank.mp3
-241:MISOGI - UGLY.mp3
-242:secret crates - ░░__Ｓｐｒｉｎｇｔｉｍｅ Ｓｔｒｏｌｌ__Westminster Quarters =Ⓣɪᴍᴇ ➋ Ⓜᴇᴇᴛ.mp3
-243:slipfunc - you _ I.mp3
-244:tysu - missing her.mp3
-245:E66S 卵 - gently.mp3
-246:Poyo Spirit - Nevermind.mp3
-247:Joakim Karud - Dreams.mp3
-248:Kendall Miles - Flight of the Dreamer.mp3
-249:hateful - take me away.mp3
-250:Kudasai - Monochrome lens.mp3
-251:aftertheparty - embargo.mp3
-252:Nujabes - Aruarian Dance.mp3
-253:J E N - ｒｅｃａｌｌｉｎｇ ｔｈｅ ｍｅｍｏｒｉｅｓ.mp3
-254:meltycanon - a girl who is cute while eating.mp3
-255:kudasai - love lasts.mp3
-256:hazy nights - because.mp3
-257:toj - midnight.mp3
-258:luv.ly - stepping stones.mp3
-259:TeddyLoid「Pipo Password (ボンジュール鈴木 ふわふわremix)」from『SILENT PLANET 2 EP Vol.2』.mp3
-260:a l e x - Ｚｅｌｄａ'ｓ Ｌｕｌｌａｂｙ.mp3
-261:Nymano - Goodbye.mp3
-262:imfinenow - but through my ups and downs.mp3
-263:Window.mp3
-264:omar - serene.mp3
-265:maru - i dont deserve u at all.mp3
-266:BLVK. - withu.mp3
-267:slipfunc - amid the flowers..mp3
-268:lofi.samurai - let me hold you (ft. Insowmya).mp3
-269:Steven Jame$ - Until.mp3
-270:slipfunc - until dawn.mp3
-271:June - Before Anyone Else.mp3
-272:Study (Shiki No Uta Flip) - テイラー.mp3
-273:elijah who - cold hands [mini ep].mp3
-274:nymano - the man alone.mp3
-275:trevor daniel - face it.mp3
-276:VAGUE003 - Over My Head (feat. 333 And wizdm).mp3
-277:elijah who - milk tea.mp3
-278:Jordan Maxwell - unlimited.mp3
-279:I eat Plants for a living - Save Me.mp3
-280:oakjoi - all mi.mp3
-281:Kudasai - See You Soon _ PitterPatter.mp3
-282:sugi.wa - je t'aime.mp3
-283:Memories of you again... (lofi hip-hop mix).mp3
-284:kudasai - petals.mp3
-285:kavv - beach night.mp3
-286:khai dreams - Fantasy(Prod. Jinsang).mp3
-287:kudasai - when i see you.mp3
-288:Jeremih ft. Ty Dolla $ign - Impatient (Audio).mp3
-289:Addict. - I stop breathing when you smile.mp3
-290:CUCO x CLAIRO - DROWN (Audio).mp3
-291:idealism - time will tell.mp3
-292:omar - was i not good enough_.mp3
-293:kudasai - don't you love me.mp3
-294:aftertheparty - bupropion.mp3
-295:kudasai - a night together.mp3
-296:ENRA seeking warmth w_ sleepermane.mp3
-297:June - It Seems Like.mp3
-298:Odtsu - petit.mp3
-299:in love with a ghost _ we've never met but, can we have a coffee or something_.mp3
-300:They Don't Understand (Extended Version) - PinkOmega.mp3
-301:kudasai - attached.mp3
-302:gin$eng & nara - wishes.mp3
-303:sarcastic sounds - die alone.mp3
-304:aftertheparty - home.mp3
-305:elijah who - hello.mp3
-306:Lo'Fi Boy - Trust.mp3
-307:lontalius - dreams in my head (anika moa cover).mp3
-308:Idealism - Hiraeth [Full BeatTape].mp3
-309:eery - Her.mp3
-310:verzache - juvenescence.mp3
-311:Dream Koala - Architect.mp3
-312:Smitty Mamba - R O O F T O P.mp3
-313:in love with a ghost _ complex feelings about my own existence feat. jungkook.mp3
-314:slipfunc - summer luv.mp3
-315:Charlie Myles - been alone my friend {again}.mp3
-316:MAC AYRES - SLOW DOWN.mp3
-317:elijah who - pink.mp3
-318:idealism - during that night.mp3
-319:Phora - Feel.mp3
-320:Medda - wish upon a star.mp3
-321:jinsang. - h y d r a t e.mp3
-322:elijah who - w all your love.mp3
-323:J Dilla - Life (Instrumental).mp3
-324:Resotone - We Are.mp3
-325:LilBootyCall - YuGiOh (Prod. Janami   Amazement).mp3
-326:✰sadidas✰ - for the last time, forever.mp3
-327:jurp - way (prod. sadbalmain).mp3
-328:anxious. - Last day of summer break.mp3
-329:Claine - So into YOU.mp3
-330:sad boy with a laptop - you make my heart go doki doki.mp3
-331:w00ds - d1st4nt.mp3
-332:ＦＡＤＥＤ - never gonna see you again.mp3
-333:ok2222 x j'san feat. khai dreams & barnes blvd. - on and on.mp3
-334:Phora - Holding On.mp3
-335:FIRE ESCAPE - Ofuhreal.mp3
-336:Bazzi - Mine [Slowed].mp3
-337:weird inside - wishing well.mp3
-338:sagun - I'm Drunk And Confused (Feat. Shiloh).mp3
-339:COME THRU.mp3
-340:I Don't Love My Baby.mp3
-341:elijah who - haiku.mp3
-342:I eat Plants for a living - Alone together.mp3
-343:Moses - Sushi Vlogs.mp3
-344:Powfu - nothing matters _ Feat. QAWI KAMRI.mp3
-345:khai dreams - Through and Through (Atwood Remix).mp3
-346:Propr Boyz - Doodoo Poopoo Kaka.mp3
-347:kerri - moody [audio].mp3
-348:SpoonBeats - Hello There 2 ft Call Me B.mp3
-349:MATSU 待つ - d u s k.mp3
-350:elijah who - midnight in your timezone.mp3
-351:in love with a ghost _ flowers feat. nori.mp3
-352:Body Gold.mp3
-353:Thomas Reid - Holding (prod. Ondi Vil).mp3
-354:elijah who - i've got her love.mp3
-355:furino - i promise that i care much more than i show.mp3
-356:elijah who - audi.mp3
-357:jeiku - we spent the day at the beach.mp3
-358:HuggerMugger - Anywhere But Here.mp3
-359:Kendall Miles - Youth (Spirited Away).mp3
-360:kudasai - the girl i haven't met.mp3
-361:kudasai - you make colors out of grey.mp3
-362:Claine - Follow Your Dreams.mp3
-363:lamia - mask on.mp3
-364:Dream Koala ft Soko - Ocean.mp3
-365:potsu x Chance Thrash - selfish.mp3
-366:Cadmio - all you can eat.mp3
-367:potsu - Chinatown.mp3
-368:elijah who - matcha.mp3
-369:Rythmatical - Blush [HD].mp3
-370:FMLYBND - Where Is My Mind.mp3
-371:slipfunc - cherry smile.mp3
-372:nymano - summer is gone (ft esne).mp3
-373:joji - rain on me.mp3
-374:Post Malone - Candy Paint (The Fate of the Furious_ The Album).mp3
-375:jinsang. & luv.ly - since then..mp3
-376:elijah who - alone,, again.mp3
-377:redrose - a world gone blue (ft. elle).mp3
-378:sarcastic sounds - i dont sleep.mp3
-379:geerad - jets.mp3
-380:tired - Late Night Walk.mp3
-381:toj - its not easy.mp3
-382:w00ds - part of you.mp3
-383:Jordan Maxwell - is it too much to ask for (ft. shiloh).mp3
-384:elijah who - ends.mp3
-385:korou. - this place..mp3
-386:driver - take care.mp3
-387:elijah who - i miss.mp3
-388:hateful - all i want.mp3
-389:tired - i never want to lose her.mp3
-390:velvetears - will i ever care.mp3
-391:VAGUE003 - turkish royals.mp3
-392:squints mane - all night [4_36 am].mp3
-393:umi - Remember Me.mp3
-394:ocean - girls.mp3
-395:CUCO - LOVER IS A DAY.mp3
-396:Solo Ft. Negrosami - THISISHER by Solo.mp3
-397:Letskey - Memories [Exclusive].mp3
-398:mlshoto - the flower we saw that day.mp3
-399:BØJET - i wasn't enough for u.mp3
-400:Empty (Interlude).mp3
-401:ten diamonds - in the fall.mp3
-402:omar - without you w_ slipfunc.mp3
-403:kolaz - again.mp3
-404:elijah who - workin.mp3
-405:north takoda - when the night falls.mp3
-406:elijah who - myself.mp3
-407:Medda - Watch her go (w_ Omar).mp3
-408:heizzah - it's ok to be sad.mp3
-409:drtylaundry - i aint changin.mp3
-410:itsnoday - it was just a fire drill.mp3
-411:R.E.G! - Sunset Vibes.mp3
-412:ok2222 - im feeling sad so i made a sad song.mp3
-413:zenben55 - BLOOD PART 2.mp3
-414:timmies & nineteen95 - without u.mp3
-415:idealism - Lonely.mp3
-416:Madson. - Never Die.mp3
-417:through & through - alive.mp3
-418:moow - you're in my head.mp3
-419:Kudasai - the idea of you (intro).mp3
-420:blkulv - Let Me Drown.mp3
-421:Tomppabeats - Emotional.mp3
-422:brandonhult - im starting to feel whole again.mp3
-423:Charlie Myles - what a waste of time {is money}.mp3
-424:halberd 🌊 - blankets and donnie darko..mp3
-425:flux the cynic - lines wit boo ..mp3
-426:luv.ly - know by heart.mp3
-427:Alina Baraz & Galimatias - Pretty Thoughts.mp3
-428:slipfunc - sweet nothing.mp3
-429:kudasai - she said, i wonder.mp3
-430:Claine - Life's Anecdote.mp3
-431:downtime - baths (edit).mp3
-432:Alicks - Passed [eisu edit].mp3
-433:Oh Wonder - All We Do.mp3
-434:fcj - coffee shop cutie (w_ dummy feelings).mp3
-435:chrsbrry - hey i miss u.mp3
-436:neeks - when you smile.mp3
-437:Caleb Belkin - Snow Flakes.mp3
-438:Ｏｕｉ ｌｅｌｅ - ｍｅｌｌｏｗ ｎｉｇｈｔ.mp3
-439:luvbird - february.mp3
-440:ahoy - come thru.mp3
-441:Mon-Day - lost.mp3
-442:Lo_Fi Boy - Top Ten Anime Plot Twists.mp3
-443:Volthi - Nicotine.mp3
-444:Teqkoi - You Broke My Heart Again (ft. Aiko).mp3
-445:Dream Koala - We Can't Be Friends.mp3
-446:frad - Home..mp3
-447:HOLYRAIN - naive (remix).mp3
-448:prima - nights with you.mp3
-449:maj - lil wayne (prod. nick mira).mp3
-450:lil bo weep - not ok but its ok (prod. elhixir).mp3
-451:E66S 卵 - beachside.mp3
-452:rook1e - grape soda.mp3
-453:lofi.samurai - dearest.mp3
-454:elijah who - petals (w_ love-sadkid).mp3
-455:mr. hong - without you.mp3
-456:elijah who - sweatpants.mp3
-457:korou - crossroads.mp3
-458:saen - i'm in love with you.mp3
-459:sad boy with a laptop - when im with you.mp3
-460:βeta max - cherry red __ prod. Rook1e & j'san.mp3
-461:NO FUN.mp3
-462:nohidea - morning missed.mp3
-463:Mellow Fellow & Clairo - How Was Your Day_.mp3
-464:no1 - no regrets.mp3
-465:marc - kid in the sky w_ kudasai.mp3
-466:Seekae - Test & Recognise (Flume Re-Work).mp3
-467:TRA$H - ＬＯＳＴ.mp3
-468:lil mochi - good morning.mp3
-469:druid - doom.mp3
-470:Casein - Cloud Control.mp3
-471:nekoi - starry.mp3
-472:yuutsu - desire.mp3
-473:samsa - i know how it ends (prod. Tomppabeats).mp3
-474:miss u - i'll be waiting.mp3
-475:ohsobrkn - why am i so different_.mp3
-476:Sarcastic Sounds - Frankee.mp3
-477:krylic. - 3am.mp3
-478:sad boy with a laptop - thanks for making my life a little more bearable.mp3
-479:elijah who - love u, hate me (Spirited Away).mp3
-480:aura - detour.mp3
-481:velvetears - insomnia (ft. omenxiii).mp3
-482:sad boy with a laptop - you were so far away.mp3
-483:Yellow Days - A Little While.mp3
-484:elijah who - gentle boy [full album] hip-hop ' lo fi.mp3
-485:joji - will he.mp3
-486:Smug Mang & Chris Travis - Flex Action.mp3
-487:kurishoe - i see.mp3
-488:killxora - all over you (ft. shiloh).mp3
-489:Jordan Maxwell - tie my hands (ft. EIJI).mp3
-490:VAGUE003 - where do i go_ (ft. tulpa and onlyevva).mp3
-491:chuckee. - sweet tarts.mp3
-492:nion - i can't get over you.mp3
-493:elijah who - don't worry about me,, i'll probably be fine.mp3
-494:Joakim Karud - Dreams-2.mp3
-495:shogonodo - snowfield.mp3
-496:raheazy - over.mp3
-497:Pipo Travel _ Space Patrol Luluco × Rafau Etamski Mashup.mp3
-498:Wild Irish Roses.mp3
-499:lil peep - teen romance (prod lederrick).mp3
-500:no1 - stuck on stupid.mp3
-501:luv.ly - hadda letcha know.mp3
-502:cucu [回顧] - i guess u forgot about me.mp3
-503:Zenji - Ode To The Unsung EP [Full BeatTape].mp3
-504:Dream Koala - Saturn Boy.mp3
-505:nǝso - Feelinlonely.mp3
-506:elijah who - nishimiya.mp3
-507:deltaday x lil pump - [ouu.].mp3
-508:YEAH RIGHT.mp3
-509:Odtsu - always late.mp3
-510:City Girl - runaway.mp3
-511:corbin - destrooy.mp3
-512:elijah who - skateboard p (instrumental).mp3
-513:sugi.wa - just.friends.mp3
-514:oui lele - this morning.mp3
-515:VAGUE003 - Tonight.mp3
-516:elijah who - where i'd rather be.mp3
-517:Charlie Myles - i see ghosts at night {mare}.mp3
-518:hateful - i still see your face.mp3
-519:kudasai - vibrancy.mp3
-520:R.I.P. (feat. Trippie Redd).mp3
-521:elijah who - walk it,, talk it.mp3
-522:luv.ly & kudasai - beingwithu.mp3
-523:elijah who - don't i make it look easy.mp3
-524:elijah who - hopeless romancer.mp3
-525:neeks - your laugh is my favorite song.mp3
-526:city girl - walking in the rain to a café to write down private thoughts in public.mp3
-527:TAURU$ - PleaseDon'tLetMeMakeAFoolOfMyself.mp3
-528:LiL PEEP - The Way I See Things.mp3
-529:TOMii - i’ll find her someday.mp3
-530:rook1e - don't know why.mp3
-531:elijah who - love u,, hate me (v2).mp3
-532:mochi - taste of your love.mp3
-533:kudasai _ slippery salazar - metrolink.mp3
-534:elijah who - warm feeling.mp3
-535:oliver - ozzy.mp3
-536:elijah who - we used to talk every night.mp3
-537:elijah who - interlude (she needed a new start).mp3
-538:Billie Eilish - Ocean Eyes (Lyrics).mp3
-539:trevor daniel - youth.mp3
-540:〘 E I S.U 〙- alone and numb.mp3
-541:nikom - bury u.mp3
-542:niketaz - hachidori _ ハチドリ.mp3
-543:Maxwell - Just... Stop....mp3
-544:sayuw - Cherry Blossom.mp3
-545:J'san - Her [Full BeatTape].mp3
-546:cat paw🐾 - Inner Peace EP.mp3
-547:timmies & nineteen95 - i feel your pain.mp3
-548:TheLazzyProject - Emotions.mp3
-549:Mon-Day - the snooze button is my bff.mp3
-550:kudasai - ginseng&honey.mp3
-551:james ivy - boxcutter.mp3
-552:fortnight - Benzie [87bpm].mp3
-553:omar - another daydream.mp3
-554:kudasai - sapphire.mp3
-555:nick gray - slow motion.mp3
-556:slipfunc - drowning in her eyes.mp3
-557:blkulv - So Close.mp3
-558:cvstuls - midwest depression.mp3
-559:K Ø M E R - as i wait....mp3
-560:maj - you should know.mp3
-561:nekoi ✨ - fragile.mp3
-562:nova - whitley (final version).mp3
-563:TRA$H - ＡＳＬＥＥＰ(Q&A).mp3
-564:vague002 - deadboy.mp3
-565:rvm - where'd you go_.mp3
-566:olielle x catcat - i just wanna love u.mp3
-567:I fell in love with you one night in september - ROOK1E.mp3
-568:no1 - left unsaid.mp3
-569:elijah who - hol up.mp3
-570:ＲＥＳＵＲＲＥＣＴＩＯＮ.mp3
-571:Clairo - Pretty Girl.mp3
-572:Evan Awake - 05.00 a.m..mp3
-573:aftertheparty - 4_34 am.mp3
-574:global dan - don't worry (prod. tec).mp3
-575:Fight against the world x Malva (AMV).mp3
-576:Lo'Fi Boy - Tuesday Loop (Tomppa Tribute).mp3
-577:R.E.G! - Made in aBliss.mp3
-578:acsi - boy meets girl.mp3
-579:Cherry Cola.mp3
-580:aries - april 18.mp3
-581:Kavv - Untitled.mp3
-582:w00ds - mortified.mp3
-583:slipfunc - lovesick hug.mp3
-584:B I N A - children.mp3
-585:standing next to my grave.mp3
-586:EBT - PURPLE ARMY (TRIHARD VERSION).mp3
-587:vaud - D R E A M I N G.mp3
-588:Alina Baraz - Electric (feat. Khalid).mp3
-589:Jinsang - Transitions [Full BeatTape].mp3
-590:aftertheparty - pay.mp3
-591:XXXTENTACION - Look at me but it's a really sad rap beat (free to use).mp3
-592:〘 E I S U 〙- Alone.mp3
+0:chill/kudasai - memories with her.mp3
+1:chill/J Dilla - Life (Instrumental).mp3
+2:chill/TAURU$ - PleaseDon'tLetMeMakeAFoolOfMyself.mp3
+3:chill/Maxwell - Just... Stop....mp3
+4:chill/What I Wish - 2am.mp3
+5:chill/flux the cynic - lines wit boo ..mp3
+6:chill/idealism - seeing you.mp3
+7:chill/elijah who - we used to talk every night.mp3
+8:chill/Wild Irish Roses.mp3
+9:chill/angelo - melancholy.mp3
+10:chill/kudasai - Sundown.mp3
+11:chill/moses - hotboy.mp3
+12:chill/maj - lil wayne (prod. nick mira).mp3
+13:chill/Geek Boy - We Can Run Away.mp3
+14:chill/fcj - coffee shop cutie (w_ dummy feelings).mp3
+15:chill/sarcastic sounds - die alone.mp3
+16:chill/NO FUN.mp3
+17:chill/Odtsu - always late.mp3
+18:chill/Idealism - Nagashi.mp3
+19:chill/j'san. - i'm in love with u, sorry.mp3
+20:chill/Thomas Reid - Holding (prod. Ondi Vil).mp3
+21:chill/olielle x catcat - i just wanna love u.mp3
+22:chill/timmies & nineteen95 - without u.mp3
+23:chill/through & through - alive.mp3
+24:chill/fortnight - 2000.mp3
+25:chill/j^p^n - amend..mp3
+26:chill/Sarcastic Sounds - Frankee.mp3
+27:chill/joji - will he.mp3
+28:chill/Congratulaions - Post Malone ft. Quavo (Lo-Fi Remix).mp3
+29:chill/elijah who - gentle boy [full album] hip-hop ' lo fi.mp3
+30:chill/House Pet - 103.mp3
+31:chill/corbin - destrooy.mp3
+32:chill/killxora - all over you (ft. shiloh).mp3
+33:chill/Kendall Miles x Somar - Light Year Love.mp3
+34:chill/meltycanon - a girl who is cute while eating.mp3
+35:chill/Hakaisu - mellow skies.mp3
+36:chill/no1 - feeling in color.mp3
+37:chill/aura - sunset breeze.mp3
+38:chill/Dream Koala ft Soko - Ocean.mp3
+39:chill/city girl - walking in the rain to a café to write down private thoughts in public.mp3
+40:chill/Medda - Watch her go (w_ Omar).mp3
+41:chill/Idealism - Hiraeth [Full BeatTape].mp3
+42:chill/Jordan Maxwell - unlimited.mp3
+43:chill/redpest ☯ - The last date __ 海洋波.mp3
+44:chill/〘 E I S.U 〙- alone and numb.mp3
+45:chill/global dan - don't worry (prod. tec).mp3
+46:chill/chief. - stay.mp3
+47:chill/Kendall Miles - Flight of the Dreamer.mp3
+48:chill/elijah who - backseat bump.mp3
+49:chill/VAGUE003 - Tonight.mp3
+50:chill/miss u - i'll be waiting.mp3
+51:chill/lildeath - banana split.mp3
+52:chill/I fell in love with you one night in september - ROOK1E.mp3
+53:chill/kudasai - See You Soon _ PitterPatter.mp3
+54:chill/J'san - Just a Dream.mp3
+55:chill/Nymano - Goodbye.mp3
+56:chill/✰sadidas✰ - for the last time, forever.mp3
+57:chill/VAGUE003 - where do i go_ (ft. tulpa and onlyevva).mp3
+58:chill/kudasai _ slippery salazar - metrolink.mp3
+59:chill/venom - i love to pretend that you love me (prod. ZETO).mp3
+60:chill/elijah who - i love you still.mp3
+61:chill/fortnight - Benzie [87bpm].mp3
+62:chill/Idealism - Both of us.mp3
+63:chill/elijah who - petals (w_ love-sadkid).mp3
+64:chill/frad - Home..mp3
+65:chill/ＦＯＲ ＹＯＵ.mp3
+66:chill/WANTED U.mp3
+67:chill/Soft Powder - I Wonder If You Dream.mp3
+68:chill/Cadmio - Submerging.mp3
+69:chill/elijah who - drifting (w_ jinsang).mp3
+70:chill/drtylaundry - i aint changin.mp3
+71:chill/lofi.samurai - dearest.mp3
+72:chill/potsu x Chance Thrash - selfish.mp3
+73:chill/driver - take care.mp3
+74:chill/joji - i don't wanna waste my time.mp3
+75:chill/nat - even the sky reminds me of you.mp3
+76:chill/standing next to my grave.mp3
+77:chill/Window.mp3
+78:chill/deltaday x lil pump - [ouu.].mp3
+79:chill/mochi - puzzles.mp3
+80:chill/nekoi - starry.mp3
+81:chill/trevor daniel - face it.mp3
+82:chill/tired - yeaaa..mp3
+83:chill/Dream Koala - Architect.mp3
+84:chill/Oh Wonder - Shark.mp3
+85:chill/To the Moon.mp3
+86:chill/oui lele - this morning.mp3
+87:chill/ohsobrkn - why am i so different_.mp3
+88:chill/idealism - Lonely.mp3
+89:chill/Mon-Day - ive been tired.mp3
+90:chill/keshi - magnolia.mp3
+91:chill/elijah who - cold hands [mini ep].mp3
+92:chill/elijah who - molly.mp3
+93:chill/slipfunc - days with you.mp3
+94:chill/E66S 卵 - i spilled moonshine on my 404 and this came out.mp3
+95:chill/buster - in these arms tonight (feat. shiloh).mp3
+96:chill/elijah who - empty space.mp3
+97:chill/Prod. Seany OWE - Could I Ever Be Loved Feat. Little Kuma.mp3
+98:chill/rené - january.mp3
+99:chill/luvbird - february.mp3
+100:chill/joji x shamana - BESIDJU.mp3
+101:chill/Caleb Belkin - Snow Flakes.mp3
+102:chill/furino - i promise that i care much more than i show.mp3
+103:chill/lamia - mask on.mp3
+104:chill/slipfunc - warm thoughts w_ omar.mp3
+105:chill/itsnoday - it was just a fire drill.mp3
+106:chill/elijah who - don't i make it look easy.mp3
+107:chill/NIKK BLVKK - Zephyr's Flutter.mp3
+108:chill/jump man 93 - bruh.mp3
+109:chill/elijah who - don't make me cry (full project).mp3
+110:chill/ok2222 - im feeling sad so i made a sad song.mp3
+111:chill/elijah who - act right.mp3
+112:chill/engelwood - passing.by.mp3
+113:chill/kudasai - where she is.mp3
+114:chill/June - I'll Be Back.mp3
+115:chill/velvetears - insomnia (ft. omenxiii).mp3
+116:chill/elijah who - haiku.mp3
+117:chill/oakjoi - all mi.mp3
+118:chill/Idealism - Rainy Evening [Full BeatTape].mp3
+119:chill/J E N - ｒｅｃａｌｌｉｎｇ ｔｈｅ ｍｅｍｏｒｉｅｓ.mp3
+120:chill/blkulv - Let Me Drown.mp3
+121:chill/Mon-Day - the snooze button is my bff.mp3
+122:chill/Seekae - Test & Recognise (Flume Re-Work).mp3
+123:chill/cat paw🐾 - Inner Peace EP.mp3
+124:chill/elijah who - april (x kavv).mp3
+125:chill/hazy nights - because.mp3
+126:chill/ÆkaSora - one day in Japan.mp3
+127:chill/harris cole - good morning.mp3
+128:chill/Saint Romain - i was all you needed (feat. Shiloh).mp3
+129:chill/slipfunc - cherry smile.mp3
+130:chill/Joji & Trippie Redd - 18 (Joji & Trippie Redd Verse Only).mp3
+131:chill/TeddyLoid「Pipo Password (ボンジュール鈴木 ふわふわremix)」from『SILENT PLANET 2 EP Vol.2』.mp3
+132:chill/Flowers.mp3
+133:chill/Phora - Feel.mp3
+134:chill/idealism - time will tell.mp3
+135:chill/jurp - pain pills.mp3
+136:chill/yuutsu - desire.mp3
+137:chill/Lo_Fi Boy - Top Ten Anime Plot Twists.mp3
+138:chill/R.E.G! - Sunset Vibes.mp3
+139:chill/elijah who - crying without knowing why.mp3
+140:chill/jinsang. & luv.ly - since then..mp3
+141:chill/Jinsang - Transitions [Full BeatTape].mp3
+142:chill/FMLYBND - Where Is My Mind.mp3
+143:chill/lil peep - teen romance (prod lederrick).mp3
+144:chill/lofi.samurai - let me hold you (ft. Insowmya).mp3
+145:chill/Chedum - Seikatsu.mp3
+146:chill/House Pet - UP ALL NIGHT.mp3
+147:chill/MOSHi - Without you..mp3
+148:chill/Cadmio - all you can eat.mp3
+149:chill/nekoi ✨ - fragile.mp3
+150:chill/BØJET - i wasn't enough for u.mp3
+151:chill/elijah who - designer.mp3
+152:chill/jinsang. - h y d r a t e.mp3
+153:chill/four fing - you know how i feel.mp3
+154:chill/elijah who - first kiss.mp3
+155:chill/Sky.High - It's just a blur.mp3
+156:chill/kudasai - Overcast.mp3
+157:chill/Solo Ft. Negrosami - THISISHER by Solo.mp3
+158:chill/ＲＥＳＵＲＲＥＣＴＩＯＮ.mp3
+159:chill/elijah who - i've got her love.mp3
+160:chill/elijah who - audi.mp3
+161:chill/Kavv - Untitled.mp3
+162:chill/mr. hong - long days​.​short years [EP] nostalgic ' chillhop.mp3
+163:chill/Poyo Spirit - Nevermind.mp3
+164:chill/Addict. - I stop breathing when you smile.mp3
+165:chill/downtime - baths (edit).mp3
+166:chill/Fight against the world x Malva (AMV).mp3
+167:chill/blkulv - So Close.mp3
+168:chill/in love with a ghost _ we've never met but, can we have a coffee or something_.mp3
+169:chill/stian - how could you.mp3
+170:chill/CUCO - LOVER IS A DAY.mp3
+171:chill/elijah who - alone,, again.mp3
+172:chill/J'san - Her [Full BeatTape].mp3
+173:chill/I Don't Love My Baby.mp3
+174:chill/boogie.bump.mp3
+175:chill/elijah who - here.mp3
+176:chill/Cody G. - ukulele and chill.mp3
+177:chill/luv.ly - stepping stones.mp3
+178:chill/koi - yayaya.mp3
+179:chill/cucu [回顧] - i don't trust nobody (feat. shiloh).mp3
+180:chill/Smug Mang & Chris Travis - Flex Action.mp3
+181:chill/luv.ly - know by heart.mp3
+182:chill/eery - Her.mp3
+183:chill/slipfunc - amid the flowers..mp3
+184:chill/slipfunc - left alone.mp3
+185:chill/Kendall Miles - Youth (Spirited Away).mp3
+186:chill/gin$eng & nara - wishes.mp3
+187:chill/prima - nights with you.mp3
+188:chill/Nujabes ft. MINMI - Shiki No Uta (Levox Remix).mp3
+189:chill/CUCO x CLAIRO - DROWN (Audio).mp3
+190:chill/verzache - juvenescence.mp3
+191:chill/sad boy with a laptop - you're the dream i never wanna wake up from.mp3
+192:chill/elijah who - skateboard p (instrumental).mp3
+193:chill/elijah who - hello.mp3
+194:chill/kudasai - attached.mp3
+195:chill/ok2222 x j'san feat. khai dreams & barnes blvd. - on and on.mp3
+196:chill/Charlie Myles - i see ghosts at night {mare}.mp3
+197:chill/Demons.mp3
+198:chill/jack cates - tap dance.mp3
+199:chill/FIRE ESCAPE - Ofuhreal.mp3
+200:chill/ANDRU - My Love.mp3
+201:chill/〘 E I S U 〙- Alone.mp3
+202:chill/nekoi ✨- i can't describe this feeling..mp3
+203:chill/TRA$H - ＡＳＬＥＥＰ(Q&A).mp3
+204:chill/MATSU 待つ - d u s k.mp3
+205:chill/elijah who - i'm tired of feeling this way.mp3
+206:chill/LilBootyCall - YuGiOh (Prod. Janami   Amazement).mp3
+207:chill/toj - its not easy.mp3
+208:chill/Pipo Travel _ Space Patrol Luluco × Rafau Etamski Mashup.mp3
+209:chill/K Ø M E R - as i wait....mp3
+210:chill/kudasai - the girl i haven't met.mp3
+211:chill/w00ds - part of you.mp3
+212:chill/khai dreams - Through and Through (Atwood Remix).mp3
+213:chill/kudasai - petals.mp3
+214:chill/R.E.G! - Made in aBliss.mp3
+215:chill/Jeremih ft. Ty Dolla $ign - Impatient (Audio).mp3
+216:chill/omar - without you w_ slipfunc.mp3
+217:chill/nion - i can't get over you.mp3
+218:chill/elijah who - hol up.mp3
+219:chill/joji - worldstar money.mp3
+220:chill/F@ B - Noname.mp3
+221:chill/nohidea - morning missed.mp3
+222:chill/Nujabes - Aruarian Dance.mp3
+223:chill/Volthi - Nicotine.mp3
+224:chill/BØJET - lost.mp3
+225:chill/nymano - summer is gone (ft esne).mp3
+226:chill/hateful - all i want.mp3
+227:chill/Oh Wonder - All We Do.mp3
+228:chill/Zenji - Ode To The Unsung EP [Full BeatTape].mp3
+229:chill/slipfunc - drowning in her eyes.mp3
+230:chill/potsu - [oops].mp3
+231:chill/aftertheparty - reflection.mp3
+232:chill/Moses - Sushi Vlogs.mp3
+233:chill/rvm - where'd you go_.mp3
+234:chill/niketaz - hachidori _ ハチドリ.mp3
+235:chill/tysu - missing her.mp3
+236:chill/sagun feat. Shiloh Dynasty - I Know You So Well.mp3
+237:chill/a l e x - (sad song title).mp3
+238:chill/Moo Latte - Zouk.mp3
+239:chill/acsi - boy meets girl.mp3
+240:chill/Mellow Fellow & Clairo - How Was Your Day_.mp3
+241:chill/nohidea - falling down (ft. shiloh).mp3
+242:chill/yung mase - i don't wanna die.mp3
+243:chill/mewsyc ツ- i'm never good enough..mp3
+244:chill/Clairo - Pretty Girl.mp3
+245:chill/TRA$H - ＬＯＳＴ.mp3
+246:chill/Lo'Fi Boy - Trust.mp3
+247:chill/slipfunc - glance.mp3
+248:chill/elijah who - hopeless romancer.mp3
+249:chill/kerri - misery (audio).mp3
+250:chill/keshi - over u.mp3
+251:chill/kudasai - Midnight.mp3
+252:chill/omar - was i not good enough_.mp3
+253:chill/Sonorous - Outside.mp3
+254:chill/𝙊 𝙤 𝙞 🌜 - old time.mp3
+255:chill/no1 - no regrets.mp3
+256:chill/kudasai - Lavender.mp3
+257:chill/aftertheparty - 4_34 am.mp3
+258:chill/pedrolina. - Awamori.mp3
+259:chill/nat - leaving.mp3
+260:chill/Odtsu - petit.mp3
+261:chill/kudasai - Platinum.mp3
+262:chill/neeks - your laugh is my favorite song.mp3
+263:chill/Philip von Wartenberg – we had fun.mp3
+264:chill/I eat Plants for a living - Save Me.mp3
+265:chill/kudasai - when i see you.mp3
+266:chill/tired - Late Night Walk.mp3
+267:chill/elijah who - workin.mp3
+268:chill/MEECHY -Ｓｏｕｌ Ｓｅａｒｃｈｉｎ.mp3
+269:chill/Alicks - cut it out.mp3
+270:chill/kudasai - she said, i wonder.mp3
+271:chill/elijah who - sweatpants.mp3
+272:chill/Oh Wonder - Technicolour Beat.mp3
+273:chill/Kina - Can We Kiss Forever_ (ft. Adriana Proenza).mp3
+274:chill/TheLazzyProject - Emotions.mp3
+275:chill/Body Gold.mp3
+276:chill/saib. - Spike Spiegel.mp3
+277:chill/Charlie Myles - what a waste of time {is money}.mp3
+278:chill/B I N A - children.mp3
+279:chill/S M I T T Y M A M B A - T O O L A T E.mp3
+280:chill/Ｏｕｉ ｌｅｌｅ - ｍｅｌｌｏｗ ｎｉｇｈｔ.mp3
+281:chill/VAGUE003 - Over My Head (feat. 333 And wizdm).mp3
+282:chill/star.bump.mp3
+283:chill/omar - another daydream.mp3
+284:chill/trevor daniel - indécis (prod. eric dingus).mp3
+285:chill/korou. - this place..mp3
+286:chill/elijah who - milk tea.mp3
+287:chill/LiL PEEP - The Way I See Things.mp3
+288:chill/Idealism x Jinsang - WInter Bokeh.mp3
+289:chill/kudasai - separate ways.mp3
+290:chill/Tomppabeats - She doesn't pick up.mp3
+291:chill/B A D  F E E L S   _ chillout _.mp3
+292:chill/toj - midnight.mp3
+293:chill/kudasai - Monochrome lens.mp3
+294:chill/Tides. - Sleeep.mp3
+295:chill/SpoonBeats - GunShot.mp3
+296:chill/Oliver - U Kno.mp3
+297:chill/kudasai - ginseng&honey.mp3
+298:chill/Caleb Belkin - reminisce.mp3
+299:chill/cvstuls - midwest depression.mp3
+300:chill/jurp - way (prod. sadbalmain).mp3
+301:chill/olli - i don't wanna do this anymore.mp3
+302:chill/June - It Seems Like.mp3
+303:chill/sagun - I'm Drunk And Confused (Feat. Shiloh).mp3
+304:chill/bsd.u - Late Night Bumps [Full Album].mp3
+305:chill/samsa - i know how it ends (prod. Tomppabeats).mp3
+306:chill/Alina Baraz & Galimatias - Pretty Thoughts.mp3
+307:chill/the girl next door - roses in france.mp3
+308:chill/w00ds - d1st4nt.mp3
+309:chill/sugi.wa - just.friends.mp3
+310:chill/maj - you should know.mp3
+311:chill/hateful - i still see your face.mp3
+312:chill/ＲＥＭＥＭＢＥＲ.mp3
+313:chill/nikom - bury u.mp3
+314:chill/Smitty Mamba - R O O F T O P.mp3
+315:chill/moow - you're in my head.mp3
+316:chill/matt sims - wanderlust.mp3
+317:chill/SpoonBeats - Hello There 2 ft Call Me B.mp3
+318:chill/nilöwh. - a sweet beginning.mp3
+319:chill/joji - rain on me.mp3
+320:chill/oliver - nu nardis.mp3
+321:chill/Letskey - Memories [Exclusive].mp3
+322:chill/Claine - So into YOU.mp3
+323:chill/ℒund - 破碎 (Broken).mp3
+324:chill/Empty (Interlude).mp3
+325:chill/elijah who - w all your love.mp3
+326:chill/velvetears - will i ever care.mp3
+327:chill/mr. hong - without you.mp3
+328:chill/slipfunc - summer luv.mp3
+329:chill/TRA$H - ＴＩＭＥ.mp3
+330:chill/kudasai - oh darling.mp3
+331:chill/chuckee. - sweet tarts.mp3
+332:chill/elijah who - sweet.mp3
+333:chill/vague002 - deadboy.mp3
+334:chill/elijah who - together with you.mp3
+335:chill/TRA$H - ＡＬＯＮＥ.mp3
+336:chill/Claine - Life's Anecdote.mp3
+337:chill/MOSHi - dead feelings.mp3
+338:chill/saen - i'm in love with you.mp3
+339:chill/aftertheparty - embargo.mp3
+340:chill/raheazy - over.mp3
+341:chill/kudasai - Peace of Mind.mp3
+342:chill/nǝso - Feelinlonely.mp3
+343:chill/never,forever - i wanted to cry, i wanted to die.mp3
+344:chill/rook1e - don't know why.mp3
+345:chill/June - Before Anyone Else.mp3
+346:chill/Alicks - Passed [eisu edit].mp3
+347:chill/elijah who - feelin' fine.mp3
+348:chill/elijah who - flyin.mp3
+349:chill/towser - knight.mp3
+350:chill/kavv - beach night.mp3
+351:chill/in love with a ghost _ we were friends.mp3
+352:chill/kudasai - dream of her.mp3
+353:chill/marc - kid in the sky w_ kudasai.mp3
+354:chill/ruiji - I Need A New Beginning.mp3
+355:chill/sad boy with a laptop - you make my heart go doki doki.mp3
+356:chill/vaud - D R E A M I N G.mp3
+357:chill/TRA$H - ＷＯＲＲＹ.mp3
+358:chill/toph - purr-fect.mp3
+359:chill/elijah who - don't worry about me,, i'll probably be fine.mp3
+360:chill/elijah who - myself.mp3
+361:chill/nova - not around 2.mp3
+362:chill/elijah who - i miss.mp3
+363:chill/Charlie Myles - this is crack {open a book}.mp3
+364:chill/sugi.wa - je t'aime.mp3
+365:chill/Jordan Maxwell - tie my hands (ft. EIJI).mp3
+366:chill/elijah who - new feelings [lo-fi ep].mp3
+367:chill/MEECHY -Ｉ ｊｕｓｔ ｗａｎｔ ｔｏ ｌｉｖｅ.mp3
+368:chill/aura - detour.mp3
+369:chill/depression sweater - affogato.mp3
+370:chill/potsu - im closing my eyes (feat. shiloh).mp3
+371:chill/nymano - the man alone.mp3
+372:chill/cucu [回顧] - i guess u forgot about me.mp3
+373:chill/Lo'Fi Boy - Tuesday Loop (Tomppa Tribute).mp3
+374:chill/MF DOOM & Nujabes - Metaphorical Villainy (Full Album).mp3
+375:chill/imfinenow - but through my ups and downs.mp3
+376:chill/Dream Koala - Synthetic Evolution.mp3
+377:chill/kudasai - you make colors out of grey.mp3
+378:chill/Yellow Days - A Little While.mp3
+379:chill/kudasai - technicolor.mp3
+380:chill/luhx - sober.mp3
+381:chill/Nymano - Comfy.mp3
+382:chill/Flume feat. Kai - Never Be Like You (A.T. Remix).mp3
+383:chill/Plastic Memories Opening _ プラスティック・メモリーズ OP - Ring of Fortune [HD] Subbed.mp3
+384:chill/ℒund - Mirror.mp3
+385:chill/Tomppabeats - Emotional.mp3
+386:chill/redrose - a world gone blue (ft. elle).mp3
+387:chill/sad boy with a laptop - quiet walks on a snowy street.mp3
+388:chill/loprofile . - ☁️ entre.nubes. ☁️.mp3
+389:chill/sad boy with a laptop - thanks for making my life a little more bearable.mp3
+390:chill/l e a f s愛 - When you_re gone.mp3
+391:chill/kudasai - a night together.mp3
+392:chill/slipfunc - until dawn.mp3
+393:chill/elijah who - why not.mp3
+394:chill/Chinsaku - Sunset.mp3
+395:chill/no1 - left unsaid.mp3
+396:chill/Alicks w_ jshu - dont let me fall asleep.mp3
+397:chill/sugi.wa - urtha1.mp3
+398:chill/james ivy - boxcutter.mp3
+399:chill/E66S 卵 - gently.mp3
+400:chill/TRA$H - ＦＯＲＧＥＴ.mp3
+401:chill/ondi vil & teqkoi - please come back.mp3
+402:chill/VULPIX - Hazy.mp3
+403:chill/Kina - get you the moon (ft. Snow).mp3
+404:chill/shinigami - ghosts.mp3
+405:chill/marc - Oceans w_ demxntia & Indii G..mp3
+406:chill/redpest ☯ - Falling In Love Pt. 3.mp3
+407:chill/ocean - girls.mp3
+408:chill/in love with a ghost _ complex feelings about my own existence feat. jungkook.mp3
+409:chill/brandonhult - im starting to feel whole again.mp3
+410:chill/omar - i've got my eye on you.mp3
+411:chill/krylic. - 3am.mp3
+412:chill/elijah who - yah YEET (w_ luv.ly).mp3
+413:chill/elijah who - warm feeling.mp3
+414:chill/kudasai - a light of mine.mp3
+415:chill/Powfu - nothing matters _ Feat. QAWI KAMRI.mp3
+416:chill/halberd 🌊 - blankets and donnie darko..mp3
+417:chill/sad boy with a laptop - you were so far away.mp3
+418:chill/BLVK. - withu.mp3
+419:chill/oliver - let my guard down.mp3
+420:chill/rook1e - grape soda.mp3
+421:chill/nick leng - Ticking.mp3
+422:chill/June - Cycle Speeds (feat. lastminutecustomer).mp3
+423:chill/MAC AYRES - SLOW DOWN.mp3
+424:chill/ENRA - seeking warmth w_ sleepermane.mp3
+425:chill/mlshoto - the flower we saw that day.mp3
+426:chill/Casein - Cloud Control.mp3
+427:chill/potsu - Chinatown.mp3
+428:chill/Bazzi - Mine [Slowed].mp3
+429:chill/kudasai - Where he's been (extended).mp3
+430:chill/young whack - goodbye.mp3
+431:chill/timmies & nineteen95 - i feel your pain.mp3
+432:chill/Dream Koala - We Can't Be Friends.mp3
+433:chill/Alina Baraz - Electric (feat. Khalid).mp3
+434:chill/luv.ly & kudasai - beingwithu.mp3
+435:chill/Vague003 - girl, friend.mp3
+436:chill/Prod. Seany OWE - Stay Ft. Ariel McCleary.mp3
+437:chill/HuggerMugger - Anywhere But Here.mp3
+438:chill/$hy - sxsw (ft. eric north).mp3
+439:chill/geerad - jets.mp3
+440:chill/ten diamonds - in the fall.mp3
+441:chill/elijah who - midnight in your timezone.mp3
+442:chill/VAGUE003 - turkish royals.mp3
+443:chill/Bassti - i'm sad.mp3
+444:chill/YEAH RIGHT.mp3
+445:chill/elijah who - love u,, hate me (v2).mp3
+446:chill/maru - i dont deserve u at all.mp3
+447:chill/TRA$H - ＡＷＡＫＥ.mp3
+448:chill/saib. - in your arms..mp3
+449:chill/Charlie Myles - been alone my friend {again}.mp3
+450:chill/Phora - Holding On.mp3
+451:chill/NKOHA – 永遠の.mp3
+452:chill/heizzah - it's ok to be sad.mp3
+453:chill/in love with a ghost _ flowers feat. nori.mp3
+454:chill/elijah who - matcha.mp3
+455:chill/Rythmatical - Blush [HD].mp3
+456:chill/Through & Through - the world forgetting, by the world forgot.mp3
+457:chill/COME THRU.mp3
+458:chill/ibrahim - wool sweaters and early mornings (w_ Juan).mp3
+459:chill/w00ds - bl00m.mp3
+460:chill/Resotone - We Are.mp3
+461:chill/TRA$H - ＳＡＦＥ.mp3
+462:chill/Nymano - Romance [Full BeatTape].mp3
+463:chill/HOLYRAIN - naive (remix).mp3
+464:chill/kudasai - sapphire.mp3
+465:chill/coldhart - spyro.mp3
+466:chill/Dream Koala - Gold.mp3
+467:chill/Somebody Else.mp3
+468:chill/City Girl - runaway.mp3
+469:chill/slipfunc - lovesick hug.mp3
+470:chill/mac moon - love spell (ft. souly had).mp3
+471:chill/north takoda - when the night falls.mp3
+472:chill/sayuw - Cherry Blossom.mp3
+473:chill/cat naps - nothing was the same.mp3
+474:chill/hisohkah - school rooftop.mp3
+475:chill/elijah who - roses.mp3
+476:chill/tired - i never want to lose her.mp3
+477:chill/TOMii - i’ll find her someday.mp3
+478:chill/kudasai - don't you love me.mp3
+479:chill/chrsbrry - hey i miss u.mp3
+480:chill/Nymano - Short Stories [Full BeatTape].mp3
+481:chill/a l e x - Ｚｅｌｄａ'ｓ Ｌｕｌｌａｂｙ.mp3
+482:chill/mochi - taste of your love.mp3
+483:chill/Nujabes - aruarian dance (Japanese Names remix).mp3
+484:chill/downtυne - trying to smile when youre sad.mp3
+485:chill/w00ds - pink skies.mp3
+486:chill/w00ds - mortified.mp3
+487:chill/khai dreams - Fantasy(Prod. Jinsang).mp3
+488:chill/elijah who - soy latte.mp3
+489:chill/Oui Lele -ｂｅｔｔｅｒ ｄａｙｓ.mp3
+490:chill/Rythmatical - Swank.mp3
+491:chill/elijah who - ends.mp3
+492:chill/kudasai - First Sight  _ PitterPatter.mp3
+493:chill/lil mochi - good morning.mp3
+494:chill/aftertheparty - bupropion.mp3
+495:chill/Teqkoi - You Broke My Heart Again (ft. Aiko).mp3
+496:chill/XXXTENTACION - Look at me but it's a really sad rap beat (free to use).mp3
+497:chill/Danny Bonsai - far away.mp3
+498:chill/Kina - u're mine (ft. shiloh).mp3
+499:chill/kudasai - the idea of you (intro).mp3
+500:chill/idealism - during that night.mp3
+501:chill/sad boy with a laptop - when im with you.mp3
+502:chill/Evan Awake - 05.00 a.m..mp3
+503:chill/elijah who - interlude (she needed a new start).mp3
+504:chill/nick gray - slow motion.mp3
+505:chill/[Chilltrap] idealism - Wanna Know.mp3
+506:chill/aftertheparty - pay.mp3
+507:chill/aftertheparty - someone else.mp3
+508:chill/kudasai - vibrancy.mp3
+509:chill/βeta max - cherry red __ prod. Rook1e & j'san.mp3
+510:chill/Karma Rhythm - Nineteen 🌇.mp3
+511:chill/Joakim Karud - Dreams.mp3
+512:chill/Billie Eilish - Ocean Eyes (Lyrics).mp3
+513:chill/elijah who - bloom.mp3
+514:chill/elijah who - nishimiya.mp3
+515:chill/elijah who - freak no more.mp3
+516:chill/Jordan Maxwell - is it too much to ask for (ft. shiloh).mp3
+517:chill/shogonodo - snowfield.mp3
+518:chill/korou - crossroads.mp3
+519:chill/slipfunc - upon my skin.mp3
+520:chill/kudasai - love lasts.mp3
+521:chill/ok2222 x j'san - nobody like you.mp3
+522:chill/They Don't Understand (Extended Version) - PinkOmega.mp3
+523:chill/the girl next door - lovesick..mp3
+524:chill/slipfunc - sweet nothing.mp3
+525:chill/umi - Remember Me.mp3
+526:chill/slipfunc - you _ I.mp3
+527:chill/aries - april 18.mp3
+528:chill/lil mochi - I Hate The Way I Dont Hate You_Put The Pen Down.mp3
+529:chill/schoolboy Q - man of the year [1999 Lofi Mix].mp3
+530:chill/kavv - now that you_re gone.mp3
+531:chill/Dream Koala - Saturn Boy.mp3
+532:chill/Steven Jame$ - Until.mp3
+533:chill/zeni moe - in my thoughts.mp3
+534:chill/Medda - wish upon a star.mp3
+535:chill/potsu - food court.mp3
+536:chill/Joakim Karud - Dreams-2.mp3
+537:chill/ＦＡＤＥＤ - never gonna see you again.mp3
+538:chill/kolaz - again.mp3
+539:chill/Madson. - Never Die.mp3
+540:chill/@sadisasxx - ☆love letter☆.mp3
+541:chill/ahoy - come thru.mp3
+542:chill/jeiku - we spent the day at the beach.mp3
+543:chill/druid - doom.mp3
+544:chill/kurishoe - i see.mp3
+545:chill/Memories of you again... (lofi hip-hop mix).mp3
+546:chill/no1 - stuck on stupid.mp3
+547:chill/jurp - 2002.mp3
+548:chill/trevor daniel - youth.mp3
+549:chill/vague003 - i know you're probably not home.mp3
+550:chill/elijah who - where i'd rather be.mp3
+551:chill/Imaginary Ambition - Low Fidelity.mp3
+552:chill/neeks - when you smile.mp3
+553:chill/sarcastic sounds - i dont sleep.mp3
+554:chill/Letskey - Let's stay in the car.mp3
+555:chill/sarcastic sounds - dead dreams.mp3
+556:chill/elijah who - love u, hate me (Spirited Away).mp3
+557:chill/Claine - Follow Your Dreams.mp3
+558:chill/E66S 卵 - beachside.mp3
+559:chill/elijah who - sad and boujee.mp3
+560:chill/Mon-Day - lost.mp3
+561:chill/Study (Shiki No Uta Flip) - テイラー.mp3
+562:chill/theor - smoke gets in your eyes.mp3
+563:chill/lil bo weep - not ok but its ok (prod. elhixir).mp3
+564:chill/lil peep - we think too much (prod. nedarb).mp3
+565:chill/secret crates - ░░__Ｓｐｒｉｎｇｔｉｍｅ Ｓｔｒｏｌｌ__Westminster Quarters =Ⓣɪᴍᴇ ➋ Ⓜᴇᴇᴛ.mp3
+566:chill/aftertheparty - home.mp3
+567:chill/DeadPlanets - Perfect Circle.mp3
+568:chill/Nujabes - Lady Brown.mp3
+569:chill/Cherry Cola.mp3
+570:chill/weird inside - wishing well.mp3
+571:chill/lontalius - dreams in my head (anika moa cover).mp3
+572:chill/squints mane - all night [4_36 am].mp3
+573:chill/beowulf - savior.mp3
+574:chill/anxious. - Last day of summer break.mp3
+575:chill/I eat Plants for a living - Alone together.mp3
+576:chill/A I R I - E V E R Y T H I N G.mp3
+577:chill/luv.ly - hadda letcha know.mp3
+578:chill/omar - serene.mp3
+579:chill/elijah who - pink.mp3
+580:chill/Powfu - Life with you (Prod. Just big hills.).mp3
+581:chill/kerri - moody [audio].mp3
+582:chill/hateful - take me away.mp3
+583:chill/R.I.P. (feat. Trippie Redd).mp3
+584:chill/luv.ly - the girl from..mp3
+585:chill/zenben55 - BLOOD PART 2.mp3
+586:chill/beta max - tap water.mp3
+587:chill/elijah who - walk it,, talk it.mp3
+588:chill/oliver - ozzy.mp3
+589:chill/MISOGI - UGLY.mp3
+590:chill/elijah who - ding mogu.mp3
+591:chill/elijah who - spring love.mp3
+592:chill/dreya - blue.mp3
+593:chill/omar - light w_ H E R B.mp3
+594:chill/nova - whitley (final version).mp3
+595:Playboi Carti - Pissy Pamper.mp3
+596:Kanye West - Devil In A New Dress.mp3
+597:AUDIO_3721.mp3
 playlist_end

@@ -60,4 +60,15 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
 }
+
+#online-tab, .chatContent-3KubbW {
+  background-color: var(--backgroundColor02);
+}
+form::before {
+  background-color: var(--backgroundColor02);
+  display: none;
+}
+.scrollableContainer-15eg7h, .webkit-QgSAqd {
+  background-color: var(--backgroundColor01);
+}
 /*						.sidebar-2K8pFh.hideElement .container-3baos1 { background-color: var(--background-primary); }*/

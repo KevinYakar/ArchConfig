@@ -1,3 +1,3 @@
-2021/04/01-16:01:52.245 244e Reusing MANIFEST /home/kevin/.config/BetterDiscord/Local Storage/leveldb/MANIFEST-000001
-2021/04/01-16:01:52.246 244e Recovering log #3
-2021/04/01-16:01:52.246 244e Reusing old log /home/kevin/.config/BetterDiscord/Local Storage/leveldb/000003.log 
+2021/07/22-11:32:09.028 d12 Reusing MANIFEST /home/kevin/.config/BetterDiscord/Local Storage/leveldb/MANIFEST-000001
+2021/07/22-11:32:09.029 d12 Recovering log #3
+2021/07/22-11:32:09.029 d12 Reusing old log /home/kevin/.config/BetterDiscord/Local Storage/leveldb/000003.log 

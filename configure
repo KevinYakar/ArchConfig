@@ -15,7 +15,7 @@ cd ~ && rm -rf yay
 mkdir downloads documents music pictures videos
 
 # download dotfiles (uncomment if you didn't obtain this from the repo)
-# git clone https://github.com/KevinYakar/ArchConfig.git || (echo 'ERROR: Could not clone ArchConfig' && exit)
+# git clone https://github.com/KevinYakar/ArchConfig.git || (echo 'ERROR: Could not clone ArchConfig' && exit 1)
 
 cd ~/ArchConfig
 
@@ -70,10 +70,11 @@ mkdir ~/pictures/screenshots
 if [ -d "$HOME/.config" ]; then
     rm -rf ~/.config
 fi
-cp -r .config ~/.config
-
-# fix nitrogen path
-echo -ne "[xin_-1]\nfile=$HOME/pictures/wallpapers/cityandwater.jpg\nmode=4\nbgcolor=#000000" > ~/.config/nitrogen/bg-saved.cfg
+cd && mkdir .config && cd .config
+for item in $(ls ~/ArchConfig/.config); do
+    ln -sf ~/ArchConfig/.config/$item .
+done
+cd ~/ArchConfig
 
 # install node for coc.nvim
 sudo curl -sL install-node.now.sh/lts | sudo bash
@@ -134,9 +135,9 @@ yayPackages=(
     'bpytop'
     'picom-ibhagwan-git'
     'polybar-dwm-module'
-    'ttf-raleway'
     'mon2cam-git'
     # fonts
+    'ttf-raleway'
     'ttf-iosevka'
 )
 
@@ -153,6 +154,7 @@ cd vcpkg
 ./bootstrap-vcpkg.sh
 ./vcpkg integrate install
 ./vcpkg install jsoncpp
+rm -rf vcpkg
 
 # install dwm
 cd ~/.config/dwm

@@ -205,6 +205,7 @@ opacity-rule = [
   "100:name *= 'VMware'", 
   "100:name *= 'NetBeans'", 
   "100:name *= 'AnyDesk'", 
+  "100:name *= 'VNC'", 
   "100:class_g = 'jetbrains-idea'", 
   "100:class_g = 'TablePlus'",
   "100:class_g = 'veloren-voxygen'",
