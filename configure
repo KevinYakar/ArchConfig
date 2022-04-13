@@ -19,12 +19,24 @@ mkdir downloads documents music pictures videos
 
 cd ~/ArchConfig
 
-# copy dotfiles into ~
-cp .bashrc ~/.bashrc
-cp .bash_profile ~/.bash_profile
-cp .vimrc ~/.vimrc
-cp .xinitrc ~/.xinitrc
-cp .Xresources ~/.Xresources
+# make sym links for dotfiles in ~
+dots=(
+    .bashrc
+    .bash_profile
+    .vimrc
+    .xinitrc
+    .Xresources
+    .fonts
+)
+
+cd
+for f in ${dots[@]}; do
+    ln -sf ArchConfig/$f .
+done
+cd -
+
+# refresh fonts after linking
+fc-cache
 
 # .vim/
 if [ -d "$HOME/.vim" ]; then
@@ -53,16 +65,6 @@ elif (( $pictures == 0 )) && (( $wallpapers == 0 )); then
     cp -r pictures ~
 fi
 mkdir ~/pictures/screenshots
-
-# .fonts/
-if [ -d "$HOME/.fonts" ]; then
-    cd ./.fonts && cp -r * ~/.fonts && cd ~/ArchConfig
-else
-    cp -r ./.fonts ~/.fonts
-fi
-sudo pacman -S ttf-inconsolata adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts gnu-free-fonts ttf-arphic-uming ttf-indic-otf adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts
-yay -S ttf-iosevka
-fc-cache
 
 # .config/
 if [ -d "$HOME/.config" ]; then
@@ -115,6 +117,14 @@ pacmanPackages=(
     'the_silver_searcher'
     'tmux'
     'sshpass'
+    # fonts
+    'adobe-source-han-sans-jp-fonts'
+    'adobe-source-han-serif-jp-fonts'
+    'gnu-free-fonts'
+    'ttf-arphic-uming'
+    'ttf-indic-otf'
+    'adobe-source-sans-pro-fonts'
+    'adobe-source-serif-pro-fonts'
 )
 
 yayPackages=(
@@ -126,6 +136,8 @@ yayPackages=(
     'polybar-dwm-module'
     'ttf-raleway'
     'mon2cam-git'
+    # fonts
+    'ttf-iosevka'
 )
 
 sudo pacman -S ${pacmanPackages[@]}
