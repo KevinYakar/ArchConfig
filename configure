@@ -33,6 +33,7 @@ cd
 for f in ${dots[@]}; do
     ln -sf ArchConfig/$f .
 done
+. .bashrc
 cd -
 
 # refresh fonts after linking
@@ -182,4 +183,4 @@ sudo cp ./local-settings.js /usr/lib/firefox/defaults/pref/
 cd ~
 clear
 # TODO: add manual steps for install tmux stuff
-echo -ne 'MANUAL TASKS\n=====================================\n\n# Vim\nTo install the vim plugins, type each\ncommand followed by the return key:\n\nvim \n:PlugInstall\n\nAnd you will be good to go after a\nminute or two!\n\n\n\n# Polybar\nYou may need to edit the modules in\n~/.config/polybar/config because they\nmay not be using the right data.\n\nYou should be seeing:\n\npulse\nmemory\ntemperature\nwlan\ndate\n\nin that order at the top right of\nyour screen\n\n\n\n# Firefox\nYou will also need to do one step to\nchange the firefox home/new tab page.\n\nIn firefox, navigate to Settings > Home\nand select "Custom URLs..."\n\nCopy and paste this, then restart firefox:\n\n'$startpageLocation'\n\n=====================================\n' | rainbow
+echo -ne 'MANUAL TASKS\n=====================================\n\n# Vim\nTo install the vim plugins, type each\ncommand followed by the return key:\n\nvim \n:PlugInstall\n\nAnd you will be good to go after a\nminute or two!\n\n\n\n# Tmux\nTo install tmux plugins, run these\ntmux commands:\n\ntmux\n<C-a> I\n<C-a> :kill-server\n\n\n\n# Polybar\nYou may need to edit the modules in\n~/.config/polybar/config because they\nmay not be using the right data.\n\nYou should be seeing:\n\npulse\nmemory\ntemperature\nwlan\ndate\n\nin that order at the top right of\nyour screen\n\n\n\n# Firefox\nYou will also need to do one step to\nchange the firefox home/new tab page.\n\nIn firefox, navigate to Settings > Home\nand select "Custom URLs..."\n\nCopy and paste this, then restart firefox:\n\n'$startpageLocation'\n\n=====================================\n' | rainbow
