@@ -74,6 +74,8 @@ cd && mkdir .config && cd .config
 for item in $(ls ~/ArchConfig/.config); do
     ln -sf ~/ArchConfig/.config/$item .
 done
+mkdir tmux/resurrect-files
+git clone https://github.com/tmux-plugins/tpm ./tmux/plugins/tpm
 cd ~/ArchConfig
 
 # install node for coc.nvim
@@ -179,4 +181,5 @@ sudo cp ./local-settings.js /usr/lib/firefox/defaults/pref/
 # Manual Steps
 cd ~
 clear
+# TODO: add manual steps for install tmux stuff
 echo -ne 'MANUAL TASKS\n=====================================\n\n# Vim\nTo install the vim plugins, type each\ncommand followed by the return key:\n\nvim \n:PlugInstall\n\nAnd you will be good to go after a\nminute or two!\n\n\n\n# Polybar\nYou may need to edit the modules in\n~/.config/polybar/config because they\nmay not be using the right data.\n\nYou should be seeing:\n\npulse\nmemory\ntemperature\nwlan\ndate\n\nin that order at the top right of\nyour screen\n\n\n\n# Firefox\nYou will also need to do one step to\nchange the firefox home/new tab page.\n\nIn firefox, navigate to Settings > Home\nand select "Custom URLs..."\n\nCopy and paste this, then restart firefox:\n\n'$startpageLocation'\n\n=====================================\n' | rainbow
