@@ -1,10 +1,14 @@
-set tabstop=4
+set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
 set lazyredraw
 set nocompatible
 set re=0
+set nohlsearch
+set noerrorbells
+set noswapfile
+set incsearch
 
 
 
@@ -16,9 +20,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
-Plug 'https://github.com/wesQ3/vim-windowswap'
+Plug 'wesQ3/vim-windowswap'
 Plug 'sheerun/vim-polyglot'
-Plug 'https://github.com/tpope/vim-commentary'
+Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -136,7 +140,16 @@ nnoremap n nzzzv
 nnoremap N Nzzzv
 
 " Remove trailing whitespace on save
-autocmd BufWritePre * %s/\s\+$//e
+fun! TrimWhiteSpace()
+  let l:save = winsaveview()
+  keeppatterns %s/\s\+$//e
+  call winrestview(l:save)
+endfun
+
+augroup KEVIN
+  autocmd!
+  autocmd BufWritePre * :call TrimWhiteSpace()
+augroup END
 
 " Substitute selected text in visual-line mode
 :vnoremap S :s//g<Left><Left>
