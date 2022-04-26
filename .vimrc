@@ -166,6 +166,11 @@ endfunc
 " General coding
 :inoremap {<Return> {}<Left><Return><Esc>kA<Return>
 
+" Comments
+:imap <silent> <C-_> <Esc>gccA
+:nmap <silent> <C-_> gcc
+:vmap <silent> <C-_> gc
+
 " Go to definition and references
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)

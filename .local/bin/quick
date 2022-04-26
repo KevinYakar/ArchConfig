@@ -1,0 +1,29 @@
+#!/bin/bash
+
+function nav() {
+    dir=$( find ${frequentDirs[@]} -type d | fzf )
+    [[ -n $dir ]] && cd $dir
+}
+
+function createSesh() {
+    dir=$( find ${frequentDirs[@]} -type d | fzf )
+    sessionName=$( basename $dir 2> /dev/null )
+    [[ -n $sessionName ]] && tmux new -A -c $dir -s $sessionName
+}
+
+frequentDirs=(
+    "$HOME/ArchConfig"
+    "$HOME/school"
+    "$HOME/coding"
+    "$HOME/.config"
+    "$HOME/.local"
+    "$HOME/.vim"
+    "$HOME/downloads"
+    "$HOME/documents"
+    "$HOME/pictures"
+    "$HOME/.fonts"
+)
+
+[[ -n $1 ]] && [[ $1 = 'sesh' ]] && createSesh
+[[ -n $1 ]] && [[ $1 = 'nav' ]] && nav
+

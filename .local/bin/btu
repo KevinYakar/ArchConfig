@@ -1,0 +1,52 @@
+#!/bin/python3
+
+import sys
+import os
+
+DEVICES = {
+    'AirPods Max': '90:9C:4A:E9:F3:CC',
+    'AirPods Pro': '44:F0:9E:5C:A0:98',
+    'AirPods': '94:16:25:39:CD:A1'
+}
+
+DEVICE_NAMES = [
+    'AirPods Max',
+    'AirPods Pro',
+    'AirPods'
+]
+
+def process_args():
+    if len(sys.argv) not in [2, 3]:
+        print('Incorrect Arguments!')
+        print('Example: btu c(onnect)/d(isconnect) [device number]')
+        sys.exit()
+
+    args = dict()
+    connect_disconnect = sys.argv[1].lower()[0]
+    args['con/dis'] = 'connect' if connect_disconnect == 'c' else 'disconnect'
+    if len(sys.argv) == 3:
+        args['num'] = int(sys.argv[2]) - 1
+    return args
+
+if __name__ == '__main__':
+    args = process_args()
+    multi_args = False if len(args) == 1 else True
+
+    while True:
+        try:
+            if not multi_args:
+                for i, name in enumerate(DEVICE_NAMES):
+                    print(f'{i + 1}: {name}')
+            desired_device_number = int(input('Enter device number: ')) - 1 if not multi_args else args['num']
+            if desired_device_number >= len(DEVICE_NAMES) or desired_device_number < 0:
+                raise ValueError("Invalid Number")
+                multi_args = False
+            os.system(f'echo {args["con/dis"]} {DEVICES[DEVICE_NAMES[desired_device_number]]} | bluetoothctl')
+            break
+        except ValueError:
+            multi_args = False
+            print("Invalid Number")
+        except (EOFError, KeyboardInterrupt):
+            print()
+            sys.exit()
+
