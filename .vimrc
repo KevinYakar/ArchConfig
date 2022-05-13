@@ -26,9 +26,9 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'catppuccin/nvim', {'as': 'catppuccin', 'branch': 'main'}
+Plug 'gruvbox-community/gruvbox'
 
 call plug#end()
 
@@ -96,6 +96,8 @@ let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 let g:tokyonight_transparent_background = 1
 colorscheme tokyonight
+" colorscheme gruvbox
+" hi Normal guibg=NONE ctermbg=NONE
 
 highlight LineNr cterm=italic guifg=#888fae
 highlight Comment guifg=#907466 cterm=italic,bold

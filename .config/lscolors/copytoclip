@@ -6,4 +6,4 @@
 # LS_COLORS='di=01;31'
 # export LS_COLORS
 
-echo -e "LS_COLORS='$( grep '^#' customize_me.txt | xargs | sed -e 's/#//g' -e 's/ /:/g' )'\nexport LS_COLORS" | sed 's/=e/=\\e/g' | xclip -selection clipboard
+echo -e "LS_COLORS=\"$( grep '^#' customize_me.txt | xargs | sed -e 's/#//g' -e 's/ /:/g' )\"\nexport LS_COLORS" | sed 's/=e/=\\e/g' | xclip -selection clipboard

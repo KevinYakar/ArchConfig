@@ -121,6 +121,7 @@ pacmanPackages=(
     'the_silver_searcher'
     'tmux'
     'sshpass'
+    'tree'
     # fonts
     'adobe-source-han-sans-jp-fonts'
     'adobe-source-han-serif-jp-fonts'

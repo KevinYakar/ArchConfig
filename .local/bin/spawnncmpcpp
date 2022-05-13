@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ tmux has-session -t 'music' ]; then
+    exit 0
+else
+    tmux new-window ncmpcpp
+    sleep 0.1
+    tmux split-window -dv pacmixer
+fi
+
