@@ -71,7 +71,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
 
-modules-left = dwm
+modules-left = dwm title
 ;modules-center =
 modules-right = pulseaudio memory temperature wlan date
 
@@ -114,7 +114,7 @@ font-0 = Montserrat:style=Regular:pixelsize=10:antialias=true;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = basic\-polybar:style=Regular:pixelsize=11:antialias=true;2
-modules-left = dwm
+modules-left = dwm title
 modules-right = pulseaudio memory temperature wlan date
 wm-restack = dwm
 override-redirect = false
@@ -209,9 +209,13 @@ label = %output%
 label-font = 5
 label-underline = #00000000
 
+[module/title]
+type = internal/xwindow
+label-foreground = ${colors.primary}
+
 [module/dwm]
 type = internal/dwm
-format = <label-tags> <label-floating> <label-title>
+format = <label-tags> <label-floating>
 ; Path to dwm socket (default: /tmp/dwm.sock)
 ; socket-path = /tmp/dwm.sock
 
@@ -257,7 +261,7 @@ label-title-maxlen = 100
 ;label-layout-background = ${colors.primary}
 
 ; Text to show when currently focused window is floating
-;label-floating = 󰁕
+; label-floating = 󰁕
 label-floating = 󰁖
 
 ; States: focused, unfocused, visible, urgent, empty
