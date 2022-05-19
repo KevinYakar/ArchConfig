@@ -1,4 +1,5 @@
 #!/bin/bash
 
 xset s off && xset -dpms
+notify-send -a 'Screen Saver' 'Status' 'OFF'
 
