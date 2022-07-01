@@ -20,7 +20,7 @@ alt + n
 
 # Open ncmpcpp
 alt + shift + n
-    alacritty -t "ncmpcpp" -e ncmpcpp
+    alacritty -t 'music' -e tmux new -A -s 'music' ~/.local/bin/spawnncmpcpp
 
 # Start picom
 alt + c
@@ -91,4 +91,22 @@ super + Left
     ~/.local/bin/spotify_control previous > /dev/null
 XF86AudioPrev
     ~/.local/bin/spotify_control previous > /dev/null
+
+# Connect and disconnect airpods max
+super + F1
+    btu c 1
+super + shift + F1
+    btu d 1
+
+# Connect and disconnect airpods pro
+super + F2
+    btu c 2
+super + shift + F2
+    btu d 2
+
+# Connect and disconnect airpods
+super + F3
+    btu c 3
+super + shift + F3
+    btu d 3
 

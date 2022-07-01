@@ -101,6 +101,7 @@ colorscheme tokyonight
 
 highlight LineNr cterm=italic guifg=#888fae
 highlight Comment guifg=#907466 cterm=italic,bold
+highlight ColorColumn guibg=#907466
 " highlight Comment guifg=#9e824c cterm=italic,bold
 " highlight Comment guifg=#5b7d78 cterm=italic,bold
 
@@ -170,10 +171,10 @@ endfunc
 
 
 " Pairs
-:inoremap [ []<Left>
-:inoremap ( ()<Left>
-:inoremap { {}<Left>
-:inoremap " ""<Left>
+:inoremap [[ []<Left>
+:inoremap (( ()<Left>
+:inoremap {{ {}<Left>
+:inoremap "" ""<Left>
 :inoremap '' ''<Left>
 
 
