@@ -93,20 +93,20 @@ XF86AudioPrev
     ~/.local/bin/spotify_control previous > /dev/null
 
 # Connect and disconnect airpods max
-super + F1
+alt + F1
     btu c 1
-super + shift + F1
+alt + shift + F1
     btu d 1
 
 # Connect and disconnect airpods pro
-super + F2
+alt + F2
     btu c 2
-super + shift + F2
+alt + shift + F2
     btu d 2
 
 # Connect and disconnect airpods
-super + F3
+alt + F3
     btu c 3
-super + shift + F3
+alt + shift + F3
     btu d 3
 
