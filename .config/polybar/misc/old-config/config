@@ -220,7 +220,7 @@ format = <label-tags> <label-floating>
 ; socket-path = /tmp/dwm.sock
 
 ; Left-click to view tag, right-click to toggle tag view
-enable-tags-click = false
+enable-tags-click = true
 ; Scroll to cycle between available tags
 enable-tags-scroll = false
 ; If true and enable-tags-scroll = true, scrolling will view all tags regardless if occupied
@@ -356,8 +356,8 @@ label = " 󰁀 %percentage_used%% "
 
 [module/wlan]
 type = internal/network
-# interface = enp7s0
-interface = wlp6s0
+interface = enp7s0
+; interface = wlp6s0
 interval = 3.0
 
 format-connected =  <label-connected>

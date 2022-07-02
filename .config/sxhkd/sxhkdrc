@@ -12,7 +12,7 @@ super + shift + 5
 
 # Kill all polybar instances and restart
 alt + r
-    killall polybar && sleep 0.3 && ~/.config/polybar/start-bar.sh &
+    ~/.config/polybar/start-bar.sh
 
 # Toggle tray/music bar
 alt + n
