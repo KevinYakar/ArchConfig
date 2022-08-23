@@ -14,7 +14,6 @@ append_path () {
 append_path '.'
 append_path '/home/kevin/.local/bin'
 append_path '/opt/VIA'
-append_path '/opt/cisco/anyconnect/bin'
 export PATH
 
 export BROWSER=/usr/bin/firefox
