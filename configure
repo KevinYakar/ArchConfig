@@ -122,6 +122,8 @@ pacmanPackages=(
     'tmux'
     'sshpass'
     'tree'
+    'neovim'
+    'ripgrep'
     # fonts
     'adobe-source-han-sans-jp-fonts'
     'adobe-source-han-serif-jp-fonts'
@@ -141,6 +143,7 @@ yayPackages=(
     'picom-ibhagwan-git'
     'polybar-dwm-module'
     'mon2cam-git'
+    'nvim-packer-git'
     # fonts
     'ttf-raleway'
     'ttf-iosevka'

@@ -13,11 +13,12 @@ append_path () {
 
 append_path '.'
 append_path '/home/kevin/.local/bin'
+append_path '/home/kevin/.local/bin/thoughtspot'
 append_path '/opt/VIA'
 export PATH
 
 export BROWSER=/usr/bin/firefox
-export EDITOR=vim
+export EDITOR=nvim
 
 export LESSHISTFILE="-"
 export GNUPGHOME="~/.local/share/gnupg"

@@ -59,6 +59,7 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
   --rs-invisible-color: #747f8d;
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
+  --customFont: 'gg sans', sans-serif;
 }
 
 #online-tab, .chatContent-3KubbW {

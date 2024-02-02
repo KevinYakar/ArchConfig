@@ -27,6 +27,14 @@ alias combinepdf='gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combined.pdf -dBAT
 alias live-server='live-server --port=5500 --host=127.0.0.1 --quiet &'
 alias qn='source quick nav'
 alias qs='quick sesh'
+alias v='nvim'
+
+alias gb="git branch -vv"
+alias ga="git add"
+alias gs="git status"
+alias gc="git checkout $1"
+alias gd="git diff"
+alias gpr="git pull --rebase"
 
 # \[$purple$bold\]REPLACE[$reset\]
 # \[$red$bold\]REPLACE[$reset\]
