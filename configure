@@ -7,6 +7,7 @@ echo -ne '\nWARNING: THIS SCRIPT WILL OVERWRITE/DELETE:\n\n~/.bashrc\n~/.bash_pr
 echo -ne '\nThis script will install my configuration of Arch Linux! Press Enter to continue or Ctrl-c to cancel.\n' && read
 
 # install yay
+sudo pacman -S --needed git base-devel
 cd ~ && git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
